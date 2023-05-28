@@ -7,7 +7,7 @@ const Hero = () => {
   const { t } = useTranslation();
   return (
     <div>
-      <div className='home-bg'>
+      <div className='home-bgMain'>
         <div className='container'>
           <div className='flex justify-center items-center sm:gap-10'>
             <div className='pb-10 sm:pb-32'>
