@@ -1,14 +1,14 @@
 
 import Hero from '../Faq/Hero'
 import Text from './Text'
-import Pronto from './Pronto'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
     return (
         <div>
             <Hero text={'Terms & Conditions'} para={'SEE OUR'} fontSize={'80px'} />
             <Text />
-            <Pronto />
+            <BgPronto />
         </div>
     )
 }
