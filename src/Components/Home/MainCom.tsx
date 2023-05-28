@@ -13,10 +13,7 @@ const MainCom = () => {
   const slug = `/${locale}/${freeQuoteSlug[locale]}`;
   return (
     <div
-      className="home-bg "
-      style={{
-        backgroundImage: `url(${blueBg.src})`,
-      }}
+     className="home-bgMain "
     >
       <div className="max-w-[1600px] mx-auto px-5">
         <div className="header flex justify-between sm:gap-20 items-center">

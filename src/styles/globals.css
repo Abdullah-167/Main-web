@@ -329,6 +329,6 @@ nav ul ul li {
 @media screen and (max-width: 768px) {
   .home-bgMain{
     background-image: none;
-    background: linear-gradient(to right, #8443F7, #834CFA, #9C71F9);
+    background: linear-gradient(to right, #8443F7, #834CFA );
   }
 }
