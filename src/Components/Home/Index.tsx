@@ -6,10 +6,10 @@ import PercheCards from "./PercheCards";
 import Futuro from "./Futuro";
 import Vedio from "./Vedio";
 import Immergiti from "./Immergiti";
-import Pronto from "./Pronto";
 import NewsLetter from "../NewsLetter";
 import RequestDemoForm from "./RequestDemoForm";
 import { Link, Element } from "react-scroll";
+import BgPronto from "../BgPronto";
 
 const Index = () => {
   return (
@@ -21,7 +21,7 @@ const Index = () => {
       <Futuro />
       <Vedio />
       <Immergiti />
-      <Pronto />
+      <BgPronto />
       <Element name="form">
         <RequestDemoForm />
       </Element>

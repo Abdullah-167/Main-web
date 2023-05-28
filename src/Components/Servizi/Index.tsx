@@ -3,7 +3,7 @@ import Hero from './Hero'
 import Software from './Software'
 import Vedio from './Vedio'
 import Cards from './Cards'
-import Pronto from './Pronto'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
     return (
@@ -12,7 +12,7 @@ const Index = () => {
             <Software />
             <Vedio />
             <Cards />
-            <Pronto />
+            <BgPronto />
         </div>
     )
 }

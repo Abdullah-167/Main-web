@@ -1,15 +1,14 @@
-import Button from "../Button";
-import BgImage from "../../../public/frame3.png";
+import Button from "./Button";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import { IoLogoInstagram } from "react-icons/io5";
 import { BsYoutube } from "react-icons/bs";
+import BgImage from "../../../public/frame3.png";
 import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
-import Link from "next-translate-routes/link";
 import { freeQuoteSlug } from "@/utils";
-
+import Link from "next-translate-routes/link";
 const Pronto = () => {
   const { t } = useTranslation();
   const locale = GetLocale();
@@ -17,34 +16,31 @@ const Pronto = () => {
   const slug = `/${locale}/${freeQuoteSlug[locale]}`;
   return (
     <div
-      className="main-cpmBg py-10 sm:py-28"
-      style={{
-        backgroundImage: `url(${BgImage.src})`,
-      }}
+      className="main-cpmBg py-10"
     >
       <div className="container">
         <div>
           <div>
-            <h5 className="text-xl sm:text-2xl text-secondary font-bold text-center">
-              {t("homeReady_Heading")}
+            <h5 className="text-2xl text-white font-bold text-center pt-10 pb-8 leading-1">
+              {t("ready_Title")}
             </h5>
-            <h2 className="text-[30px] sm:text-[50px] text-white font-bold max-w-[780px] text-center mx-auto pb-8 sm:leading-[60px]">
-              {t("homeReady_para")}
+            <h2 className="text-[35px] sm:text-[50px] text-white font-bold text-center mx-auto pb-12 lg:leading-10">
+              {t("ready_SubTitle")}
             </h2>
           </div>
           <Link href={slug}>
             <div className="flex justify-center">
               <Button
-                text={t("homeReady_Btn")}
-                color={"#6A1ACC"}
+                text={t("ready_Btn")}
+                color={"black"}
                 backgroundColor={"white"}
-                minWidth={""}
+                minWidth={undefined}
               />
             </div>
           </Link>
         </div>
         <div className="flex justify-center gap-5 items-center">
-          {iconData.map((item, index) => {
+             {iconData.map((item, index) => {
             return (
               <a
                 key={index}
