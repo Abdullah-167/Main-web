@@ -112,7 +112,7 @@ const SecCard: FC<PropsComp> = ({ display }) => {
                         display: display
                     }}
                 >
-                    <iframe className="w-[1000px] h-[566px] rounded-md mt-5 mb-12" loading='lazy' src="https://www.youtube.com/embed/KCgEhNeVhUc" />
+                    <iframe title='rafiky' className="w-[1000px] h-[566px] rounded-md mt-5 mb-12" loading='lazy' src="https://www.youtube.com/embed/KCgEhNeVhUc" />
                 </span>
             </div>
         </div>

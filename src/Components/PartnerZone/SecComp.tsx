@@ -40,7 +40,7 @@ const SecComp = () => {
             })}
           </div>
           <div>
-            <iframe className="w-[829px] h-[466px] rounded-md mt-5 mb-12" loading='lazy' src="https://www.youtube.com/embed/KCgEhNeVhUc" />
+            <iframe title='rafiky' className="w-[829px] h-[466px] rounded-md mt-5 mb-12" loading='lazy' src="https://www.youtube.com/embed/KCgEhNeVhUc" />
             <span>
               <Button text={t('zonessDifference_Btn')} color={'white'} backgroundColor={'#8300E9'} minWidth={'300px'} />
             </span>

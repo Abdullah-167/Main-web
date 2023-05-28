@@ -82,7 +82,7 @@ const Cosa = () => {
                 </div>
               </div>
               <div className="w-full">
-                <iframe className="w-full" loading="lazy" src={item.url} height={470}></iframe>
+                <iframe title='rafiky' className="w-full" loading="lazy" src={item.url} height={470}></iframe>
               </div>
             </div>
           );

@@ -28,7 +28,7 @@ const Vedio = () => {
             <div className='container relative'>
                 <div className='block lg:flex sm:gap-10'>
                     <div className='hidden md:block pt-20'>
-                        <iframe className='w-full h-[300px] sm:h-[600px]' loading="lazy" src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
+                        <iframe title='rafiky' className='w-full h-[300px] sm:h-[600px]' loading="lazy" src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
                     </div>
                     <div className='pt-10'>
                         <div>
@@ -48,7 +48,7 @@ const Vedio = () => {
                         </div>
                     </div>
                     <div className='flex md:hidden pt-20'>
-                        <iframe className='w-full h-[300px] sm:h-[600px]' src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
+                        <iframe title='rafiky' className='w-full h-[300px] sm:h-[600px]' src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
                     </div>
                 </div>
             </div>
