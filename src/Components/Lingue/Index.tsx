@@ -2,7 +2,7 @@
 import Home from './Home'
 import Summary from './Summary'
 import Flag from '../Flag'
-import Pronto from './Pronto'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
     return (
@@ -10,7 +10,7 @@ const Index = () => {
             <Home />
             <Summary />
             <Flag />
-            <Pronto />
+            <BgPronto />
         </div>
     )
 }

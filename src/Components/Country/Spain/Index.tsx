@@ -3,7 +3,7 @@ import Layout from '@/Components/Layout/Index'
 import Hero from './Hero'
 import Text from './Text'
 import Flag from '../../Flag'
-import Pronto from './Pronto'
+import BgPronto from '@/Components/BgPronto'
 
 const Index = () => {
   return (
@@ -12,7 +12,7 @@ const Index = () => {
         <Hero />
         <Text />
         <Flag />
-        <Pronto />
+        <BgPronto />
       </Layout>
     </div>
   )

@@ -3,7 +3,7 @@ import Home from './Home'
 import SecComp from './SecComp'
 import CardsSec from './CardsSec'
 import SecCard from './SecCard'
-import Pronto from './Pronto'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
   return (
@@ -12,7 +12,7 @@ const Index = () => {
       <SecComp />
       <CardsSec />
       <SecCard display={'flex'} />
-      <Pronto />
+      <BgPronto />
     </div>
   )
 }
