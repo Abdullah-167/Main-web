@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import Button from "../Button";
 import BgImage from "../../../public/pink.png";
 import useTranslation from "@/hooks/useTranslation";
