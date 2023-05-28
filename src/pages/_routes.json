@@ -1,0 +1,50 @@
+{
+    "faq": {
+        "it": "faq",
+        "en": "faq",
+        "fr": "faq",
+        "de": "faq"
+    },
+    "contattaci": {
+        "it": "contattaci",
+        "en": "contact-us",
+        "fr": "contactez-nous",
+        "de": "kontaktiere-uns"
+    },
+    "come-funziona": {
+        "it": "come-funziona",
+        "en": "how-does-it-work",
+        "fr": "comment-ça-marche",
+        "de": "wie-funktioniert-es"
+    },
+    "chi-siamo": {
+        "it": "chi-siamo",
+        "en": "who-we-are",
+        "fr": "qui-nous-sommes",
+        "de": "wer-wir-sind"
+    },
+    "casi-duso": {
+        "it": "casi-duso",
+        "en": "use-cases",
+        "fr": "cas-d-utilisation",
+        "de": "anwendungsfälle"
+    },
+    "richiesta-preventivo": {
+        "it": "richiesta-preventivo",
+        "en": "quotation-request",
+        "fr": "demande-de-devis",
+        "de": "angebotsanforderung"
+    },
+    "services": {
+        "it": "servizi",
+        "en": "services",
+        "fr": "prestations-de-service",
+        "de": "dienstleistungen"
+    },
+    "thank-you": {
+        "it": "grazie",
+        "en": "thank-you",
+        "fr": "merci",
+        "de": "danke"
+    }
+}
