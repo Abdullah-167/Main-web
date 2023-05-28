@@ -2,7 +2,7 @@
 import Layout from "../Layout/Index";
 import Hero from "./Hero";
 import BlogCard from "./BlogCards";
-import Ponto from "./PontoBlog";
+import BgPronto from "../BgPronto";
 
 const Blog = ({ data }: any) => {
   return (
@@ -10,7 +10,7 @@ const Blog = ({ data }: any) => {
       <Layout>
         <Hero />
         <BlogCard data={data} />
-        <Ponto />
+        <BgPronto />
       </Layout>
     </div>
   );
