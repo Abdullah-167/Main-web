@@ -2,8 +2,7 @@
 import Hero from './Hero'
 import Cosa from './Cosa'
 import Vantaggi from './Vantaggi'
-import Vedio from './Vedio'
-import Pronto from './Pronto'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
   return (
@@ -11,8 +10,7 @@ const Index = () => {
       <Hero />
       <Cosa />
       <Vantaggi />
-      {/* <Vedio /> */}
-      <Pronto />
+      <BgPronto />
     </div>
   )
 }

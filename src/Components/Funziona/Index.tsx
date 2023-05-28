@@ -3,7 +3,7 @@ import Hero from './Hero'
 import Apri from './Apri'
 import Vedio from './Vedio'
 import Interpretazione from './Interpretazione'
-import Pronto from './Pronto'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
     return (
@@ -12,7 +12,7 @@ const Index = () => {
             <Apri />
             <Vedio />
             <Interpretazione />
-            <Pronto />
+            <BgPronto />
         </div>
     )
 }
