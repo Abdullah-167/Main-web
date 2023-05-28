@@ -323,12 +323,5 @@ nav ul ul li {
 } */
 
 .home-bgMain {
-  background-image: url(../../public/frame.png);
-}
-
-@media screen and (max-width: 768px) {
-  .home-bgMain{
-    background-image: none;
-    background: linear-gradient(to right, #8443F7, #834CFA );
-  }
+  background: linear-gradient(to right, #8443F7, #834CFA, #9C71F9);
 }
