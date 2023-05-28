@@ -36,7 +36,8 @@ const HeroMob = () => {
           <iframe
             className="w-full h-[300px] sm:h-[400px]"
             src="https://www.youtube.com/embed/K1xWE4MdmTY?feature=oembed"
-          ></iframe>
+            loading="lazy"
+          />
         </div>
       </div>
     </div>

@@ -41,7 +41,7 @@ const Vedio = () => {
                         </div>
                     </div>
                     <div className='flex md:hidden pt-20'>
-                        <iframe title='rafiky' className='w-full h-[300px] sm:h-[600px]' src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
+                        <iframe title='rafiky' loading="lazy" className='w-full h-[300px] sm:h-[600px]' src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
                     </div>
                 </div>
             </div>

@@ -38,7 +38,7 @@ const Cosa = () => {
                                 </div>
                             </div>
                             <div className='w-full'>
-                                <iframe title='rafiky' className='w-full' src={item.url} height={470}></iframe>
+                                <iframe title='rafiky' loading="lazy" className='w-full' src={item.url} height={470}></iframe>
                             </div>
                         </div>
                     )
