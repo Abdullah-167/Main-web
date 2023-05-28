@@ -53,6 +53,7 @@ const MainCom = () => {
           </div>
           <div className="mx-auto  md:w-[500px] mt-10 sm:mt-20  md:h-[600px] overflow-hidden relative">
             <Image
+              loading="lazy"
               className="image"
               src={"/laugh.webp"}
               alt={"women"}
