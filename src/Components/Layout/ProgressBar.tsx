@@ -21,7 +21,7 @@ const ProgressBar = () => {
 
 
     return (
-        <div className="hidden lg:block sticky top-[108px] left-0 w-full h-1.5 rounded-r-lg z-10">
+        <div className="hidden lg:block sticky top-[108px] left-0 w-full h-1.5 rounded-r-lg ">
             <div
                 className="h-full main-grd"
                 style={{ width: `${progress}%` }}

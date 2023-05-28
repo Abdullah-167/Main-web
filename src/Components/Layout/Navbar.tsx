@@ -154,7 +154,7 @@ const Navbar: React.FC = () => {
                 </Link>
                 <ul
 
-                  className={`absolute z-[1000] -left-20 right-0 w-64 py-2 bg-[#fffdfd] rounded-lg shadow-xl ${dropDown ? "block" : "hidden"
+                  className={`absolute z-20 -left-20 right-0 w-64 py-2 bg-[#fffdfd] rounded-lg shadow-xl ${dropDown ? "block" : "hidden"
                     }`}
                 >
                   {serviceMenuData.map((item, index) => {
@@ -182,9 +182,6 @@ const Navbar: React.FC = () => {
                 <div className="min-w-[100px] max-w-[100px]">
                   <FlagSelect />
                 </div>
-                <span className="text-2xl cursor-pointer text-[rgba(146,146,146,0.7)]">
-                  <HiMagnifyingGlass />
-                </span>
               </div>
             </div>
           </div>
@@ -201,9 +198,7 @@ const Navbar: React.FC = () => {
               >
                 <GiHamburgerMenu />
               </span>
-              <span className="text-2xl cursor-pointer text-[rgba(146,146,146,0.7)]">
-                <HiMagnifyingGlass />
-              </span>
+
             </div>
           </div>
         </div>

@@ -177,7 +177,7 @@ nav ul ul {
   position: absolute;
 }
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
   display: inherit;
 }
 
@@ -232,11 +232,9 @@ nav ul ul li {
 }
 
 .contact-bg {
-  background-image: linear-gradient(
-    130deg,
-    #352597 0%,
-    #8686ff 100%
-  ) !important;
+  background-image: linear-gradient(130deg,
+      #352597 0%,
+      #8686ff 100%) !important;
 }
 
 .card-arrow:hover span {
@@ -253,11 +251,9 @@ nav ul ul li {
 }
 
 .hero-grd {
-  background-image: linear-gradient(
-    135deg,
-    rgb(238, 238, 238) 0%,
-    rgb(169, 184, 195) 100%
-  );
+  background-image: linear-gradient(135deg,
+      rgb(238, 238, 238) 0%,
+      rgb(169, 184, 195) 100%);
 }
 
 /* 
@@ -313,5 +309,19 @@ nav ul ul li {
   background-position: right;
 }
 
+/* .home-bg2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .home-bg {
+    display: none;
+  }
 
+  .home-bg2 {
+    display: block;
+  }
+} */
 
+.home-bg {
+  background-image: url(../../public/frame.png);
+}

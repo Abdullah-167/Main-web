@@ -31,7 +31,7 @@ const FaqSection = () => {
   ];
   const DataB = t("faqApp");
   const data = [...DataA, ...DataB];
-  const [activeTab, setActiveTab] = useState(5);
+  const [activeTab, setActiveTab] = useState(0);
 
   return (
     <div className={`py-12 sm:py-32 px-5`}>
