@@ -35,7 +35,7 @@ const Immergiti = () => {
                         </div>
                     </div>
                     <div className='max-w-[500px] pt-14 mx-auto'>
-                        <Image src={'/herolaptop.png'} alt='laptop' width={1000} height={0} unoptimized />
+                        <Image loading="lazy" src={'/herolaptop.png'} alt='laptop' width={1000} height={0} unoptimized />
                     </div>
                 </div>
             </div>

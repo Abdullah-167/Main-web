@@ -36,7 +36,7 @@ const ImgSec = () => {
                     </div>
                 </div>
                 <div className='min-w-full lg:min-w-[700px] flex justify-between items-center'>
-                    <Image src={'/newimg.jpg'} alt={'Women'} width={1000} height={0} />
+                    <Image loading="lazy" src={'/newimg.jpg'} alt={'Women'} width={1000} height={0} />
                 </div>
             </div>
         </div>

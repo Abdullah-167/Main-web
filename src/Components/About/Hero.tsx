@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:min-w-[450px] xl:min-w-[500px]">
-          <Image src={"/team.jpg"} alt={"About-Main"} width={1000} height={0} />
+          <Image loading="lazy" src={"/team.jpg"} alt={"About-Main"} width={1000} height={0} />
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const OurMission = () => {
                         </button>
                     </div>
                     <div className=' max-w-[500px] mx-auto'>
-                        <Image src={'/mission.jpg'} alt={'Mission'} width={1000} height={0} />
+                        <Image loading="lazy" src={'/mission.jpg'} alt={'Mission'} width={1000} height={0} />
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="max-w-[1080px] mx-auto py-20 px-5">
           <div className="flex flex-wrap lg:flex-nowrap justify-between gap-4 sm:gap-20">
             <div>
-              <Image src="/logo.png" alt="" width={250} height={10} />
+              <Image loading="lazy" src="/logo.png" alt="" width={250} height={10} />
               <div className="mb-5">
                 <a
                   href="https://apps.apple.com/it/app/rafiky-connect/id1515495958"

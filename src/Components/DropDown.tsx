@@ -19,7 +19,7 @@ const DropDown: React.FC<DropDownProps> = ({ showDropDown }) => {
                 onClick={() => handleDropDownClick()}
             >
                 {/* <div>
-                    <Image src="thomas.svg" alt="thomas" width={40} height={0} />
+                    <Image loading="lazy" src="thomas.svg" alt="thomas" width={40} height={0} />
                 </div> */}
                 <div>
                     <h6 className="text-[16px] leading-3 pt-2 pb-1">Thomas M.</h6>

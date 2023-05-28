@@ -62,7 +62,7 @@ const WeDo = () => {
                 >
                   <div>
                     <span className="flex justify-center pb-6">
-                      <Image src={item.icon} alt="" width={60} height={30} />
+                      <Image loading="lazy" src={item.icon} alt="" width={60} height={30} />
                     </span>
                     <div className="text-xl font-bold text-[#333] text-center">
                       {item.title}

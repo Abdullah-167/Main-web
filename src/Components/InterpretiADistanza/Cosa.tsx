@@ -62,7 +62,7 @@ const Cosa = () => {
       <div className="py-12 smL:py-20">
         <div className="flex flex-col lg:flex-row gap-16 sm:gap-12 py-20 sm:py-32">
           <div className="min-w-full lg:min-w-[500px] flex justify-between items-center">
-            <Image src={"/newimg.jpg"} alt={"Women"} width={1000} height={0} />
+            <Image loading="lazy" src={"/newimg.jpg"} alt={"Women"} width={1000} height={0} />
           </div>
           <div>
             <div className="mb-10">

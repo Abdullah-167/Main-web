@@ -69,7 +69,7 @@ const Cosa = () => {
                                 </p>
                             </div>
                             <div className='flex justify-center w-full'>
-                                <Image src={item.img} alt={''} width={1000} height={0} />
+                                <Image loading="lazy" src={item.img} alt={''} width={1000} height={0} />
                             </div>
                         </div>
                     )

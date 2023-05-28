@@ -127,7 +127,7 @@ const Navbar: React.FC = () => {
           <div className="hidden lg:flex items-center justify-between">
             <div className="max-w-[300px]">
               <Link href={"/"}>
-                <Image src="/logo.png" alt="logo" width={1000} height={0} />
+                <Image loading="lazy" src="/logo.png" alt="logo" width={1000} height={0} />
               </Link>
             </div>
             <div className="flex items-center justify-end gap-4">
@@ -191,7 +191,7 @@ const Navbar: React.FC = () => {
           <div className="flex lg:hidden items-center justify-between py-5">
             <div className="max-w-[120px]">
               <Link href={"/"}>
-                <Image src="/logo.png" alt="logo" width={1000} height={0} />
+                <Image loading="lazy" src="/logo.png" alt="logo" width={1000} height={0} />
               </Link>
             </div>
             <div className="flex items-center gap-2">
