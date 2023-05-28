@@ -3,7 +3,7 @@ import RafikyPrezzi from "./RafikyPrezzi";
 import DropDown from "./DropDown";
 import SecCard from "../PartnerZone/SecCard";
 import Domande from "./Domande";
-import Pronto from "./Pronto";
+import BgPronto from "../BgPronto";
 
 const Index = () => {
   return (
@@ -13,7 +13,7 @@ const Index = () => {
       <DropDown />
       <SecCard display={"none"} />
       <Domande />
-      <Pronto />
+      <BgPronto />
     </div>
   );
 };

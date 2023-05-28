@@ -1,8 +1,8 @@
 
 import Hero from '../Faq/Hero'
 import Summary from './Summary'
-import Pronto from './Pronto'
 import useTranslation from '@/hooks/useTranslation'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
 
@@ -12,7 +12,7 @@ const Index = () => {
         <div>
             <Hero text={t("refundPolicy_header_heading")} para={t("refundPolicy_header_subHeading")} fontSize={'60px'} />
             <Summary />
-            <Pronto />
+            <BgPronto />
         </div>
     )
 }
