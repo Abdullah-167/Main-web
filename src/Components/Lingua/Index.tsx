@@ -5,6 +5,7 @@ import Vantaggi from './Vantaggi'
 import Vedio from './Vedio'
 import Pronto from './Pronto'
 import ImgSec from './ImgSec'
+import BgPronto from '../BgPronto'
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Vedio />
       <ImgSec />
       <Pronto />
+      <BgPronto />
     </div>
   )
 }

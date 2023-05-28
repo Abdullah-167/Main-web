@@ -21,10 +21,10 @@ const Pronto = () => {
       <div className="container">
         <div>
           <div>
-            <h5 className="text-2xl text-white font-bold text-center pt-10 pb-8 leading-1">
+            <h5 className="text-2xl text-black font-bold text-center pt-10 pb-8 leading-1">
               {t("ready_Title")}
             </h5>
-            <h2 className="text-[35px] sm:text-[50px] text-white font-bold text-center mx-auto pb-12 lg:leading-10">
+            <h2 className="text-[35px] sm:text-[50px] text-black font-bold text-center mx-auto pb-12 lg:leading-10">
               {t("ready_SubTitle")}
             </h2>
           </div>
@@ -32,15 +32,15 @@ const Pronto = () => {
             <div className="flex justify-center">
               <Button
                 text={t("ready_Btn")}
-                color={"black"}
-                backgroundColor={"white"}
+                color={"white"}
+                backgroundColor={"#6a1acc"}
                 minWidth={undefined}
               />
             </div>
           </Link>
         </div>
         <div className="flex justify-center gap-5 items-center">
-             {iconData.map((item, index) => {
+          {iconData.map((item, index) => {
             return (
               <a
                 key={index}
