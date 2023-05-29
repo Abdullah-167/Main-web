@@ -4,6 +4,7 @@ import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
 import { freeQuoteSlug } from "@/utils";
 import Link from "next-translate-routes/link";
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
 const Cosa = () => {
   const locale = GetLocale();
@@ -27,7 +28,7 @@ const Cosa = () => {
 
   const data = [
     {
-      url: "https://www.youtube.com/embed/u6wyZwyTVoA?feature=oembed",
+      url: "u6wyZwyTVoA",
       btnTitle: t("remoteInterpreting_Btn"),
       heading: t("remoteInterpreting_Heading"),
       para: t("remoteInterpreting_para"),
@@ -82,8 +83,8 @@ const Cosa = () => {
                   </Link>
                 </div>
               </div>
-              <div className="w-full">
-                <iframe title='rafiky' className="w-full" loading="lazy" src={item.url} height={470}></iframe>
+              <div className="w-full h-[470px]">
+                <LiteYouTubeEmbed title='rafiky' id={item.url} />
               </div>
             </div>
           );

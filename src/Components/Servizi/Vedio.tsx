@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Button from '../Button'
 import { IoIosArrowDown } from 'react-icons/io';
 import useTranslation from '@/hooks/useTranslation';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
 const Vedio = () => {
 
@@ -22,8 +23,8 @@ const Vedio = () => {
         <div className='vedio-bg py-12 sm:py-20'>
             <div className='container relative'>
                 <div className='block lg:flex sm:gap-10'>
-                    <div className='hidden md:block pt-20'>
-                        <iframe title='rafiky' className='w-full h-[300px] sm:h-[600px]' loading="lazy" src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
+                    <div className='hidden md:block pt-20 h-[300px] sm:h-[600px]'>
+                        <LiteYouTubeEmbed title='rafiky' id="KCgEhNeVhUc" />
                     </div>
                     <div className='pt-10'>
                         <div>
@@ -40,8 +41,8 @@ const Vedio = () => {
                             <Button text={t("services_RemoteBtn")} color={'black'} backgroundColor={'white'} minWidth={undefined} />
                         </div>
                     </div>
-                    <div className='flex md:hidden pt-20'>
-                        <iframe title='rafiky' loading="lazy" className='w-full h-[300px] sm:h-[600px]' src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
+                    <div className='flex md:hidden pt-20 h-[300px] sm:h-[600px]'>
+                        <iframe title='rafiky' id="KCgEhNeVhUc"></iframe>
                     </div>
                 </div>
             </div>

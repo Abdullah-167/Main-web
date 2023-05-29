@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Button from '../Button'
 import { IoIosArrowDown } from 'react-icons/io';
 import useTranslation from '@/hooks/useTranslation';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
 
 const Cosa = () => {
@@ -24,7 +25,7 @@ const Cosa = () => {
 
     const data = [
         {
-            url: 'https://www.youtube.com/embed/u6wyZwyTVoA?feature=oembed',
+            url: 'u6wyZwyTVoA',
             btnTitle: t('commonGoals_Btn'),
             heading: t('commonGoals_Heading'),
             para: t('commonGoals_para'),
@@ -73,7 +74,7 @@ const Cosa = () => {
                                 </div>
                             </div>
                             <div className='w-full'>
-                                <iframe title='rafiky'  className='w-full' loading='lazy' src={item.url} height={470}></iframe>
+                                <LiteYouTubeEmbed title='rafiky' id={item.url} />
                             </div>
                         </div>
                     )

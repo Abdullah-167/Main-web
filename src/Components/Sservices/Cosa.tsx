@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Button from '../Button'
 import { IoIosArrowDown } from 'react-icons/io';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
 
 const Cosa = () => {
@@ -37,8 +38,8 @@ const Cosa = () => {
                                     <Button text={item.btnTitle} color={'white'} backgroundColor={'#682CCD'} minWidth={undefined} />
                                 </div>
                             </div>
-                            <div className='w-full'>
-                                <iframe title='rafiky' loading="lazy" className='w-full' src={item.url} height={470}></iframe>
+                            <div className='w-full h-[470px]'>
+                                <LiteYouTubeEmbed title='rafiky' id={item.url} />
                             </div>
                         </div>
                     )
@@ -78,7 +79,7 @@ export default Cosa
 
 const data = [
     {
-        url: 'https://www.youtube.com/embed/u6wyZwyTVoA?feature=oembed',
+        url: 'u6wyZwyTVoA',
         btnTitle: 'Richiedi un preventivo',
         heading: 'Rafiky XP',
         para: 'Whether you are about to promote activities or products, conduct interviews, hold workshops, webinars or online courses, organizing an event online is not easy at all. It will be necessary to define objectives and strategies, to create work plans, agendas and questionnaires, to take care of collateral marketing and management of the participants, without neglecting the purely technical part. Rafiky’s team will care for every aspect of your online event, with a view to guaranteeing for a unique experience.'

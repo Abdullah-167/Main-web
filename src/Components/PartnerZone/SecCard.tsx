@@ -7,6 +7,7 @@ import { SlMagnifierAdd } from 'react-icons/sl';
 import { HiOutlineKey } from 'react-icons/hi';
 import { TbMessageCircle } from 'react-icons/tb';
 import useTranslation from '@/hooks/useTranslation';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
 interface PropsComp {
     display: string
@@ -76,7 +77,7 @@ const SecCard: FC<PropsComp> = ({ display }) => {
             color: '#44ceb0'
         },
     ]
-        
+
     return (
         <div className='bg-[#FFFFFF]  sm:py-20'>
             <div className='container'>
@@ -107,12 +108,13 @@ const SecCard: FC<PropsComp> = ({ display }) => {
                         );
                     })}
                 </div>
-                <span className='flex justify-center'
+                <span className='flex justify-center w-[1000px] h-[566px] rounded-md mt-5 mb-12'
                     style={{
                         display: display
                     }}
                 >
-                    <iframe title='rafiky' className="w-[1000px] h-[566px] rounded-md mt-5 mb-12" loading='lazy' src="https://www.youtube.com/embed/KCgEhNeVhUc" />
+
+                    <LiteYouTubeEmbed title='rafiky' id="KCgEhNeVhUc" />
                 </span>
             </div>
         </div>
