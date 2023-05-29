@@ -14,7 +14,7 @@ const Layout: FC<LayoutCpm> = ({ children }: any) => {
     <>
       <MiniNav />
       <Navbar />
-      <ProgressBar />
+      {/* <ProgressBar /> */}
       <ProgressButton />
       {children}
       <Footer />
