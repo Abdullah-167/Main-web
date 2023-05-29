@@ -6,7 +6,7 @@ import useTranslation from '@/hooks/useTranslation';
 import GetLocale from "@/hooks/getLocale";
 import Link from "next-translate-routes/link";
 import { howDoesItWorkSlug } from "@/utils";
-
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 const Vedio = () => {
 
     const { t } = useTranslation();
@@ -28,7 +28,8 @@ const Vedio = () => {
             <div className='container relative'>
                 <div className='block lg:flex sm:gap-10'>
                     <div className='hidden md:block pt-20'>
-                        <iframe title='rafiky' className='w-full h-[300px] sm:h-[600px]' loading="lazy" src="https://www.youtube.com/embed/KCgEhNeVhUc"></iframe>
+                    <LiteYouTubeEmbed id="KCgEhNeVhUc" title='rafiky'/>
+                     
                     </div>
                     <div className='pt-10'>
                         <div>

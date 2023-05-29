@@ -28,9 +28,9 @@ const Navbar: React.FC = () => {
   const [serviceMenu, setServiceMenu] = useState(false);
   const [open, setOpen] = useState<boolean>(false);
   const [dropDown, setDropDown] = useState(false);
-  const [activeIndex, setActiveIndex] = useState<number | null>(false);
-  const [activeIndex2, setActiveIndex2] = useState<number | null>(false);
-  const [activeIndex3, setActiveIndex3] = useState<number | null>(false);
+  const [activeIndex, setActiveIndex] = useState<any>(false);
+  const [activeIndex2, setActiveIndex2] = useState<any>(false);
+  const [activeIndex3, setActiveIndex3] = useState<any>(false);
 
 
   const hanldeDropDown = () => {

@@ -3,6 +3,8 @@ import useTranslation from "@/hooks/useTranslation";
 import { freeQuoteSlug } from "@/utils";
 import GetLocale from "@/hooks/getLocale";
 import Link from "next-translate-routes/link";
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+
 const HeroMob = () => {
   const { t } = useTranslation();
   const locale = GetLocale();
@@ -33,10 +35,9 @@ const HeroMob = () => {
           </div>
         </div>
         <div className="w-full">
-          <iframe
-            className="w-full h-[300px] sm:h-[400px]"
-            src="https://www.youtube.com/embed/K1xWE4MdmTY?feature=oembed"
-            loading="lazy"
+          <LiteYouTubeEmbed
+             id="K1xWE4MdmTY"
+            title='rafiky'
           />
         </div>
       </div>
@@ -45,14 +46,3 @@ const HeroMob = () => {
 };
 
 export default HeroMob;
-
-// const text = [
-//     {
-//         text: 'Rafiky è una piattaforma cloud estremamente flessibile e accessibile per ottenere una traduzione simultanea per qualsiasi genere di evento, congresso, conferenza o meeting multilingue online.'
-//     },
-//     {
-//         text: 'Una visione innovativa e per molti aspetti rivoluzionaria di interpretariato da remoto, che consente ad interpreti professionisti di lavorare da qualsiasi luogo, in qualsiasi momento.'
-//     }, {
-//         text: 'Cerchi un interprete da remoto per i tuoi meeting? Affidati al servizio Rafiky!'
-//     },
-// ]
