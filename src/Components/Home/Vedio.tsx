@@ -1,12 +1,10 @@
-import Image from 'next/image'
-
 import Button from '../Button'
-import { IoIosArrowDown } from 'react-icons/io';
 import useTranslation from '@/hooks/useTranslation';
 import GetLocale from "@/hooks/getLocale";
 import Link from "next-translate-routes/link";
 import { howDoesItWorkSlug } from "@/utils";
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+
 const Vedio = () => {
 
     const { t } = useTranslation();
@@ -47,8 +45,8 @@ const Vedio = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className='flex md:hidden pt-20 w-full h-[300px] sm:h-[600px]'>
-                        <LiteYouTubeEmbed id="KCgEhNeVhUc" title='rafiky' />
+                    <div >
+                        <LiteYouTubeEmbed id="KCgEhNeVhUc" title='rafikysss' />
                     </div>
                 </div>
             </div>
