@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className='contact-bg'>
             <div className='text-white  text-center py-32'>
-                <h2 className='text-[80px] font-bold pb-8 max-w-[1050px] mx-auto'>
+                <h2 className='text-[45px] sm:text-[80px] font-bold pb-8 max-w-[1050px] mx-auto'>
                     {t('allLanguages_Heading')}
                 </h2>
                 <p className='font-normal max-w-[750px] mx-auto text-lg leading-9 pb-12'>

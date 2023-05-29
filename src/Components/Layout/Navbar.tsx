@@ -28,11 +28,21 @@ const Navbar: React.FC = () => {
   const [serviceMenu, setServiceMenu] = useState(false);
   const [open, setOpen] = useState<boolean>(false);
   const [dropDown, setDropDown] = useState(false);
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(false);
+  const [activeIndex2, setActiveIndex2] = useState<number | null>(false);
+  const [activeIndex3, setActiveIndex3] = useState<number | null>(false);
+
 
   const hanldeDropDown = () => {
-    setActiveIndex(prevActiveIndex => (prevActiveIndex === null ? 0 : null));
-  };
+    setActiveIndex(!activeIndex)
+  }
+  const hanldeDropDown2 = () => {
+    setActiveIndex2(!activeIndex2)
+  }
+  const hanldeDropDown3 = () => {
+    setActiveIndex3(!activeIndex3)
+  }
+
 
   const [activeClass, setActiveClass] = useState<string>();
   const closeHanlder = () => {
@@ -228,7 +238,7 @@ const Navbar: React.FC = () => {
           </div>
           <div className={`px-8 py-6 ${activeClass}`}>
             <div
-              className="cursor-pointer"
+              className="cursor-pointer pb-2"
               onClick={hanldeDropDown}
             >
               <div className="flex justify-between items-center]">
@@ -261,6 +271,101 @@ const Navbar: React.FC = () => {
                 </p>
               </div>
             </div>
+            <div
+              className="cursor-pointer pb-2"
+              onClick={hanldeDropDown2}
+            >
+              <div className="flex justify-between items-center]">
+                <h2 className="max-w-[350px] cursor-pointer font-semibold text-xl mb-2">
+                  <Link href={"/partner-zone"}> {t("partnerZone")} </Link>
+                </h2>
+                <span
+                  className={`text-3xl transition-all  ${activeIndex2 ? "rotate-180 duration-300" : "rotate-[360deg]"} duration-300`}
+                >
+                  <IoMdArrowDropdown />
+                </span>
+              </div>
+              <div
+                className={`${activeIndex2
+                  ? "max-h-96 duration-700 ease-in-out transition-all opacity-100"
+                  : "max-h-0 opacity-0 pointer-events-none duration-700"
+                  }`}
+              >
+                <ul className="w-full text-primary text-md font-medium py-2 transition-all duration-300 cursor-pointer">
+                  <li className="flex items-center pb-2">
+                    <Link href={"/partner-zone/agenzie-di-noleggio-attrezzature"}>
+                      <span className="">{t("partnerZoneIneerFirst")}</span>{" "}
+                    </Link>
+                  </li>
+                  <li className="flex items-center">
+                    <Link href={"/partner-zone/rafiky-agenzieditraduzione"}>
+                      <span className="">{t("partnerZoneIneerSec")}</span>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              className="cursor-pointer"
+              onClick={hanldeDropDown3}
+            >
+              <div className="flex justify-between items-center]">
+                <h2 className="max-w-[350px] cursor-pointer font-semibold text-xl mb-2">
+                  <Link href={"/lingue"}> {t("interpretio")} </Link>
+                </h2>
+                <span
+                  className={`text-3xl transition-all  ${activeIndex3 ? "rotate-180 duration-300" : "rotate-[360deg]"} duration-300`}
+                >
+                  <IoMdArrowDropdown />
+                </span>
+              </div>
+              <div
+                className={`${activeIndex3
+                  ? "max-h-96 duration-700 ease-in-out transition-all opacity-100"
+                  : "max-h-0 opacity-0 pointer-events-none duration-700"
+                  }`}
+              >
+                <ul className="w-full text-primary text-md font-medium py-2 transition-all duration-300 cursor-pointer">
+                  <li className="flex items-center pb-1">
+                    <Link href={"/lingue/interpretariato-in-inglese-britannico/"}>
+                      <span className="">   {t("interpretioFrist")}</span>{" "}
+                    </Link>
+                  </li>
+                  <li className="flex items-center pb-1">
+                    <Link href={"/lingue/interpretariato-in-inglese-americano/"}>
+                      <span className=""> {t("interpretioSec")}</span>
+                    </Link>
+                  </li>
+                  <li className="flex items-center pb-1">
+                    <Link href={
+                      "/lingue/interpretariato-in-francese-interpretariato-a-distanza/"
+                    }>
+                      <span className=""> {t("interpretioThird")}</span>
+                    </Link>
+                  </li>
+                  <li className="flex items-center pb-1">
+                    <Link href={
+                      "/lingue/interpretariato-in-spagnolo-interpreti-a-distanza/"
+                    }>
+                      <span className="">  {t("interpretioFour")}</span>
+                    </Link>
+                  </li>
+                  <li className="flex items-center pb-1">
+                    <Link href={"/lingue/interpretariato-in-cinese-interpreti-da-remoto/"}
+                    >
+                      <span className="">  {t("interpretioFive")}</span>
+                    </Link>
+                  </li>
+                  <li className="flex items-center pb-1">
+                    <Link href={"/lingue/nterpretariato-in-russo/"}
+                    >
+                      <span className="">{t("interpretioSix")}</span>
+                    </Link>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
             <div className="grid grid-cols-1 gap-4">
               {responsiveLink.map((item, index) => (
                 <div
@@ -271,6 +376,7 @@ const Navbar: React.FC = () => {
                 </div>
               ))}
             </div>
+
           </div>
         </div>
       )}
