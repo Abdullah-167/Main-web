@@ -5,12 +5,9 @@ import BgImage from '../../../public/frame.png'
 import useTranslation from '@/hooks/useTranslation';
 
 const Hero = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
-    <div className='vedio-bg'
-      style={{
-        backgroundImage: `url(${BgImage.src})`
-      }}>
+    <div className="home-bgMain">
       <div className='container'>
         <div className='flex justify-center items-center sm:gap-10'>
           <div className='pb-10 sm:pb-32'>
