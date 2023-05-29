@@ -11,6 +11,8 @@ import Link from "next-translate-routes/link";
 import FlagSelect from "./FlagSelect";
 import useTranslation from "@/hooks/useTranslation";
 import useClickOutside from "use-click-outside";
+import { IoMdArrowDropdown } from "react-icons/io";
+
 interface NavItem {
   mainText: string;
   path: string;
@@ -26,6 +28,11 @@ const Navbar: React.FC = () => {
   const [serviceMenu, setServiceMenu] = useState(false);
   const [open, setOpen] = useState<boolean>(false);
   const [dropDown, setDropDown] = useState(false);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const hanldeDropDown = () => {
+    setActiveIndex(prevActiveIndex => (prevActiveIndex === null ? 0 : null));
+  };
 
   const [activeClass, setActiveClass] = useState<string>();
   const closeHanlder = () => {
@@ -47,6 +54,7 @@ const Navbar: React.FC = () => {
   }, [open]);
 
   const { t } = useTranslation();
+
   const serviceMenuData = [
     {
       label: t("serviziInnerOne"),
@@ -99,24 +107,28 @@ const Navbar: React.FC = () => {
 
   const responsiveLink = [
     {
-      link: "Chi Siamo",
-      path: "/",
+      link: t("chiSiamo"),
+      path: "/chi-siamo",
     },
     {
-      link: "Come Funziona",
-      path: "/",
+      link: t("comeFuziona"),
+      path: "/come-funziona",
     },
     {
-      link: "Casi d’uso",
-      path: "/",
+      link: t("casiDuso"),
+      path: "/casi-duso",
     },
     {
-      link: "Contattaci",
-      path: "/",
+      link: t("contattaci"),
+      path: "/contattaci",
     },
     {
-      link: "Blog",
-      path: "/",
+      link: t("blog"),
+      path: "/blog-it-new",
+    },
+    {
+      link: t("faq"),
+      path: "/faq",
     },
   ];
 
@@ -135,12 +147,10 @@ const Navbar: React.FC = () => {
                 className="relative"
                 // @ts-ignore
                 onMouseLeave={() => setDropDown(false)}
-
               >
                 <Link href={"/interpretazione-simultanea-da-remoto-rafiky"}>
                   <button
                     onMouseOver={() => setDropDown(true)}
-
                     className="flex gap-1 justify-center items-center text-[#6f6f6f]  p-2 bg-white "
                   >
                     <span>{t("servizi")}</span>
@@ -153,7 +163,6 @@ const Navbar: React.FC = () => {
                   </button>
                 </Link>
                 <ul
-
                   className={`absolute z-20 -left-20 right-0 w-64 py-2 bg-[#fffdfd] rounded-lg shadow-xl ${dropDown ? "block" : "hidden"
                     }`}
                 >
@@ -192,39 +201,75 @@ const Navbar: React.FC = () => {
               </Link>
             </div>
             <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3 ">
+                <div className="min-w-[100px] max-w-[100px]">
+                  <FlagSelect />
+                </div>
+              </div>
               <span
                 className="text-2xl cursor-pointer text-[rgba(146,146,146,0.7)]"
                 onClick={handleNav}
               >
                 <GiHamburgerMenu />
               </span>
-
             </div>
           </div>
         </div>
       </div>
       {open && (
-        <div className="fixed top-0 left-0 h-screen w-screen bg-[rgba(0,0,0,0.6)] z-50">
-          <div className="bg-white">
-            <div className={`px-8 py-6 ${activeClass}`}>
-              <div className="grid grid-cols-1 gap-4">
-                {responsiveLink.map((item, index) => (
-                  <div
-                    className="text-primary text-xl font-semibold py-2 hover:text-secondary transition-all duration-300 cursor-pointer"
-                    key={index}
-                  >
-                    <Link href={item.path}>{item.link}</Link>
-                  </div>
-                ))}
-                <div className="flex justify-end">
-                  <div
-                    className="text-primary text-xl font-semibold py-2 hover:text-secondary transition-all duration-300 cursor-pointer"
-                    onClick={handleNav}
-                  >
-                    <RxCross1 />
-                  </div>
-                </div>
+        <div className="fixed top-0 left-0 h-screen w-screen bg-white  z-50">
+          <div className="flex justify-end px-10">
+            <div
+              className="text-2xl font-bold py-3 hover:text-secondary transition-all duration-300 cursor-pointer"
+              onClick={handleNav}
+            >
+              <RxCross1 />
+            </div>
+          </div>
+          <div className={`px-8 py-6 ${activeClass}`}>
+            <div
+              className="cursor-pointer"
+              onClick={hanldeDropDown}
+            >
+              <div className="flex justify-between items-center]">
+                <h2 className="max-w-[350px] cursor-pointer font-semibold text-xl mb-2">
+                  <Link href={"/interpretazione-simultanea-da-remoto-rafiky"}> {t("servizi")} </Link>
+                </h2>
+                <span
+                  className={`text-3xl transition-all  ${activeIndex ? "rotate-180 duration-300" : "rotate-[360deg]"} duration-300`}
+                >
+                  <IoMdArrowDropdown />
+                </span>
               </div>
+              <div
+                className={`${activeIndex
+                  ? "max-h-96 duration-700 ease-in-out transition-all opacity-100"
+                  : "max-h-0 opacity-0 pointer-events-none duration-700"
+                  }`}
+              >
+                <p className="w-full text-primary text-xl font-semibold py-2 transition-all duration-300 cursor-pointer">
+                  {serviceMenuData.map((item, index) => {
+                    return (
+                      <Link href={item.path} key={index}>
+                        <li className="flex gap-4 w-full items-center py-2 text-sm hover:text-[#91A3F2] hover:bg-gray-100">
+                          <span className={"text-xl"}>{item?.icon}</span>
+                          {item.label}
+                        </li>
+                      </Link>
+                    );
+                  })}
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 gap-4">
+              {responsiveLink.map((item, index) => (
+                <div
+                  className="text-primary text-xl font-semibold py-2 hover:text-secondary transition-all duration-300 cursor-pointer"
+                  key={index}
+                >
+                  <Link href={item.path}>{item.link}</Link>
+                </div>
+              ))}
             </div>
           </div>
         </div>
