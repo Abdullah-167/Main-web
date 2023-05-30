@@ -48,7 +48,7 @@ const Futuro = () => {
           </Link>
         </div>
         <div className="max-w-[700px]">
-          <Image loading="lazy" src="/heroMobile.png" width={1000} height={0} alt="mobile" />
+          <Image  src="/heroMobile.png" width={1000} height={0} alt="mobile" />
         </div>
       </div>
     </div>
