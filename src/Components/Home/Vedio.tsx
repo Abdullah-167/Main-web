@@ -45,9 +45,6 @@ const Vedio = () => {
                             </Link>
                         </div>
                     </div>
-                    <div >
-                        <LiteYouTubeEmbed id="KCgEhNeVhUc" title='rafikysss' />
-                    </div>
                 </div>
             </div>
         </div>
