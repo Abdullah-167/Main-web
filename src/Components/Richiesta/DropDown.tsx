@@ -241,6 +241,7 @@ const DropDown: React.FC<Props> = ({}) => {
                     {item.platinum && (
                       <span className="flex justify-center">
                         <Image
+                          loading="lazy"
                           src={"/tick.png"}
                           alt={"Tick"}
                           width={80}
@@ -253,6 +254,7 @@ const DropDown: React.FC<Props> = ({}) => {
                     {item.gold && (
                       <span className="flex justify-center">
                         <Image
+                          loading="lazy"
                           src={"/tick.png"}
                           alt={"Tick"}
                           width={80}
@@ -265,6 +267,7 @@ const DropDown: React.FC<Props> = ({}) => {
                     {item.silver && (
                       <span className="flex justify-center">
                         <Image
+                          loading="lazy"
                           src={"/tick.png"}
                           alt={"Tick"}
                           width={80}

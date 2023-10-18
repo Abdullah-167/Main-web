@@ -11,7 +11,7 @@ const Index = () => {
       <Hero />
       <RafikyPrezzi />
       <DropDown />
-      <SecCard display={"none"} />
+      <SecCard />
       <Domande />
       <BgPronto />
     </div>

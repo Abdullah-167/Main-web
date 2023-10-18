@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import Button from '../Button'
-import { IoIosArrowDown } from 'react-icons/io';
 import useTranslation from '@/hooks/useTranslation';
+import { Link } from 'next-translate-routes';
+import { useEffect, useState } from 'react';
+import Button from '../Button';
 
 
 const Cosa = () => {
@@ -41,13 +41,13 @@ const Cosa = () => {
 
         },
         {
-            num: '+30000',
+            num: '24/7',
             text: t('WorkingTogether_SeccountingTest'),
             color: '#2EA3F2',
             color2: '#0c71c3'
         },
         {
-            num: '+6000',
+            num: `+20'000`,
             text: t('workingTogether_ThirdcountingTest'),
             color: '#f22ed4',
             color2: '#ea20e3'
@@ -69,7 +69,9 @@ const Cosa = () => {
                                     {item.para}
                                 </p>
                                 <div className='mt-10'>
-                                    <Button text={item.btnTitle} color={'white'} backgroundColor={'#682CCD'} minWidth={undefined} />
+                                    <Link href={'/richiesta-preventivo'}>
+                                        <Button text={item.btnTitle} color={'white'} backgroundColor={'#682CCD'} minWidth={undefined} />
+                                    </Link>
                                 </div>
                             </div>
                             <div className='w-full'>

@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import Link from "next-translate-routes/link";
 import { useRouter } from "next-translate-routes/router";
 import Image from "next/image";
-import Link from "next-translate-routes/link";
+import { useState } from "react";
 
 const FlagSelect = () => {
   const router = useRouter();
@@ -19,9 +19,6 @@ const FlagSelect = () => {
     const prefix = `/${locale}`;
     return path.startsWith(prefix) ? path.substr(prefix.length) : path;
   }
-  function getFlagName(locale: any) {
-    return locale === "en" ? "GB" : locale.toUpperCase();
-  }
 
   return (
     <div className="relative">
@@ -29,21 +26,29 @@ const FlagSelect = () => {
         className="flex min-w-[82px] items-center bg-white border border-[#C9C9C9] rounded-sm px-4 py-2 hover:bg-[#C9C9C9] focus:outline-none"
         onClick={handleDropdownToggle}
       >
-        <Image
-          alt={locale || ""}
-          src={`http://purecatamphetamine.github.io/country-flag-icons/3x2/${getFlagName(
-            locale
-          )}.svg`}
-          width={20}
-          height={20}
-        />
-        <span className="ml-2 text-[#6f6f6f] font-medium uppercase">{locale}</span>
+        {flags.map((item, index) => {
+          if (item.name.toLocaleLowerCase() === locale) {
+            return (
+              <Image
+                loading="lazy"
+                alt={locale || ""}
+                src={item?.icon}
+                width={20}
+                height={20}
+                key={index}
+              />
+            );
+          }
+        })}
+
+        <span className="ml-2 text-[#6f6f6f] font-medium uppercase">
+          {locale}
+        </span>
       </button>
       {isOpen && (
         <ul className="absolute z-[1000] top-full left-0 bg-white border border-[#C9C9C9] rounded-sm mt-1">
           {flags?.map((item) => {
-            const localeCode =
-              item.name === "GB" ? "en" : item.name.toLowerCase();
+            const localeCode = item.name.toLowerCase();
             const newPathname = `/${localeCode}${removeLocalePrefix(pathname)}`;
 
             return (
@@ -55,13 +60,14 @@ const FlagSelect = () => {
                 <Link href={newPathname} locale={localeCode} passHref>
                   <div className="flex items-center px-4 py-2">
                     <Image
+                      loading="lazy"
                       alt={item.title}
-                      src={`http://purecatamphetamine.github.io/country-flag-icons/3x2/${item.name}.svg`}
+                      src={item.icon}
                       width={20}
                       height={20}
                     />
                     <span className="ml-2 text-[#6f6f6f] font-medium">
-                      {item.name === "GB" ? "EN" : item.name}
+                      {item.name}
                     </span>
                   </div>
                 </Link>
@@ -79,18 +85,22 @@ export default FlagSelect;
 const flags = [
   {
     title: "United Kingdom",
-    name: "GB",
+    name: "EN",
+    icon: "/flag-icons/gb.svg",
   },
   {
     title: "French",
     name: "FR",
+    icon: "/flag-icons/fr.svg",
   },
   {
     title: "Germany",
     name: "DE",
+    icon: "/flag-icons/de.svg",
   },
   {
     title: "Italian",
     name: "IT",
+    icon: "/flag-icons/it.svg",
   },
 ];

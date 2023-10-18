@@ -10,11 +10,7 @@ const Text = () => {
   //@ts-ignore
   const slug = `/${locale}/${freeQuoteSlug[locale]}`;
   const text = [
-    {
-      heading: t("interpretationFrench_Heading"),
-      para: t("interpretationFrench_para"),
-      btnText: t("interpretationFrench_Btn"),
-    },
+   
     {
       heading: t("italianFrench_Heading"),
       para: t("italianFrench_para"),
@@ -38,7 +34,7 @@ const Text = () => {
           return (
             <Link href={slug} key={index}>
               <div className="py-10">
-                <h1 className="text-2xl font-semibold pb-3">{item.heading}</h1>
+                <strong className="text-2xl font-semibold pb-3">{item.heading}</strong>
                 <p className="text-base font-normal pb-4 leading-8">
                   {item.para}
                 </p>
@@ -84,7 +80,7 @@ const text = [
           che riguardano diversi settori. Dal mondo dei congressi fino a quello
           degli uffici legali, troverai tutto quello di cui hai bisogno.
           Addirittura, potrai avere accesso ad un sistema di interpretariato in
-          lingua francese e lis, con un interprete lingua dei segni
+          lingua francese e lis, con un interprete Lingua Dei Segni
           dall’italiano al francese.{" "}
         </p>
       </p>
@@ -121,7 +117,7 @@ const text = [
         </p>
         <p className="py-4">
           Scegliendo il servizio di interpretariato in lingua francese e lis,
-          potrai selezionare un interprete lingua dei segni dall’italiano al
+          potrai selezionare un interprete Lingua Dei Segni dall’italiano al
           francese, in grado di prendersi cura di tutti i tuoi ospiti.{" "}
         </p>
       </p>

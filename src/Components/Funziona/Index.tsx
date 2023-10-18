@@ -4,13 +4,14 @@ import Apri from './Apri'
 import Vedio from './Vedio'
 import Interpretazione from './Interpretazione'
 import BgPronto from '../BgPronto'
+import NewVideo from './NewVideo'
 
 const Index = () => {
     return (
         <div>
             <Hero />
             <Apri />
-            <Vedio />
+            <NewVideo />
             <Interpretazione />
             <BgPronto />
         </div>

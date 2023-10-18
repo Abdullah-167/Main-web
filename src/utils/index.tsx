@@ -34,7 +34,7 @@ export const frenchSlugs = {
   it: "interpretariato-in-francese-interpretariato-a-distanza",
   en: "french-interpreting-remote-interpreting",
   fr: "interprétariat-francais-interpretation-a-distance",
-  de: "französisch-dolmetschen-ferndolmetschen",
+  de: "franzosisch-dolmetschen-ferndolmetschen",
 };
 export const usaSlugs = {
   it: "interpretariato-in-inglese-americano",
@@ -59,4 +59,12 @@ export const russianSlugs = {
   en: "ninterpreting-into-russian",
   fr: "ninterprétation-vers-le-russe",
   de: "ninterdolmetschen-in-russisch",
+};
+
+
+export const blogSlugs = {
+  it: "blog-it-nuovo",
+  en: "blog-it-new",
+  fr: "blog-it-nouveau",
+  de: "blog-it-neu",
 };

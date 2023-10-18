@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
-import Button from "../Button";
-import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
+import useTranslation from "@/hooks/useTranslation";
 import { freeQuoteSlug } from "@/utils";
 import Link from "next-translate-routes/link";
+import { useEffect, useState } from "react";
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import Button from "../Button";
+import Speaking from "../NewComponents/Speaking";
 
 const Cosa = () => {
   const locale = GetLocale();
@@ -32,30 +33,12 @@ const Cosa = () => {
       btnTitle: t("remoteInterpreting_Btn"),
       heading: t("remoteInterpreting_Heading"),
       para: t("remoteInterpreting_para"),
+      para2: t("remoteInterpreting_paraOne"),
+      para3: t("remoteInterpreting_paraTwo"),
     },
   ];
 
-  const counting = [
-    {
-      num: "+200",
-      text: t("remoteInterpreting_Firstcountingtest"),
-      color: "#8300E9",
-      color2: "#8300E9",
-    },
-    {
-      num: "+30000",
-      text: t("remoteInterpreting_Seccountingtest"),
-      color: "#2EA3F2",
-      color2: "#0c71c3",
-    },
-    {
-      num: "+6000",
-      text: t("remoteInterpreting_Thirdcountingtest"),
-      color: "#f22ed4",
-      color2: "#ea20e3",
-    },
-  ];
-
+ 
   return (
     <div className="container">
       <div className="py-12 smL:py-20">
@@ -66,11 +49,14 @@ const Cosa = () => {
               key={index}
             >
               <div>
-                <h2 className="text-[30px] m:text-[45px] text-[#333333] font-bold sm:min-w-[600px] pb-5">
+                <b className="text-[30px] m:text-[45px] text-[#333333] font-bold sm:min-w-[600px]">
                   {item.heading}
-                </h2>
-                <p className="text-base text-[#666666] font-medium xl:max-w-[550px] leading-9">
+                </b>
+                <p className="text-base text-[#666666] font-medium xl:max-w-[550px] pb-3 pt-3 ">
                   {item.para}
+                </p>
+                <p className="text-base text-[#666666] font-medium xl:max-w-[550px]  pb-3leading-9">
+                  {item.para2}
                 </p>
                 <div className="mt-10">
                   <Link href={slug}>
@@ -90,28 +76,7 @@ const Cosa = () => {
           );
         })}
         <div className="flex flex-col md:flex-row justify-center md:justify-between gap-5">
-          {counting.map((item, index) => {
-            return (
-              <div key={index}>
-                <p
-                  className="text-[60px] lg:text-[72px] font-medium text-center"
-                  style={{
-                    color: item.color,
-                  }}
-                >
-                  {count >= declaredNum ? item.num : count}
-                </p>
-                <p
-                  className="text-[20px] lg:text-[26px] font-medium text-center"
-                  style={{
-                    color: item.color2,
-                  }}
-                >
-                  {item.text}
-                </p>
-              </div>
-            );
-          })}
+          <Speaking/>
         </div>
       </div>
     </div>

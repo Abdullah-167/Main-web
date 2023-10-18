@@ -21,7 +21,7 @@ const Text = () => {
       btnText: t("chineseInterpreting_Btn"),
     },
     {
-      heading: t("interpretationServices_Heading"),
+      heading: t("interpretationServices_HeadingChinese"),
       para: t("interpretationServices_para"),
       btnText: t("chineseInterpreting_Btn"),
     },
@@ -33,7 +33,7 @@ const Text = () => {
           return (
             <Link href={slug} passHref key={index}>
               <div className="py-10">
-                <h1 className="text-2xl font-semibold pb-3">{item.heading}</h1>
+                <strong className="text-2xl font-semibold pb-3">{item.heading}</strong>
                 <p className="text-base font-normal pb-4 leading-8">
                   {item.para}
                 </p>

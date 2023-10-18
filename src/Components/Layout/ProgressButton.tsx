@@ -13,6 +13,7 @@ const ProgressButton = () => {
             setSowButton(false);
         }
     };
+    
     const onHandleScroll = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };

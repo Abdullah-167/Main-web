@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
-import Button from "../Button";
-import Image from "next/image";
-import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
+import useTranslation from "@/hooks/useTranslation";
 import { freeQuoteSlug } from "@/utils";
 import Link from "next-translate-routes/link";
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import Button from "../Button";
+import Speaking from "../NewComponents/Speaking";
 
 const Cosa = () => {
   const locale = GetLocale();
@@ -44,13 +45,13 @@ const Cosa = () => {
       color2: "#8300E9",
     },
     {
-      num: "+30000",
+      num: "24/7",
       text: t("qualifiedInterpreters_Seccountingtest"),
       color: "#2EA3F2",
       color2: "#0c71c3",
     },
     {
-      num: "+6000",
+      num: `20'000`,
       text: t("qualifiedInterpreters_Thirdcountingtest"),
       color: "#f22ed4",
       color2: "#ea20e3",
@@ -62,16 +63,23 @@ const Cosa = () => {
       <div className="py-12 smL:py-20">
         <div className="flex flex-col lg:flex-row gap-16 sm:gap-12 py-20 sm:py-32">
           <div className="min-w-full lg:min-w-[500px] flex justify-between items-center">
-            <Image loading="lazy" src={"/newimg.jpg"} alt={"Women"} width={1000} height={0} />
+            <Image
+             className="rounded-3xl"
+              loading="lazy"
+              src={"/remote-interpreter.jpg"}
+              alt={t("alt_img_qualified_interpreters")}
+              width={1000}
+              height={0}
+            />
           </div>
           <div>
             <div className="mb-10">
               {data.map((item, index) => {
                 return (
                   <div className="lg:max-w-[550px]" key={index}>
-                    <h3 className="text-[#FCA497] text-[35px] sm:text-[40px] font-bold leading-[45px]">
+                    <h2 className="text-[#8300e9] text-[35px] sm:text-[40px] font-bold leading-[45px]">
                       {t("qualifiedInterpreters_Heading")}{" "}
-                    </h3>
+                    </h2>
                     <p className="text-base font-medium text-black pbF-4 lg:max-w-[750px] py-3 leading-9">
                       {t("qualifiedInterpreters_para")}
                     </p>
@@ -91,30 +99,7 @@ const Cosa = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-center md:justify-between gap-5">
-          {counting.map((item, index) => {
-            return (
-              <div key={index}>
-                <p
-                  className="text-[60px] lg:text-[72px] font-medium text-center"
-                  style={{
-                    color: item.color,
-                  }}
-                >
-                  {count >= declaredNum ? item.num : count}
-                </p>
-                <p
-                  className="text-[20px] lg:text-[26px] font-medium text-center"
-                  style={{
-                    color: item.color2,
-                  }}
-                >
-                  {item.text}
-                </p>
-              </div>
-            );
-          })}
-        </div>
+        <Speaking/>
       </div>
     </div>
   );

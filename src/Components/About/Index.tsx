@@ -4,6 +4,7 @@ import OurSkills from './OurSkills'
 import OurMission from './OurMission'
 import WeDo from './WeDo'
 import OurTeam from './OurTeam'
+import Appointment from './Appointment'
 
 const About = () => {
   return (
@@ -11,8 +12,8 @@ const About = () => {
       <Hero />
       <OurMission />
       <OurTeam/>
-      <WeDo />
       <OurSkills />
+      <Appointment/>
     </div>
   )
 }

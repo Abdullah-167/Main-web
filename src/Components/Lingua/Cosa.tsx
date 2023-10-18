@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
-import Button from "../Button";
-import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
+import useTranslation from "@/hooks/useTranslation";
+import { useEffect, useState } from "react";
+import Button from "../Button";
 
-import Link from "next-translate-routes/link";
 import { freeQuoteSlug } from "@/utils";
+import Link from "next-translate-routes/link";
+import Speaking from "../NewComponents/Speaking";
+import Image from "next/image";
 const Cosa = () => {
   const [count, setCount] = useState(0);
   const locale = GetLocale();
@@ -41,13 +43,13 @@ const Cosa = () => {
       color2: "#8300E9",
     },
     {
-      num: "+30000",
+      num: '24/7',
       text: t("servicesLanguageinterpretatio_Seccountingtest"),
       color: "#2EA3F2",
       color2: "#0c71c3",
     },
     {
-      num: "+6000",
+      num: `20'000`,
       text: t("servicesLanguageinterpretatio_Thirdcountingtest"),
       color: "#f22ed4",
       color2: "#ea20e3",
@@ -82,35 +84,19 @@ const Cosa = () => {
                 </div>
               </div>
               <div className="w-full">
-                <iframe title='rafiky' className="w-full" loading="lazy" src={item.url} height={470}></iframe>
+                   <Image 
+                    className="rounded-3xl"
+            loading="lazy"
+             src="/sign-language-pic1.png" 
+            alt="sign-language"
+            width={1000}
+            height={0}
+            />
               </div>
             </div>
           );
         })}
-        <div className="flex flex-col md:flex-row justify-center md:justify-between gap-5">
-          {counting.map((item, index) => {
-            return (
-              <div key={index}>
-                <p
-                  className="text-[60px] lg:text-[72px] font-medium text-center"
-                  style={{
-                    color: item.color,
-                  }}
-                >
-                  {count >= declaredNum ? item.num : count}
-                </p>
-                <p
-                  className="text-[20px] lg:text-[26px] font-medium text-center"
-                  style={{
-                    color: item.color2,
-                  }}
-                >
-                  {item.text}
-                </p>
-              </div>
-            );
-          })}
-        </div>
+       <Speaking/>
       </div>
     </div>
   );

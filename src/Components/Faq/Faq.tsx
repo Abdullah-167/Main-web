@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import useTranslation from "@/hooks/useTranslation";
+import Link from 'next/link';
 
-const FaqSection = () => {
+
+const FaqSection = ({ id = 0 }: { id: number }) => {
   const { t } = useTranslation();
   const DataA = [
     {
@@ -30,8 +32,9 @@ const FaqSection = () => {
     },
   ];
   const DataB = t("faqApp");
+  
   const data = [...DataA, ...DataB];
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(id);
 
   return (
     <div className={`py-12 sm:py-32 px-5`}>
@@ -42,18 +45,16 @@ const FaqSection = () => {
               return (
                 <div key={index}>
                   <div
-                    className={`px-1 py-4 md:py-6 cursor-pointer min-w-[230px] text-center rounded-md shadow-lg ${
-                      activeTab === item.id ? "bg-[#6CC1D7]" : "bg-[#F5F5F5]"
-                    }`}
+                    className={`px-1 py-4 md:py-6 cursor-pointer min-w-[230px] text-center rounded-md shadow-lg ${activeTab === item.id ? "bg-[#6CC1D7]" : "bg-[#F5F5F5]"
+                      }`}
                     onClick={() => setActiveTab(item.id)}
                   >
-                    <h1
-                      className={` text-sm md:text-xl ${
-                        activeTab === item.id ? "text-white" : "text-indigo-700"
-                      }`}
+                    <h2
+                      className={` text-sm md:text-xl ${activeTab === item.id ? "text-white" : "text-indigo-700"
+                        }`}
                     >
-                      {item.btnHeading}
-                    </h1>
+                      <Link href={`/faq/${item.btnHeading.toLowerCase().replaceAll(" ", "-")}`}> {item.btnHeading}</Link>
+                    </h2>
                   </div>
                 </div>
               );

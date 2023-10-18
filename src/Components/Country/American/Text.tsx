@@ -32,7 +32,7 @@ const Text = () => {
           return (
             <div className="py-10" key={index}>
               <Link href={slug} passHref>
-                <h1 className="text-2xl font-semibold pb-3">{item.heading}</h1>
+                <strong className="text-2xl font-semibold pb-3">{item.heading}</strong>
                 <p className="text-base font-normal pb-4 leading-8">
                   {item.para}
                 </p>

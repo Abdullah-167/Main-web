@@ -4,6 +4,7 @@ import GetLocale from "@/hooks/getLocale";
 import Link from "next-translate-routes/link";
 import { howDoesItWorkSlug } from "@/utils";
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import Unlock from '../NewComponents/Unlock';
 
 const Vedio = () => {
 
@@ -25,27 +26,22 @@ const Vedio = () => {
         <div className='vedio-bg py-12 sm:py-20'>
             <div className='container relative'>
                 <div className='block lg:flex sm:gap-10'>
-                    <div className='hidden md:block pt-20'>
-                        <LiteYouTubeEmbed id="KCgEhNeVhUc" title='rafiky' />
-                    </div>
+                   
                     <div className='pt-10'>
                         <div>
                             {data.map((item, index) => {
                                 return (
                                     <div key={index}>
                                         <h3 className='text-[#FCA497] text-[32px] font-bold'>{item.heading}</h3>
-                                        <p className='text-base font-medium text-white pbF-4  py-3'>{item.para}</p>
+                                        <h3 className='text-base font-medium text-white pbF-4  py-3'>{item.para}</h3>
                                     </div>
                                 )
                             })}
                         </div>
-                        <div className='mt-10'>
-                            <Link href={slug}>
-                                <Button text={t('REMOTEINTERPRETING_Btn')} color={'black'} backgroundColor={'white'} minWidth={undefined} />
-                            </Link>
-                        </div>
+                        
                     </div>
                 </div>
+                <Unlock/>
             </div>
         </div>
     )

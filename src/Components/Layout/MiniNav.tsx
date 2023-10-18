@@ -32,11 +32,10 @@ const MiniNav = () => {
               >
                 {t("partnerZone")}
                 <span
-                  className={`transition-all duration-300 ${
-                    isOpen && currentItem === "partnerZoness"
+                  className={`transition-all duration-300 ${isOpen && currentItem === "partnerZoness"
                       ? " rotate-180"
                       : ""
-                  }`}
+                    }`}
                 >
                   <IoIosArrowDown />
                 </span>
@@ -64,11 +63,10 @@ const MiniNav = () => {
               >
                 {t("interpretio")}
                 <span
-                  className={`transition-all duration-300 ${
-                    isOpen && currentItem === "interpretariato"
+                  className={`transition-all duration-300 ${isOpen && currentItem === "interpretariato"
                       ? " rotate-180"
                       : ""
-                  }`}
+                    }`}
                 >
                   <IoIosArrowDown />
                 </span>
@@ -120,7 +118,7 @@ const MiniNav = () => {
                   </span>{" "}
                 </li>
               </Link>
-              <Link href={"/lingue/nterpretariato-in-russo/"}>
+              <Link href={"/lingue/interpretariato-in-russo/"}>
                 <li>
                   <span className="px-5   hidden md:block">
                     {t("interpretioSix")}

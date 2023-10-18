@@ -303,25 +303,106 @@ nav ul ul li {
   box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.18);
 }
 
-.pricing-bg {
+/* .pricing-bg {
   background-image: url("../../public/bgtransparent.png");
   background-attachment: fixed;
   background-position: right;
-}
-
-/* .home-bg2 {
-  display: none;
-}
-@media screen and (max-width: 768px) {
-  .home-bg {
-    display: none;
-  }
-
-  .home-bg2 {
-    display: block;
-  }
 } */
 
 .home-bgMain {
   background: linear-gradient(to right, #8443F7, #834CFA, #9C71F9);
+}
+.blog-detail h1{
+  @apply text-3xl font-bold text-black my-10;
+}
+.blog-detail > p{
+  margin-bottom: 20px;
+}
+
+/* Our brand */
+.brand_logo img{
+  filter: grayscale(1);
+  opacity: 0.62;
+}
+.brand_logo:nth-child(3) img{
+  opacity: 1;
+  filter: none;
+}
+.brand_logo:nth-child(4n) {
+  border-right: none;
+}
+.brand_logo:nth-child(9) {
+  border-bottom: none;
+}
+.brand_logo:nth-child(10) {
+  border-bottom: none;
+}
+.brand_logo:nth-child(11) {
+  border-bottom: none;
+}
+.brand_logo:nth-child(12) {
+  border-bottom: none;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .brand_logo:nth-child(4n) {
+    border-right: 1px solid #e5e7eb;
+  }
+  .brand_logo:nth-child(3n) {
+    border-right: none;
+  }
+  .brand_logo:nth-child(9) {
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .brand_logo:nth-child(10) {
+    border-bottom: none;
+  }
+  .brand_logo:nth-child(11) {
+    border-bottom: none;
+  }
+  .brand_logo:nth-child(12) {
+    border-bottom: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brand_logo:nth-child(3n) {
+    border-right: 1px solid #e5e7eb;
+  }
+  .brand_logo:nth-child(2n) {
+    border-right: none;
+  }
+  .brand_logo:nth-child(9) {
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .brand_logo:nth-child(10) {
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .brand_logo:nth-child(11) {
+    border-bottom: none;
+  }
+  .brand_logo:nth-child(12) {
+    border-bottom: none;
+  }
+}
+
+/* Swiper Client */
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #222 !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px !important;
+}
+.review-icon-width {
+  width: 15px;
+  height: 15px;
+  color: #222 !important;
+}
+.swiper-wrapper {
+  padding: 40px;
+}
+.divder {
+  border: 1px solid #E2E2E3;
+  width: 100%;
 }

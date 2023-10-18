@@ -1,6 +1,5 @@
 import useTranslation from "@/hooks/useTranslation";
 import Image from "next/image";
-import React from "react";
 
 const OurTeam = () => {
   const { t } = useTranslation();
@@ -21,13 +20,13 @@ const OurTeam = () => {
       img: "/ellipse-rafiky3.jpg",
     },
     {
-      name: "Gaia Alfano",
-      designation: t("Gaia"),
-      img: "/ellipse-rafiky4.png",
+      name: "Giuseppe Gagliano",
+      designation: t("Chiara"),
+      img: "/IMG-20230726-WA0017.jpg",
     },
     {
-      name: "Paolo Di Girolamo",
-      designation: t("Paolo"),
+      name: "Maria Segreto",
+      designation: t("Maria"),
       img: "/ellipse-rafiky5.png",
     },
     {
@@ -37,7 +36,7 @@ const OurTeam = () => {
     },
   ];
   return (
-    <div className="w-full mb-28">
+    <div className="w-full py-10 bg-[#F5F6FC]">
       <div className="container">
         <h2 className="text-3xl md:text-5xl font-bold text-[#333] mb-16 mt-10 text-center">
           {t("ourTeam")}
@@ -48,8 +47,9 @@ const OurTeam = () => {
               <div key={index}>
                 <div className="rounded-full">
                   <Image
+                    loading="lazy"
                     src={item.img}
-                    alt={"Mission"}
+                    alt={t("alt_img_our_team")}
                     width={1000}
                     height={1000}
                     className="rounded-full max-w-[300px] mx-auto"

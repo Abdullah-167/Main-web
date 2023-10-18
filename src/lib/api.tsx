@@ -1,9 +1,9 @@
-const API_URL = process.env.WP_API_URL;
+const API_URL = process.env.WP_API_URL as any;
 
 const dev = process.env.WP_API_URL !== "production";
 
 export const server: any = dev
-  ? "https://manuelm83.sg-host.com/graphql/"
+  ? "https://manuelm83.sg-host.com/graphql"
   : API_URL;
 
 async function fetchAPI(query: any, { variables }: any = {}) {
@@ -23,20 +23,28 @@ async function fetchAPI(query: any, { variables }: any = {}) {
   return json.data;
 }
 
-export async function getAllPosts(locale: any) {
+export async function getAllPosts(language: any, after: string = "") {
   const data = await fetchAPI(
     `
-      query AllPosts($categoryName: String!) {
-        posts(first: 20, where: {categoryName: $categoryName, orderby: { field: DATE, order: DESC}}) {
+    query posts($language: LanguageCodeFilterEnum!, $after: String) {
+      posts(first: 100, after: $after, where: { language: $language, orderby: { field: DATE, order: DESC} }) {
+          pageInfo {
+            hasNextPage
+            endCursor
+          }
           edges {
             node {
               id
               date
               title
               slug
+              content
+              link
+              excerpt
               featuredImage {
                 node {
                   mediaItemUrl
+                  altText
                 }
               }
             }
@@ -46,7 +54,8 @@ export async function getAllPosts(locale: any) {
       `,
     {
       variables: {
-        categoryName: locale,
+        language,
+        after, // Pass the 'after' cursor variable
       },
     }
   );
@@ -54,60 +63,72 @@ export async function getAllPosts(locale: any) {
   return data?.posts;
 }
 
+
 export async function getAllPostsWithSlug() {
   const data = await fetchAPI(
     `
-      {
-        posts(first: 10000) {
-          edges {
-            node {
-              slug
-            }
+    {
+      posts(first: 10000) {
+        edges {
+          node {
+            id
+            title
+            slug
           }
         }
       }
+    }
     `
   );
   return data?.posts;
 }
-export async function getPost(slug: any) {
+export async function getPost(slug: any, language: any) {
   const data = await fetchAPI(
     `
-      query PostBySlug($id: ID!, $idType: PostIdType!) {
-        post(id: $id, idType: $idType) {
-          title
-            excerpt
-            slug
-            date
-            categories {
-              edges {
-                node {
-                  name
-                }
-              }
-            }
-            author {
-              node {
-                name
-                avatar {
-                  url
-                }
-              }
-            }
-            featuredImage {
-              node {
-                altText
-                sourceUrl(size: _2048X2048)
-              }
-            }
+    query PostBySlug($slug: String!, $language: LanguageCodeEnum!) {
+      postBy(slug: $slug) {
+        id
+        content
+        title
+        slug
+        translation(language: $language) {
+          id
+          slug
           content
+          title
+          seo{
+            title
+            metaDesc
+          }
+          language {
+            locale
+            slug
+          }
+        }
+        date
+        author {
+          node {
+            name
+          }
+        }
+        categories {
+          nodes {
+            name
+          }
+        }
+        featuredImage {
+          node {
+            altText
+            sourceUrl
+          }
         }
       }
+    }
     `,
     {
       variables: {
-        id: slug,
-        idType: "SLUG",
+        slug: slug,
+        language,
       },
     }
   );

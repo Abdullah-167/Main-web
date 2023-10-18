@@ -1,7 +1,8 @@
-import { useState } from "react";
-import Button from "../Button";
-import { IoMdArrowDropdown } from "react-icons/io";
 import useTranslation from "@/hooks/useTranslation";
+import { Link } from "next-translate-routes";
+import { useState } from "react";
+import { IoMdArrowDropdown } from "react-icons/io";
+import Button from "../Button";
 const Domande = () => {
   const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -30,21 +31,19 @@ const Domande = () => {
                       {item.heading}
                     </h2>
                     <span
-                      className={`text-3xl transition-all  ${
-                        activeIndex === index
+                      className={`text-3xl transition-all  ${activeIndex === index
                           ? "rotate-180 duration-300"
                           : "rotate-[360deg]"
-                      } duration-300`}
+                        } duration-300`}
                     >
                       <IoMdArrowDropdown />
                     </span>
                   </div>
                   <div
-                    className={`${
-                      isActive
+                    className={`${isActive
                         ? "max-h-96 duration-700 ease-in-out transition-all opacity-100"
                         : "max-h-0 opacity-0 pointer-events-none duration-700"
-                    }`}
+                      }`}
                   >
                     <p className="text-[#5b5757] py-2 text-[15px]">
                       {item.para}
@@ -56,12 +55,14 @@ const Domande = () => {
           })}
         </div>
         <span className="flex justify-center">
-          <Button
-            text={"FAI UNA DOMANDA"}
-            color={"white"}
-            backgroundColor={"#8300E9"}
-            minWidth={undefined}
-          />
+          <Link href={'/contattaci'}>
+            <Button
+              text={"FAI UNA DOMANDA"}
+              color={"white"}
+              backgroundColor={"#8300E9"}
+              minWidth={undefined}
+            />
+          </Link>
         </span>
       </div>
     </div>

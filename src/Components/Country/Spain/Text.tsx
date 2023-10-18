@@ -21,7 +21,7 @@ const Text = () => {
       btnText: t("findYour_Btn"),
     },
     {
-      heading: t("interpretationServices_Heading"),
+      heading: t("interpretationServices_HeadingSpanish"),
       para: t("interpretationServices_para"),
       btnText: t("interpretationServices_Btn"),
     },
@@ -32,7 +32,7 @@ const Text = () => {
         {text.map((item, index) => {
           return (
             <div className="py-10" key={index}>
-              <h1 className="text-2xl font-semibold pb-3">{item.heading}</h1>
+              <strong className="text-2xl font-semibold pb-3">{item.heading}</strong>
               <p className="text-base font-normal pb-4 leading-8">
                 {item.para}
               </p>

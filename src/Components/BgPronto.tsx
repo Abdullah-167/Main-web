@@ -4,7 +4,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import { IoLogoInstagram } from "react-icons/io5";
 import { BsYoutube } from "react-icons/bs";
-import BgImage from "../../public/frame3.png";
+import BgImage from "../../public/frame3.webp";
 import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
 import { freeQuoteSlug } from "@/utils";
@@ -24,10 +24,10 @@ const BgPronto = () => {
       <div className="container">
         <div>
           <div>
-            <h5 className="text-2xl text-white font-bold text-center pt-10 pb-8 leading-1">
+            <h3 className="text-2xl text-white font-bold text-center pt-10 pb-8 leading-1">
               {t("ready_Title")}
-            </h5>
-            <h2 className="text-[35px] sm:text-[50px] text-white font-bold text-center mx-auto pb-12 lg:leading-10">
+            </h3>
+            <h2 className="text-[35px] sm:text-[50px] text-white font-bold text-center mx-auto pb-12 lg:leading-30">
               {t("ready_SubTitle")}
             </h2>
           </div>

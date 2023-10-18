@@ -36,7 +36,7 @@ const HeroMob = () => {
         </div>
         <div className="w-full">
           <LiteYouTubeEmbed
-             id="K1xWE4MdmTY"
+            id="K1xWE4MdmTY"
             title='rafiky'
           />
         </div>

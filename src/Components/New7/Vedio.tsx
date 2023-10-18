@@ -36,12 +36,12 @@ export default Vedio
 
 const data = [
     {
-        heading: 'I vantaggi',
+        heading: 'Affidati a noi',
     },
     {
         para: 'Rafiky gestisce l’intera organizzazione della conferenza, nel caso questo venga richiesto. Il nostro team può occuparsi della programmazione in ogni singolo dettaglio, dalla fase pre-evento alla fase post-evento. Questo include una serie di servizi e offerte, quali la possibilità di personalizzare il logo o il “sottopancia relatore”, la creazione di un sito web finalizzato unicamente alla promozione o all’iscrizione all’evento, o ancora la possibilità di richiedere più interpreti e più combinazioni linguistiche di traduzione.'
     },
     {
-        para: 'Rafiky vanta di un’illimitata rete di interpreti specializzati in diversi settori e madrelingua per più di 200 lingue in totale. Un servizio davvero esclusivo è quello dell’interpretariato in lingua dei segni, fondamentale al fine di rendere la vostra web conferencing ancor più accessibile e inclusiva.  '
+        para: 'Rafiky vanta di un’illimitata rete di interpreti specializzati in diversi settori e madrelingua per più di 200 lingue in totale. Un servizio davvero esclusivo è quello dell’interpretariato in Lingua Dei Segni, fondamentale al fine di rendere la vostra web conferencing ancor più accessibile e inclusiva.  '
     }
 ]

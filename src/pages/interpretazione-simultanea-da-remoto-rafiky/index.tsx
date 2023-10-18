@@ -7,7 +7,10 @@ const InterPretazione = () => {
   const { t } = useTranslation();
   return (
     <Layout>
-      <Seo title={t("servicesMetaTitle")} description={t("servicesMetaDescription")} />
+      <Seo
+        title={t("simultaneousRemoteInterpretation_pageTitle")}
+        description={t("simultaneousRemoteInterpretation_pageDesc")}
+      />
       <Index />
     </Layout>
   );

@@ -1,30 +1,33 @@
-import MiniNav from "../Layout/MiniNav";
-import MainCom from "./MainCom";
-import HeroMob from "./HeroMob";
-import Layout from "../Layout/Index";
-import PercheCards from "./PercheCards";
-import Futuro from "./Futuro";
-import Vedio from "./Vedio";
-import Immergiti from "./Immergiti";
-import NewsLetter from "../NewsLetter";
-import RequestDemoForm from "./RequestDemoForm";
-import { Link, Element } from "react-scroll";
+import { Element } from "react-scroll";
 import BgPronto from "../BgPronto";
+import Appointment from "../Common/Appointment";
+import CustomerReview from "../Common/CustomerReview";
+import OurClients from "../Common/OurClients";
+import Layout from "../Layout/Index";
+import Futuro from "./Futuro";
+import HeroMob from "./HeroMob";
+import Speaking from "../NewComponents/Speaking";
+import WhyUs from "../NewComponents/WhyUs";
+import MainCom from "./MainCom";
+import Hero from "../NewComponents/Hero"
+import PercheCards from "./PercheCards";
+import RequestDemoForm from "./RequestDemoForm";
+import Vedio from "./Vedio";
 
 const Index = () => {
   return (
     <Layout>
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-      <MainCom />
+      <Hero />
+      <Speaking />
       <HeroMob />
-      <PercheCards />
+      <OurClients />
+      <WhyUs />
       <Futuro />
       <Vedio />
-      <Immergiti />
+      <CustomerReview/>
+      <Appointment />
       <BgPronto />
-      <Element name="form">
-        <RequestDemoForm />
-      </Element>
     </Layout>
   );
 };

@@ -1,75 +1,123 @@
-import Button from "../Button";
-import Image from "next/image";
+import { useState } from "react";
 import useTranslation from "@/hooks/useTranslation";
-import GetLocale from "@/hooks/getLocale";
-import { freeQuoteSlug } from "@/utils";
-import Link from "next-translate-routes/link";
-const Interpretazione = () => {
+import Image from "next/image";
+
+const Interpretazione1 = () => {
   const { t } = useTranslation();
-  const locale = GetLocale();
-  //@ts-ignore
-  const slug = `/${locale}/${freeQuoteSlug[locale]}`;
-  const data = [
+  const cards = [
     {
-      listText: t("remoteSimultaneous_list1"),
+      img:"/flexibility.svg",
+      heading: t("remoteSimultaneous_list1"),
+      para: t("remoteSimultaneous_list1para"),
     },
     {
-      listText: t("remoteSimultaneous_list2"),
+      img:"/video.svg",
+      heading: t("remoteSimultaneous_list2"),
+      para: t("remoteSimultaneous_list2para"),
     },
     {
-      listText: t("remoteSimultaneous_list3"),
-    },
-    {
-      listText: t("remoteSimultaneous_list4"),
+      img:"/quality.svg",
+      heading: t("remoteSimultaneous_list3"),
+      para: t("remoteSimultaneous_list3para"),
     },
   ];
+  const cards1 = [
+    {
+      img:"/chat.svg",
+      heading: t("remoteSimultaneous_list4"),
+      para: t("remoteSimultaneous_list4para"),
+    },
+
+    {
+      img:"/chat-pm.svg",
+      heading: t("remoteSimultaneous_list5"),
+      para: t("remoteSimultaneous_list5para"),
+    },
+  ];
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  const handleToggle = (index: any) => {
+    if (index === expandedIndex) {
+      setExpandedIndex(null);
+    } else {
+      setExpandedIndex(index);
+    }
+  };
+
   return (
-    <div
-      className="hero-laptop bg-[#F7F6FD]"
-    
-    >
-      <div className="max-w-[1250px] mx-auto px-8">
-        <div className="flex flex-col lg:flex-row items-center py-16 sm:py-[150px]">
-          <div>
-            <h3 className="text-[35px] sm:text-[45px] text-[#333333] font-medium leading-[55px] pb-5">
-              {t("remoteSimultaneous_Title")}{" "}
-            </h3>
-            <p className="text-base sm:text-3xl text-[#C1C1C1] font-medium py-1 mb-7">
+    <div className="bg-[#F7F6FD] py-10">
+      <div className="container">
+        <h2 className="text-[45px] m:text-[45px] text-[#333333] font-bold text-center  pb-7 max-w-[900px] mx-auto">
+        {t("remoteSimultaneous_Title")}{" "}
+        </h2>
+        <p className="text-base text-center sm:text-3xl text-[#C1C1C1] font-medium py-1 mb-7">
               {t("remoteSimultaneous_SubTitle")}{" "}
             </p>
-            <div className="max-w-[765px] mx-auto lg:mx-0">
-              {data.map((item, index) => {
-                return (
-                  <div key={index}>
-                    <li className="py-1">{item.listText}</li>
-                  </div>
-                );
-              })}
-            </div>
-            <div className="mt-10">
-              <Link href={slug}>
-                <Button
-                  text={t("remoteSimultaneous_Btn")}
-                  color={"white"}
-                  backgroundColor={"#8624E1"}
-                  minWidth={undefined}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-x-2 gap-y-3 py-10">
+          {cards.map((item, index) => {
+            return (
+              <div
+                className="px-2 py-10 rounded-xl relative"
+                key={index}
+              >
+                <div
+                  className={`text-4xl rounded-full w-20 h-20 mx-auto px-2 py-3 text-center`}
+                  
+                >
+                  <div className="icon-container"> 
+                  <Image
+                  className="min-h-[120px] mx-auto flex justify-center pb-4"
+                  src={item.img}
+                  alt={"images"}
+                  width={70}
+                  height={70}
                 />
-              </Link>
-            </div>
-          </div>
-          <div className="xl:min-w-[750px] pt-20 sm:pt-0">
-            <Image
-              className="lg:h-[800px]"
-              src={"/herolaptop.png"}
-              alt="laptop"
-              width={1000}
-              height={0}
-            />
-          </div>
+                  </div>
+                </div>
+                <h3 className="text-lg text-[#333333] text-center font-bold pt-8 pb-3">
+                  {item.heading}
+                </h3>
+                <p className="text-base text-[#666666] sm:max-w-[250px] mx-auto text-center">
+                  {item.para}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-1 gap-y-2 py-10 mx-auto max-w-[fit-content]">
+          {cards1.map((item, index) => {
+            return (
+              <div
+                className="py-10 px-2 rounded-xl relative"
+                key={index}
+              >
+                <div
+                  className={`text-4xl rounded-full w-20 h-20 mx-auto px-2 py-3 text-center`}
+                  
+                >
+                  <div className="icon-container"> 
+                  <Image
+                  className="min-h-[120px] mx-auto flex justify-center pb-4"
+                  src={item.img}
+                  alt={"images"}
+                  width={70}
+                  height={70}
+                />
+                  </div>
+                </div>
+                <h3 className="text-lg text-[#333333] text-center font-bold pt-8 pb-3">
+                  {item.heading}
+                </h3>
+                <p className="text-base text-[#666666] sm:max-w-[250px] mx-auto text-center">
+                  {item.para}
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
   );
 };
 
-export default Interpretazione;
+export default Interpretazione1;

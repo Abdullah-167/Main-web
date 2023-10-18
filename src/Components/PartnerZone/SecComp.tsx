@@ -1,6 +1,7 @@
 
-import Button from '../Button'
 import useTranslation from '@/hooks/useTranslation'
+import Button from '../Button'
+import Image from 'next/image'
 
 const SecComp = () => {
 
@@ -33,18 +34,22 @@ const SecComp = () => {
             {cards.map((item, index) => {
               return (
                 <div className='cards-shadow px-5 py-8 my-5 text-[#A8A8A8] rounded' key={index}>
-                  <h2 className='text-[#F88590] font-semibold text-base pb-3'>{item.heading}</h2>
+                  <h4 className='text-[#8300e9] font-semibold text-base pb-3'>{item.heading}</h4>
                   <p className='pb-4'>{item.para}</p>
                 </div>
               )
             })}
           </div>
-          <div>
-            <iframe title='rafiky' className="w-[829px] h-[466px] rounded-md mt-5 mb-12" loading='lazy' src="https://www.youtube.com/embed/KCgEhNeVhUc" />
-            <span>
-              <Button text={t('zonessDifference_Btn')} color={'white'} backgroundColor={'#8300E9'} minWidth={'300px'} />
-            </span>
-          </div>
+          <div className="min-w-full lg:min-w-[700px] flex justify-between items-center">
+          <Image
+          className="rounded-3xl"
+            loading="lazy"
+            src={"/network.jpg"}
+            alt={t("alt_img_advantages")}
+            width={1000}
+            height={0}
+          />
+        </div>
         </div>
       </div>
     </div>

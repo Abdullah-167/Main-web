@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import Button from "../Button";
+import GetLocale from "@/hooks/getLocale";
 import useTranslation from "@/hooks/useTranslation";
 import axios from "axios";
 import { useRouter } from "next-translate-routes/router";
-import GetLocale from "@/hooks/getLocale";
+import React, { useState } from "react";
 import PinkBg from "../../../public/pink.png";
+import Button from "../Button";
 interface FormData {
   [key: string]: string;
 }
@@ -14,14 +14,15 @@ const RequestDemoForm = () => {
   const router = useRouter();
   const slug =
     locale === "en"
-      ? "/en/thank-you"
+      ? "/en/thank-you-en"
       : locale === "de"
-      ? "/de/danke"
+        ? "/de/thank-you-de"
       : locale === "fr"
-      ? "/fr/merci"
+          ? "/fr/thank-you-fr"
       : locale === "it"
-      ? "/grazie"
-      : "/en/thank-you";
+            ? "/thank-you-it"
+      : "/en/thank-you-en";
+      
   const [formData, setFormData] = useState<FormData>({
     "your-name": "",
     "your-email": "",
@@ -51,7 +52,7 @@ const RequestDemoForm = () => {
 
       axios
         .post(
-          "https://manuelm83.sg-host.com/wp-json/contact-form-7/v1/contact-forms/68/feedback",
+          "https://manuelm83.sg-host.com/wp-json/contact-form-7/v1/contact-forms/22010/feedback",
           formDataToSend
         )
         .then(() => {
@@ -122,7 +123,7 @@ const RequestDemoForm = () => {
         backgroundImage: `url(${PinkBg.src})`,
       }}
     >
-      <div className="max-w-[800px] mx-auto py-20">
+      <div className="max-w-[800px] mx-auto pb-20">
         <h2 className="text-4xl font-bold mb-12 text-white text-center">
           {t("homeForm_heading")}
         </h2>

@@ -19,7 +19,7 @@ const Summary = () => {
             text: t("cookiePolicy_ThirdTitle"),
         },
         {
-            text:  t("cookiePolicy_ThirdTitlepara"),
+            text: t("cookiePolicy_ThirdTitlepara"),
         },
         {
             text: t("typesCategory_Title"),

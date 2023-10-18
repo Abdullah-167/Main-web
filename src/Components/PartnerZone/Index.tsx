@@ -1,9 +1,8 @@
-
-import Home from './Home'
-import SecComp from './SecComp'
-import CardsSec from './CardsSec'
-import SecCard from './SecCard'
-import BgPronto from '../BgPronto'
+import Home from "./Home";
+import SecComp from "./SecComp";
+import CardsSec from "./CardsSec";
+import SecCard from "./SecCard";
+import BgPronto from "../BgPronto";
 
 const Index = () => {
   return (
@@ -11,10 +10,10 @@ const Index = () => {
       <Home />
       <SecComp />
       <CardsSec />
-      <SecCard display={'flex'} />
+      <SecCard />
       <BgPronto />
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

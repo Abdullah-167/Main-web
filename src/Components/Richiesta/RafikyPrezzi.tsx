@@ -1,6 +1,7 @@
 
-import Button from '../Button'
 import useTranslation from '@/hooks/useTranslation';
+import { Link } from 'next-translate-routes';
+import Button from '../Button';
 
 const RafikyPrezzi = () => {
 
@@ -25,7 +26,7 @@ const RafikyPrezzi = () => {
             priceText: '/al Mese',
             text:  t("rafikyPrices_Seccardpara"),
             text2: t("rafikyPrices_Seccardpara"),
-            btnText: 'Buy Now',
+            btnText: t("rafikyPrices_FirstcardBtn"),
             color: '#8b20bb',
             shadow: '0px 2px 40px 0px rgba(0,0,0,0.18)'
         }, {
@@ -35,7 +36,7 @@ const RafikyPrezzi = () => {
             priceText: '/al Mese',
             text:  t("rafikyPrices_Thirdcardpara"),
             text2:  t("rafikyPrices_Thirdcardpara"),
-            btnText: 'Buy Now',
+            btnText: t("rafikyPrices_FirstcardBtn"),
             color: '#c532c9',
             shadow: '0px 2px 18px 0px rgba(0,0,0,0.3'
         },
@@ -58,7 +59,9 @@ const RafikyPrezzi = () => {
                                 <p className='text-xl sm:text-2xl text-[#666666] font-semibold pb-3'>{item.text}</p>
                                 <p className='text-xl sm:text-2xl text-[#666666] font-semibold pb-10'>{item.text2}</p>
                                 <span className='flex justify-center'>
-                                    <Button text={item.btnText} color={'white'} backgroundColor={'#8300E9'} minWidth={undefined} />
+                                    <Link href={'/contattaci'}>
+                                        <Button text={item.btnText} color={'white'} backgroundColor={'#8300E9'} minWidth={undefined} />
+                                    </Link>
                                 </span>
                             </div>
                         )

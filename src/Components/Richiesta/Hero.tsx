@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import BgImage from "../../../public/frame3.png";
-import Slider from "rc-slider";
-import Button from "../Button";
+import GetLocale from "@/hooks/getLocale";
 import useTranslation from "@/hooks/useTranslation";
 import axios from "axios";
 import { useRouter } from "next-translate-routes/router";
-import GetLocale from "@/hooks/getLocale";
+import Slider from "rc-slider";
+import React, { useState } from "react";
+import BgImage from "../../../public/frame3.webp";
+import Button from "../Button";
 interface FormData {
   [key: string]: string;
 }
@@ -16,14 +16,14 @@ const Hero = () => {
 
   const slug =
     locale === "en"
-      ? "/en/thank-you"
-      : locale === "de"
-      ? "/de/danke"
+      ? "/en/thank-you-en"
+      : locale === "de" 
+        ? "/de/thank-you-de"
       : locale === "fr"
-      ? "/fr/merci"
+          ? "/fr/thank-you-fr"
       : locale === "it"
-      ? "/grazie"
-      : "/en/thank-you";
+            ? "/thank-you-it"
+      : "/en/thank-you-en";
 
   const [interpreters, setInterpreters] = useState(false);
   const [next, setNext] = useState(false);
@@ -84,7 +84,7 @@ const Hero = () => {
       formDataToSend.set("languages", String(data[2].value));
       axios
         .post(
-          "https://manuelm83.sg-host.com/wp-json/contact-form-7/v1/contact-forms/69/feedback",
+          "https://manuelm83.sg-host.com/wp-json/contact-form-7/v1/contact-forms/22011/feedback",
           formDataToSend
         )
         .then(() => {
@@ -165,12 +165,12 @@ const Hero = () => {
       <div className="container relative">
         <div className="pb-14">
           <div>
-            <h2 className="text-3xl sm:text-6xl md:text-[79px] text-white font-bold mx-auto max-w-[1060px] text-center leading-[1.2em] pb-5 sm:pb-12">
+            <h1 className="text-3xl sm:text-6xl md:text-[79px] text-white font-bold mx-auto max-w-[1060px] text-center leading-[1.2em] pb-5 sm:pb-12">
               {t("estimateRates_Heading")}
-            </h2>
-            <h3 className="text-base sm:text-[26px] font-medium text-white text-center max-w-[800px] mx-auto leading-10 pb-10">
+            </h1>
+            <p className="text-base sm:text-[26px] font-medium text-white text-center max-w-[800px] mx-auto leading-10 pb-10">
               {t("estimateRates_para")}
-            </h3>
+            </p>
           </div>
         </div>
 

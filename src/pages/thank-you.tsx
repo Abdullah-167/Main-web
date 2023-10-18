@@ -9,12 +9,15 @@ const ThankYou = () => {
   const locale = GetLocale();
   return (
     <Layout>
-      <Seo title="Rafiky" description={``} />
+      <Seo
+        title={t("thankYou_pageTitle")}
+        description={t("ThankYou_pageDesc")}
+      />
       <div className="flex items-center justify-center h-screen">
         <div className="p-4 rounded shadow-lg ring ring-indigo-600/50">
           <div className="flex flex-col items-center space-y-2">
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="https://www.w3.org/2000/svg"
               className="text-green-600 w-28 h-28"
               fill="none"
               viewBox="0 0 24 24"
@@ -31,7 +34,7 @@ const ThankYou = () => {
             <p>{t("thankYouDesc")}</p>
             <a className="inline-flex items-center px-4 py-2 text-white bg-indigo-600 border border-indigo-600 rounded rounded-full hover:bg-indigo-700 focus:outline-none focus:ring">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.w3.org/2000/svg"
                 className="w-3 h-3 mr-2"
                 fill="none"
                 viewBox="0 0 24 24"

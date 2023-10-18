@@ -6,7 +6,7 @@ import { AiOutlineTwitter } from 'react-icons/ai';
 import { GrLinkedinOption } from 'react-icons/gr';
 import { IoLogoInstagram } from 'react-icons/io5';
 import { BsYoutube } from 'react-icons/bs';
-import BgImage from '../../../public/frame3.png'
+import BgImage from '../../../public/frame3.webp'
 
 
 const Pronto = () => {

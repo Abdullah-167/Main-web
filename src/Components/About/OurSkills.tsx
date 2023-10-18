@@ -1,9 +1,9 @@
-import Button from "../Button";
-import Image from "next/image";
-import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
+import useTranslation from "@/hooks/useTranslation";
 import { freeQuoteSlug } from "@/utils";
 import Link from "next-translate-routes/link";
+import Image from "next/image";
+import Button from "../Button";
 const OurSkills = () => {
   const { t } = useTranslation();
   const locale = GetLocale();
@@ -21,6 +21,11 @@ const OurSkills = () => {
       icon: "/monitor.svg",
     },
     {
+      title: t("doBest_ThirdSubHeading"),
+      para: t('teamsIntegration_Sixthcard_para'),
+      icon: "/x5.svg",
+    },
+    {
       title: t("ourSkills_ThirdCardHeading"),
       para: t("ourSkills_ThirdCardDescription"),
       icon: "/avatar.svg",
@@ -30,6 +35,11 @@ const OurSkills = () => {
       para: t("ourSkills_ForthCardHeadingDescription"),
       icon: "/analytics.svg",
     },
+    {
+      title: t("ourSkills_SixthCardHeading"),
+      para: t("ourSkills_SixthCardDescription"),
+      icon: "/piggy-bank-icon.svg",
+    },
   ];
   return (
     <div className="bg-[#fdfdfd]">
@@ -38,7 +48,7 @@ const OurSkills = () => {
           <h2 className="text-3xl md:text-5xl font-bold text-[#333] pb-5 small:pb-0 text-center mb-16">
             {t("ourSkills_Heading")}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto sm:mx-0 sm:max-w-full mb-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto sm:mx-0 sm:max-w-full mb-10">
             {skillset.map((item, index) => {
               return (
                 <div
@@ -46,11 +56,12 @@ const OurSkills = () => {
                   className="hover-animate rounded mb-9 px-5 sm:px-8 lg:px-8 py-8 "
                 >
                   <Image
+                    loading="lazy"
                     className=" mx-auto pb-4"
                     src={item.icon}
                     alt=""
                     width={60}
-                    height={30}
+                    height={76}
                   />
                   <h3 className="text-lg 2xl:text-xl font-bold text-[#333] text-center pb-6">
                     {item.title}

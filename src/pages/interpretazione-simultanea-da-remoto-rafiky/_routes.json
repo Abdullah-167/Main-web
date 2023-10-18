@@ -1,6 +1,6 @@
 {
     "/": {
-        "it": "interpretazione-simultanea-da-remoto-rafiky",
+        "it": "interpretazione-da-remoto-rafiky-connect",
         "en": "remote-simultaneous-interpretation-rafiky",
         "fr": "interprétation-simultanée-à-distance-rafiky",
         "de": "fernsimultandolmetschen-rafiky"
@@ -15,7 +15,7 @@
         "it": "interpretariato-in-lingua-dei-segni-new",
         "en": "new-sign-language-interpreting",
         "fr": "nouvelle-interprétation-en-langue-des-signes",
-        "de": "dolmetschen-in-der-neuen-gebärdensprache"
+        "de": "dolmetschen-in-der-neuen-gebardensprache"
     },
     "interpreti-a-distanza": {
         "it": "interpreti-a-distanza",
@@ -28,5 +28,17 @@
         "en": "rafiky-xp",
         "fr": "rafiky-xp",
         "de": "rafiky-xp"
+    },
+    "rafiky-integration":{
+        "it": "rafiky-integration",
+        "en": "rafiky-integration",
+        "fr": "rafiky-integration",
+        "de": "rafiky-integration"
+    },
+    "rafiky-services-intermediate-page-duplicate":{
+        "it": "rafiky-services-intermediate-page-duplicate",
+        "en": "rafiky-services-intermediate-page-duplicate",
+        "fr": "rafiky-services-intermediate-page-duplicate",
+        "de": "rafiky-services-intermediate-page-duplicate"
     }
 }

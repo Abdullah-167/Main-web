@@ -1,7 +1,7 @@
-import Image from 'next/image'
 
-import Button from '../Button'
-import useTranslation from '@/hooks/useTranslation'
+import useTranslation from '@/hooks/useTranslation';
+import { Link } from 'next-translate-routes';
+import Button from '../Button';
 
 const Vedio = () => {
 
@@ -27,14 +27,16 @@ const Vedio = () => {
                             {data.map((item, index) => {
                                 return (
                                     <div className='lg:min-w-[550px]' key={index}>
-                                        <h3 className='text-[#FCA497] text-[35px] sm:text-[45px] font-bold'>{item.heading}</h3>
+                                        <h2 className='text-white text-[35px] sm:text-[45px] font-bold'>{item.heading}</h2>
                                         <p className='text-base font-medium text-white pbF-4 lg:max-w-[750px] py-3 leading-9'>{item.para}</p>
                                     </div>
                                 )
                             })}
                         </div>
                         <div>
-                            <Button text={t('solidNetwork_Btn')} color={'black'} backgroundColor={'white'} minWidth={undefined} />
+                            <Link href={'/come-funziona'}>
+                                <Button text={t('solidNetwork_Btn')} color={'black'} backgroundColor={'white'} minWidth={undefined} />
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -57,7 +57,7 @@ const PercheCards = () => {
         {
             icon: <AiOutlineMobile />,
             heading: t('chooseRafiky_Seventhcard_Heading'),
-            para:  t('chooseRafiky_Seventhcard_para'),
+            para: t('chooseRafiky_Seventhcard_para'),
             bgColor: 'rgba(247,103,180,0.3)',
             color: '#f767b4'
         },
@@ -91,9 +91,9 @@ const PercheCards = () => {
                                 >
                                     <div className="icon-container"> {item.icon} </div>
                                 </div>
-                                <h2 className='text-lg text-[#333333] text-center font-bold pt-8 pb-3'>
+                                <h3 className='text-lg text-[#333333] text-center font-bold pt-8 pb-3'>
                                     {item.heading}
-                                </h2>
+                                </h3>
                                 <p className='text-base text-[#666666] max-w-[250px] mx-auto text-center'>
                                     {item.para}
                                 </p>

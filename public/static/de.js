@@ -1,56 +1,89 @@
 export const de = {
-
   // Seo Metatags
 
   homeMetaTitle: "Ferndolmetschen 2023 | Dolmetscheragentur in Milan | Rafiky",
-  homeMetaDescription: "Ferndolmetscherdienste in Mailand 2023 verfügbar. Eine Dolmetscheragentur mit über 200 Sprachen. Besuchen Sie die Website von Rafiky für weitere Informationen.",
+  homeMetaDescription:
+    "Ferndolmetscherdienste in Mailand 2023 verfügbar. Eine Dolmetscheragentur mit über 200 Sprachen. Besuchen Sie die Website von Rafiky für weitere Informationen.",
   servicesMetaTitle: "Fernsimultandolmetschen | Rafiky: Online-Veranstaltungen",
-  servicesMetaDescription: "Fernsimultandolmetschen für Ihre virtuellen Veranstaltungen | Die beste Plattform für Online-Veranstaltungen mit Fernübersetzer!",
-  microsoftTeamsMetaTitle: "Rafiky Integration mit Microsoft Teams (NEU) - Rafiky",
-  microsoftTeamsMetaDescription: "Organisieren Sie eine Online-Konferenz auf Microsoft Teams, ohne dass Dolmetscher benötigt werden? Entdecken Sie die Integration von Microsoft Teams auf Rafiky.",
+  servicesMetaDescription:
+    "Fernsimultandolmetschen für Ihre virtuellen Veranstaltungen | Die beste Plattform für Online-Veranstaltungen mit Fernübersetzer!",
+  microsoftTeamsMetaTitle:
+    "Rafiky Integration mit Microsoft Teams (NEU) - Rafiky",
+  microsoftTeamsMetaDescription:
+    "Organisieren Sie eine Online-Konferenz auf Microsoft Teams, ohne dass Dolmetscher benötigt werden? Entdecken Sie die Integration von Microsoft Teams auf Rafiky.",
   signLanguageMetaTitle: "Rafiky | Gebärdensprachdolmetschen & Plattform",
-  signLanguageMetaDescription: "Machen Sie Ihre Veranstaltung noch zugänglicher mit dem exklusiven Gebärdensprachdolmetscherservice von Rafiky!",
-  remoteInterpretersMetaTitle: "Professionelle Dolmetscher aus der Ferne - Rafiky stellt Dolmetscher für über 200 Sprachen ein!",
-  remoteInterpretersMetaDescription: "Professionelle Ferndolmetscher für Veranstaltungen...? Kontaktieren Sie uns, um Ihren Beruf als Ferndolmetscher mit uns auszuüben!",
+  signLanguageMetaDescription:
+    "Machen Sie Ihre Veranstaltung noch zugänglicher mit dem exklusiven Gebärdensprachdolmetscherservice von Rafiky!",
+  remoteInterpretersMetaTitle:
+    "Professionelle Dolmetscher aus der Ferne - Rafiky stellt Dolmetscher für über 200 Sprachen ein!",
+  remoteInterpretersMetaDescription:
+    "Professionelle Ferndolmetscher für Veranstaltungen...? Kontaktieren Sie uns, um Ihren Beruf als Ferndolmetscher mit uns auszuüben!",
   rafikyXpMetaTitle: "Ferndolmetscherdienst - Rafiky XP",
-  rafikyXpMetaDescription: "Als Ferndolmetscheragentur kümmern wir uns um das komplette Management Ihrer Online-Veranstaltung und begleiten Sie in jeder Phase des Projekts.",
-  aboutUsMetaTitle: "Simultanes Ferndolmetschen - Rafiky | Über uns | RSI Agentur",
-  aboutUsMetaDescription: "Treten Sie ein in die Welt des Simultanferndolmetschens! Mit Rafiky jede virtuelle Veranstaltung | Bewerben Sie sich bei uns!",
-  howDoesItWorkMetaTile: "Online-Ferndolmetschen 2023 | Organisieren Sie Online-Veranstaltungen mit Dolmetschern",
-  howDoesItWorkMetaDescription: "Wie funktioniert das Online-Dolmetschen? Rafiky bietet den besten Ferndolmetscherservice für Veranstaltungen mit Online-Dolmetschern. Besuchen Sie die Website!",
-  useCasesMetaTitle: "Ferndolmetschen | Rafiky Use Cases - Erfolgreiche Konferenzen",
-  useCasesMetaDescription: "Rafiky ist die international beste Plattform für Ferndolmetschen! Die Fakten sprechen für sich: Unternehmen, die sich für...",
-  contactUsMetaTitle: "Rafiky Kontakte | Organisieren Sie Ihre virtuelle Veranstaltung mit Dolmetschern",
-  contactUsMetaDescription: "Rafiky Contacts - Rafiky Telefonnummer: +39 0282950332 - Rafiky E-Mail: info@rafiky.net | Hauptsitz: Viale Fulvio Testi, 59 Mailand 20092 Italien",
+  rafikyXpMetaDescription:
+    "Als Ferndolmetscheragentur kümmern wir uns um das komplette Management Ihrer Online-Veranstaltung und begleiten Sie in jeder Phase des Projekts.",
+  appointment_title: "Lernen Sie uns kennen",
+  aboutUsMetaTitle:
+    "Simultanes Ferndolmetschen - Rafiky | Über uns | RSI Agentur",
+  aboutUsMetaDescription:
+    "Treten Sie ein in die Welt des Simultanferndolmetschens! Mit Rafiky jede virtuelle Veranstaltung | Bewerben Sie sich bei uns!",
+  appointment_salesDescription: "Jede Veranstaltung ist einzigartig. Vereinbaren Sie einen kurzen 15-minütigen Chat mit uns, um sich in Ihr bevorstehendes Ereignis zu vertiefen und herauszufinden, wie wir eine maßgeschneiderte Lösung erstellen können, und erhalten Sie ein Angebot, das perfekt auf Ihre speziellen Anforderungen zugeschnitten ist.",
+  howDoesItWorkMetaTile: "Online-Ferndolmetschen 2023",
+  howDoesItWorkMetaDescription:
+    "Wie funktioniert das Online-Dolmetschen? Rafiky bietet den besten Ferndolmetscherservice für Veranstaltungen mit Online-Dolmetschern. Besuchen Sie die Website!",
+  useCasesMetaTitle:
+    "Ferndolmetschen | Rafiky Use Cases - Erfolgreiche Konferenzen",
+  useCasesMetaDescription:
+    "Rafiky ist die international beste Plattform für Ferndolmetschen! Die Fakten sprechen für sich: Unternehmen, die sich für...",
+  contactUsMetaTitle:
+    "Rafiky Kontakte | Organisieren Sie Ihre virtuelle Veranstaltung mit Dolmetschern",
+  contactUsMetaDescription:
+    "Rafiky Contacts - Rafiky Telefonnummer: +39 0282950332 - Rafiky E-Mail: info@rafiky.net | Hauptsitz: Viale Fulvio Testi, 59 Mailand 20092 Italien",
   blogMetaTitle: "Blog DE - Rafiky",
-  blogMetaDescription: "Erfahren Sie unsere neuesten Nachrichten zum Thema Ferndolmetschen! Informieren Sie sich über die neuesten Nachrichten für Ihr Ferndolmetschereignis.",
-  FAQMetaTitle: "RAFIKY FAQ",
-  FAQMetaDescription: "Alle Antworten auf Ihre Fragen zum Ferndolmetschen. Alles, was Sie für Ihre mehrsprachige Online-Veranstaltung brauchen!",
-  partnerZoneMetaTitle: "Partner Zone - Rafiky",
-  partnerZoneMetaDescription: "Werden Sie Teil unseres Netzwerks von etablierten professionellen Dolmetschern, Sprachdienstleistern, Veranstaltungsagenturen und Verleihern von Audio-/Videotechnik.",
+  blogMetaDescription:
+    "Erfahren Sie unsere neuesten Nachrichten zum Thema Ferndolmetschen! Informieren Sie sich über die neuesten Nachrichten für Ihr Ferndolmetschereignis.",
+  FAQMetaTitle: "Rafiky FAQ - Häufig gestellte Fragen zu Rafiky",
+  faqAppmetaDes: 'Rafiky App FAQ - Häufig gestellte Fragen zu Rafiky',
+  faqAppMetatitle: 'Jede Antwort auf Ihre App-Fragen zur Fernübersetzung. Alles, was Sie für Ihr mehrsprachiges Online-Event benötigen!',
+  FAQMetaDescription:
+    "Alle Antworten auf Ihre Fragen zum Ferndolmetschen. Alles, was Sie für Ihre mehrsprachige Online-Veranstaltung brauchen!",
+  partnerZoneMetaTitle: "Zona-Partner - Rafiky",
+  partnerZoneMetaDescription:
+    "Werden Sie Teil unseres Netzwerks von etablierten professionellen Dolmetschern, Sprachdienstleistern, Veranstaltungsagenturen und Verleihern von Audio-/Videotechnik.",
   equipmentPartnerMetaTitle: "Dolmetschertechnikverleih - Rafiky",
-  equipmentPartnerMetaDescription: "Dolmetschertechnikverleih - Sind Sie eine Agentur für den Verleih von Veranstaltungstechnik? Dolmetschertechnik-Verleih",
+  equipmentPartnerMetaDescription:
+    "Dolmetschertechnikverleih - Sind Sie eine Agentur für den Verleih von Veranstaltungstechnik? Dolmetschertechnik-Verleih",
   agencyPartnerMetaTitle: "Ferndolmetscher für Übersetzungsbüros | Rafiky",
-  agencyPartnerMetaDescription: "Ferndolmetscher für Übersetzungsbüros | Die beste Software für Ferndolmetschen: or.... Fordern Sie noch heute ein Angebot an!",
-  allLanguagesMetaTitle: "Dolmetschen in allen Sprachen | Rafiky - Erfolgreiche Konferenzen",
-  allLanguagesMetaDescription: "Bei Rafiky finden Sie Dolmetscherdienste in allen Sprachen. Finden Sie heraus, wie Sie Zugang zu einem Team von Dolmetschern in allen Sprachen und LIS erhalten!",
-  englishUKMetaTitle: "Englisch-Dolmetschen | Englisch-Italienisch-Dolmetscher | Rafiky",
-  englishUKMetaDescription: "Rafiky ist die beste Plattform für Englisch-Dolmetschen! Entdecken Sie unseren Ferndolmetscherservice für Englisch!",
-  englishUSMetaTitle: "Englisch-Dolmetschen | Englisch-Italienisch-Dolmetscher | Rafiky",
-  englishUSMetaDescription: "Rafiky ist die beste Plattform für Englischdolmetschen! Entdecken Sie unseren Ferndolmetscherservice für Englisch!",
+  agencyPartnerMetaDescription:
+    "Ferndolmetscher für Übersetzungsbüros | Die beste Software für Ferndolmetschen: or.... Fordern Sie noch heute ein Angebot an!",
+  allLanguagesMetaTitle:
+    "Dolmetschen in allen Sprachen | Rafiky - Erfolgreiche Konferenzen",
+  allLanguagesMetaDescription:
+    "Bei Rafiky finden Sie Dolmetscherdienste in allen Sprachen. Finden Sie heraus, wie Sie Zugang zu einem Team von Dolmetschern in allen Sprachen und LIS erhalten!",
+  englishUKMetaTitle:
+    "Englisches UK-Dolmetschen | Englisch-Italienisch-Dolmetscher | Rafiky",
+  englishUKMetaDescription:
+    "Rafiky ist die beste Plattform für British Englisch-Dolmetschen! Entdecken Sie unseren Ferndolmetscherservice für Englisch!",
+  englishUSMetaTitle:
+    "Englisch-Dolmetschen | Englisch-Italienisch-Dolmetscher | Rafiky",
+  englishUSMetaDescription:
+    "Rafiky ist die beste Plattform für Englischdolmetschen! Entdecken Sie unseren Ferndolmetscherservice für Englisch!",
   spanishMetaTitle: "Spanisch-Dolmetschen | Ferndolmetscher | Rafiky",
-  spanishMetaDescription: "Wählen Sie Rafiky, wenn Sie die beste Dolmetscheragentur für Spanisch testen möchten. Finden Sie den richtigen Spanisch-Dolmetscher für Sie!",
+  spanishMetaDescription:
+    "Wählen Sie Rafiky, wenn Sie die beste Dolmetscheragentur für Spanisch testen möchten. Finden Sie den richtigen Spanisch-Dolmetscher für Sie!",
   frenchMetaTitle: "Französisch-Dolmetschen | Ferndolmetschen | Rafiky",
-  frenchMetaDescription: "Wählen Sie Rafiky für das Dolmetschen in Französisch. Bei uns finden Sie den professionellen Dolmetscher Ihrer Wahl für Italienisch-Französisch!",
+  frenchMetaDescription:
+    "Wählen Sie Rafiky für das Dolmetschen in Französisch. Bei uns finden Sie den professionellen Dolmetscher Ihrer Wahl für Italienisch-Französisch!",
   chineseMetaTitle: "Chinesisch Dolmetschen | Ferndolmetscher | Rafiky",
-  chineseMetaDescription: "Rafiky, das richtige Übersetzungsbüro für Ihr Unternehmen, bietet Ihnen Chinesisch-Dolmetschen und Chinesisch-Italienisch-Dolmetschen!",
+  chineseMetaDescription:
+    "Rafiky, das richtige Übersetzungsbüro für Ihr Unternehmen, bietet Ihnen Chinesisch-Dolmetschen und Chinesisch-Italienisch-Dolmetschen!",
   russianMetaTitle: "Russisch-Dolmetschen | Rafiky - Erfolgreiche Konferenzen",
-  russianMetaDescription: "Sie suchen einen Dolmetscherservice für Russisch? Bei Rafiky finden Sie den richtigen Russisch-Dolmetscher für Ihr Unternehmen, schnell und effizient!",
-  quoteMetaTitle: "Rafiky Angebot - Rafiky Dienstleistungspreise - Rafiky Sofortangebot",
-  quoteMetaDescription: "Rafiky quote | Rafiky service prices: Holen Sie sich ein sofortiges Angebot oder melden Sie sich an, mit unseren super günstigen Preisen",
+  russianMetaDescription:
+    "Sie suchen einen Dolmetscherservice für Russisch? Bei Rafiky finden Sie den richtigen Russisch-Dolmetscher für Ihr Unternehmen, schnell und effizient!",
+  quoteMetaTitle: "Rafiky-Angebot – Rafiky-Servicepreise",
+  quoteMetaDescription:
+    "Rafiky quote | Rafiky service prices: Holen Sie sich ein sofortiges Angebot oder melden Sie sich an, mit unseren super günstigen Preisen",
 
-      // Minin Nav
-
+  // Minin Nav
 
   partnerZone: "Partner-Zone",
   partnerZoneIneerFirst: "Ausrüstungsverleih-Unternehmen",
@@ -64,13 +97,13 @@ export const de = {
   interpretioSix: "Dolmetschen auf Russisch",
   pricing: "Kostenvoranschlag - Tarife",
   reuqestDemo: "Eine Demo anfordern",
-  ourTeam:"Unser Team",
-  Veronica:"Dolmetscherprojektmanager",
-  Miriam:"Dolmetscherprojektmanager",
-  Chiara:"Account Manager",
-  Gaia:"Eventplaner",
-  Paolo:"Senior Account Manager",
-  Jim:"Technischer Support-Manager",
+  ourTeam: "Unser Team",
+  Veronica: "Dolmetscherprojektmanager",
+  Miriam: "Dolmetscherprojektmanager",
+  Chiara: "Account Manager",
+  Gaia: "Eventplaner",
+  Maria: "Quality Manager",
+  Jim: "Technischer Support-Manager",
   // Navbar
 
   servizi: "Dienstleistungen",
@@ -86,8 +119,13 @@ export const de = {
   blog: "Blog",
   faq: "FAQ",
 
-  //Footer
-
+  //Footer INTEGRATION
+  footer_section1Title: "Ferninterpretation",
+  footer_section1: "Revolutionieren der Welt durch simultane Fernübersetzung.",
+  footer_section2Title: "Unternehmen",
+  footer_section2: "Unser Team verfügt über mehr als 10 Jahre Erfahrung in der Eventplanung. Wir kümmern uns um jedes Detail.",
+  Subscribe: "Erfolgreich abonniert",
+  happyTeam: "Unser Team beantwortet gerne Ihre Anfragen. Füllen Sie das Formular aus und wir werden uns in 15 Minuten bei Ihnen melden!",
   appStore: "Aus dem App Store herunterladen",
   playStore: "Aus dem Play Store herunterladen",
   pages: "Seiten",
@@ -100,7 +138,7 @@ export const de = {
   offices: "Büros",
 
   captcha:
-    "@2023 Rafiky. Diese Website wird durch reCAPTCHA und die Google-Datenschutzrichtlinie und Nutzungsbedingungen geschützt.",
+    "Copyright © 2023 Rafiky. Alle Rechte vorbehalten",
   terms: "Allgemeine Geschäftsbedingungen",
   privacy: " Datenschutz-Bestimmungen",
   cookie: "Cookie-Richtlinie",
@@ -120,10 +158,32 @@ export const de = {
   home_HeroFirstBtn: `Ein Angebot bekommen`,
   home_HeroSecBtn: `Eine Demo anfordern`,
   reuqest_demo_link: "eine-demo-anfordern",
+  talk_to_sales: "Verkaufsgespräch-führen",
+
+  scorpiHeading: `Weitere Informationen`,
+  scorpiParaOne: `Rafiky ermöglicht es Ihnen, Audio an alle Teilnehmer zu streamen, unabhängig von ihrem Land und wie viele Sprachen sie benötigen.`,
+  scorpiParaTwo: `Sie müssen den Dolmetschdienst nicht im Voraus buchen: Dank der simultanen Fernübersetzung können Sie einfach die zu übersetzenden Sprachen auswählen und in wenigen Stunden eine Pressekonferenz organisieren.`,
+  scorpiParaThree: `Wir können Ihnen dabei helfen, dieses Problem zu beheben. Mit Rafiky können Sie gleichzeitig in mehreren Sprachen übersetzen, während Ihr Webinar-Video weiterläuft!`,
+  scorpiParaFour: `Alles, was der Trainer/Präsentator benötigt, ist ein Laptop und ein USB-Mikrofon. Es muss keine Ausrüstung installiert werden, da die Teilnehmer den Dolmetscher über ihre eigenen Smart-Geräte hören.`,
+  scorpiParaFive: `Mit Rafiky können Sie Ihre Meetings bequem von Ihrem Hauptquartier aus organisieren, und jeder kann remote teilnehmen. Wenn Vorstandsmitglieder keine gemeinsame Sprache teilen oder sich unwohl fühlen, eine Fremdsprache zu sprechen, ist die Rafiky-Plattform eine ausgezeichnete Lösung, um die Kommunikation zu erleichtern und Vertrauen aufzubauen. Es nehmen keine Stände wertvollen Platz ein, und keine Dolmetscher müssen im Raum präsent sein, was dem Meeting einen privateren und vertraulicheren Charakter verleiht.`,
+  scorpiParaSix: `Müssen Sie an einer Messe im Ausland teilnehmen oder eine Ausstellung veranstalten? Rafiky ist die funktionalste und platzsparendste Lösung für diese Art von Bedarf!`,
+  scorpiParaSeven: `Die Rafiky-App kann auch für kleinere Zielgruppen verwendet werden, beispielsweise im Museumssektor und für Führungen. Stellen Sie sich vor, wie einfach es sein könnte, mehrsprachige Gruppen von Menschen zu führen, ohne befürchten zu müssen, dass sich jemand ausgeschlossen fühlt!`,
+  scorpiParaEight: `Einfach durch die Verbindung zur Plattform können Sie mit Rafiky an einer Messe in einem fremden Land teilnehmen oder eine Ausstellung veranstalten.`,
+
+
   //What Rafiky
   whatRafiky_Headign: `What is Rafiky?`,
   whatRafiky_para: `Rafiky ist eine äußerst flexible und zugängliche Cloud-Plattform für die Simultanübersetzung für jede Art von mehrsprachigen Online-Kongresskonferenzen oder -Meetings. Eine innovative und in vielerlei Hinsicht revolutionäre Vision des Ferndolmetschens, die es professionellen Dolmetschern ermöglicht, jederzeit und überall zu arbeiten. Suchen Sie einen Ferndolmetscher für Ihre Meetings? Vertrauen Sie dem Rafiky-Service!`,
   whatRafiky_Btn: `FORDERN SIE EIN ANGEBOT AN`,
+  card_heading: "DIE HERAUSFORDERUNG",
+  interpretationServices_HeadingItalin: `Dolmetscherdienste in Russisch und Lis`,
+  interpretationServices_HeadingEnglish: `Dolmetscherdienste in Englisch und Englisch`,
+  interpretationServices_HeadingSpanish: `Servizi di interpretariato in lingua spagnola e lis`,
+  futureRemote_para2: `Attraverso la piattaforma di Rafiky, avrete a disposizione i migliori interpreti del mondo in qualsiasi luogo desideriate.Addio spese per noleggio, cabine, hostess, viaggi e soggiorni. Dimenticate il passato! Scegliete la vostra lingua e con un solo click, grazie alla nostra applicazione o alle cuffie via radio, potrete ascoltare la conferenza, proprio come nell’interpretariato comune. La nostra agenzia interpreti Milano è a vostra disposizione per crescere e migliorare!`,
+  home_heroline: "Rafiky: die fortschrittlichste Technologie",
+  card_heading2:
+    " Possiamo aiutarvi con qualsiasi tipo di evento o riunione. La buona notizia è che avete diverse opzioni.",
+
   //Choose Rafiky
   chhoserafikyheading: "Warum Rafiky wählen?",
   chooseRafiky_Firstcard_Heading1: `FORDERN SIE EIN ANGEBOT AN`,
@@ -175,34 +235,91 @@ export const de = {
   services_360degreeTitle: `Eine komplette 360-Grad-Software, die für jede Art von Online-Event geeignet ist`,
   services_360degreepara: `Dank der Verschmelzung von Remote-Simultanübersetzung und einem einfachen und intuitiven Remote-Teilnahmesystem macht Rafiky jede Art von Online-Veranstaltung einem breit gefächerten Publikum zugänglich.`,
   //Services Features
-  services_FeaturesHeading: `Merkmale`,
-  services_FeaturesFirstpara: `White-Label-Service (der Kunde nutzt die Rafiky-Plattform unter Beibehaltung seiner eigenen Marke/des eigenen Logos)`,
-  services_FeaturesSecpara: `Reporting (Möglichkeit zur Erstellung von Statistiken und Analysen am Ende der Veranstaltung)`,
-  services_FeaturesThirdpara: `Kostenloser Service`,
-  services_FeaturesForthpara: `Moderator-Technische Unterstützung während der gesamten Dauer der Veranstaltung mit Audio-/Video-Regie`,
-  services_FeaturesFivepara: `Video und Audio in höchster Qualität`,
-  services_Featuressixtpara: `Streaming auf Social-Media-Plattformen oder Websites von Drittanbietern`,
-  services_Featuressevenpara: `Unbegrenzte Anzahl an Teilnehmern/Sprachen/Sprechern`,
-  services_FeaturesEightpara: `Chaträume je nach Kundenwunsch verfügbar (einzeln oder mehrere, privat oder öffentlich)`,
-  services_FeaturesNinepara: `Möglichkeit der Bildschirmfreigabe`,
-  services_FeaturesTenpara: `usw! Stellen Sie uns auf die Probe.`,
-  services_FeaturesElevenpara: `Plattform verfügbar für jede Art von Hardware (PC/Tablet/Smartphone)`,
-  services_FeaturesTwelvepara: `Cloud-Aufzeichnung Vollständige Aufzeichnung der Veranstaltung mit abschließender Nachbearbeitung`,
-  services_FeaturesTherteenpara: `Q/A Online-Abstimmungssystem`,
+  services_FeaturesHeading: "Software-Funktionen: ",
+  services_FeaturesFirstpara: "White-Label-Service (Kunden verwenden die Rafiky-Plattform und behalten dabei ihre eigene Marke/Logo)",
+  services_FeaturesSecpara: "Reporting (Möglichkeit zur Erstellung von Statistiken und Analysen am Ende einer Veranstaltung)",
+  services_FeaturesThirdpara: "Kostenloser Service",
+  services_FeaturesForthpara: "Moderator-Technischer Support während der gesamten Dauer der Veranstaltung mit Audio-/Video-Produktion",
+  services_FeaturesFivepara: "Hochwertige Video- und Audioqualität",
+  services_Featuressixtpara: "Streaming auf Social-Media-Plattformen oder Websites von Drittanbietern",
+  services_Featuressevenpara: "Unbegrenzte Anzahl von Teilnehmern/Sprachen/Rednern",
+  services_FeaturesEightpara: "Chat-Räume je nach Kundenbedarf verfügbar (einzeln oder mehrfach, privat oder öffentlich)",
+  services_FeaturesNinepara: "Bildschirmfreigabe-Funktion",
+  services_FeaturesTenpara: "Individuelle Untertitel für Sprecher",
+  services_FeaturesElevenpara: "Mehrere gleichzeitige Video-Referenten/Redner",
+  services_FeaturesTwelvepara: "Plattform für alle Arten von Hardware verfügbar (PC/Tablet/Smartphone)",
+  services_FeaturesTherteenpara: "Cloud-Aufzeichnung - Vollständige Aufzeichnung der Veranstaltung mit abschließender Nachbearbeitung",
+  services_Featuresforteenpara: "Fragen und Antworten (Q/A) - Online-Abstimmungssystem",
+
   //Services Remote
   services_RemoteTitle: `GLEICHZEITIGE FERNÜBERSETZUNG`,
   services_Remotepara: `Wir verbinden Benutzer überall auf der Welt! Rafiky ist ein mobiles System, das Audio-Streaming-Hardware für Live-Events vollständig ersetzt. Mit nur einem Computer und einer Verbindung kann jede Art von Audio über unsere mobile Anwendung auf die Telefone oder Tablets der Zuhörer gestreamt werden. Ferndolmetschen ist die Zukunft des Übersetzens! Rafikys Ferndolmetschlösungen sind für Veranstaltungen jeder Art und Art konzipiert.`,
   services_RemoteBtn: `FINDE MEHR HERAUS`,
+
+  videoServiceTitel: "FERNDOLMETSCHEN",
+  videoServiceparaOne:
+    "Wir verbinden Benutzer aus der ganzen Welt! Rafiky ist ein mobiles System, das die Hardware für Live-Audio-Streaming-Events vollständig ersetzt. Mit nur einem Computer und einer Internetverbindung kann jeder Audiotyp über unsere mobile Anwendung auf die Telefone oder Tablets der Zuhörer gestreamt werden. Das Ferndolmetschen ist die Zukunft der Übersetzung!",
+  videoServiceparaTwo:
+    "Die Lösungen von Rafiky für das Ferndolmetschen sind für Veranstaltungen jeglicher Art und Art ausgelegt.",
+
   //Services Choose Rafiky
   serviceschooseRafiky_Tile: `Why choose Rafiky?`,
   serviceschooseRafiky_FirstcardTitle: `Geschäftstreffen`,
-  serviceschooseRafiky_Firstcardpara: `• Mehrsprachiges Treffen mit ausländischen Partnern, Simultandolmetschen per Fernzugriff. • Mehrsprachiges Treffen mit ausländischen Partnern simultanes Dolmetschen aus der Ferne.• Treffen mehrsprachiges Treffen mit ausländischen Partnern simultanes Dolmetschen aus der Ferne.`,
+  serviceschooseRafiky_Firstcardpara: (
+    <ul className="list-item list-outside list-disc">
+      <li className="mb-4">
+        Mehrsprachiges Treffen mit ausländischen Partnern, Simultandolmetschen
+        per Fernzugriff.
+      </li>
+      <li className="mb-4">
+        Mehrsprachiges Treffen mit ausländischen Partnern simultanes Dolmetschen
+        aus der Ferne.
+      </li>
+      <li className="mb-4">
+        Treffen mehrsprachiges Treffen mit ausländischen Partnern simultanes
+        Dolmetschen aus der Ferne.
+      </li>
+    </ul>
+  ),
   serviceschooseRafiky_SeccardTitle: `INNOVATIVE VISION`,
-  serviceschooseRafiky_Seccardpara: `• 50 % Einsparung bei der technischen Ausstattung (kein Stand erforderlich). • Ideal für Räume, in denen die Installation von Kabinen nicht möglich ist/erhöhten Aufwand und Kosten erfordert. • Audio-Video-Regie und technische Unterstützung vor Ort. Verfügbarkeit in mehr als 200 Sprachen.`,
+  serviceschooseRafiky_Seccardpara: (
+    <ul className="list-item list-outside list-disc">
+      <li className="mb-4">
+        50 % Einsparung bei der technischen Ausstattung (kein Stand
+        erforderlich).
+      </li>
+      <li className="mb-4">
+        Ideal für Räume, in denen die Installation von Kabinen nicht möglich
+        ist/erhöhten Aufwand und Kosten erfordert.
+      </li>
+      <li className="mb-4">
+        Audio-Video-Regie und technische Unterstützung vor Ort. Verfügbarkeit in
+        mehr als 200 Sprachen.
+      </li>
+    </ul>
+  ),
   serviceschooseRafiky_ThirdcardTitle: `Webinare`,
-  serviceschooseRafiky_Thirdcardpara: `• Einfaches Präsentieren von Inhalten auf Ihrem Bildschirm. • Videostreams. • Mehrere Räume für jede Konferenz mit thematischer Fragmentierung. Verfügbarkeit in mehr als 200 Sprachen.`,
+  serviceschooseRafiky_Thirdcardpara: (
+    <ul className="list-item list-outside list-disc">
+      <li className="mb-4">Einfaches Präsentieren von Inhalten auf Ihrem Bildschirm.</li>
+      <li className="mb-4">Videostreams.</li>
+      <li className="mb-4">
+        Mehrere Räume für jede Konferenz mit thematischer Fragmentierung.
+        Verfügbarkeit in mehr als 200 Sprachen.
+      </li>
+    </ul>
+  ),
   serviceschooseRafiky_ForthcardTitle: `Pressekonferenz`,
-  serviceschooseRafiky_Forthcardpara: `• Große Auswahl an Orten für Referenten und Teilnehmer. • Globale Teilnahme. • Moderation von Journalistenfragen. Verfügbarkeit in mehr als 200 Sprachen.`,
+  serviceschooseRafiky_Forthcardpara: (
+    <ul className="list-item list-outside list-disc">
+      <li className="mb-4">Große Auswahl an Orten für Referenten und Teilnehmer.</li>
+      <li className="mb-4">Globale Teilnahme.</li>
+      <li className="mb-4">
+        Moderation von Journalistenfragen. Verfügbarkeit in mehr als 200
+        Sprachen.
+      </li>
+    </ul>
+  ),
   serviceschooseRafiky_Firstcountingtest: `Sprachen`,
   serviceschooseRafiky_Seccountingtest: `Online-Veranstaltungen`,
   serviceschooseRafiky_Thirdcountingtest: `Professionelle Dolmetscher`,
@@ -210,8 +327,15 @@ export const de = {
   serviceschooseRafiky_Btn: `KONTAKTIERE UNS`,
   //Services Microsoft Teams
   servicesMicrosoftteams_HeroHeading: `RAFIKY-INTEGRATION MIT MICROSOFT-TEAMS`,
-  servicesMicrosoftteams_Heropara: `Remote-Videodolmetschen, was ist das und wie funktioniert es? Erfahren Sie mehr über unseren Ferndolmetsch-Service!`,
+  servicesMicrosoftteams_Heropara:
+    "Planen Sie eine Online-Konferenz auf Microsoft Teams und benötigen Sie Unterstützung von Sprachdolmetschern? Wir von Rafiky haben die Lösung für Sie.",
   servicesMicrosoftteams_HeroBtn: `FORDERN SIE EIN ANGEBOT AN`,
+  services_Card1Title: "INTEGRATION MIT MICROSOFT TEAMS",
+  services_Card1para: "Planen Sie eine Online-Konferenz mit Microsoft Teams und benötigen Sie die Unterstützung von Sprachdolmetschern? Rafiky hat die Lösung für Sie.",
+  services_Card2Title: "GEBÄRDENSPRACHE DOLMETSCHEN",
+  services_Card2para: "Machen Sie Ihre Veranstaltung noch zugänglicher mit dem exklusiven Gebärdensprache-Dolmetschservice von Rafiky!",
+  services_Card3Title: "PROFESSIONELLE FERNDOLMETSCHER",
+  services_Card3para: "Vertrauen Sie den Ferndolmetschern von Rafiky! Die besten Profis für all Ihre Bedürfnisse.",
   //Teams Integration
   teamsIntegration_Heading: `Was ist die Microsoft Teams-Integration auf Rafiky?`,
   teamsIntegration_para: `Die neue Integration von Microsoft Teams auf Rafiky ermöglicht es Ihnen, die Microsoft Teams-Plattform weiterhin zu nutzen und gleichzeitig die Ferndolmetschdienste von Rafiky zu nutzen. Diese Verbindung zwischen den beiden Webkonferenzplattformen ermöglicht es unseren Dolmetschern, Übersetzungs- und Dolmetschdienste optimal zu betreiben und Unternehmen die Konferenz auf ihrem MS-Teams-Terminal zu verwalten. Die fortschrittliche und innovative Software von Rafiky bietet eine ganze Reihe von Online-Teammeeting-Diensten auch in der Integration von Microsoft Teams.`,
@@ -219,6 +343,7 @@ export const de = {
   teamsIntegration_Firstcountingtest: `Sprachen`,
   teamsIntegration_Seccountingtest: `Online-Veranstaltungen`,
   teamsIntegration_Thirdcountingtest: `Professionelle Dolmetscher`,
+
   teamsIntegration_Firstcard_Heading: `INNOVATIVE VISION`,
   teamsIntegration_Firstcard_para: `Verwenden Sie weiterhin Ihre bevorzugte Plattform, indem Sie den Ferndolmetschdienst mit Rafiky integrieren. Keine Übergangskosten!`,
   teamsIntegration_Seccard_Heading: `EINFACHE LÖSUNG`,
@@ -235,8 +360,13 @@ export const de = {
   teamsIntegration_Seventhcard_para: `Verwenden Sie weiterhin Ihre bevorzugte Plattform, indem Sie den Ferndolmetschdienst mit Rafiky integrieren. Keine Übergangskosten!`,
   teamsIntegration_Eightcard_Heading: `INNOVATIVE VISION `,
   teamsIntegration_Eightcard_para: `Continue to use your favorite platform by integrating the Remote Interpreting Service with Rafiky. No transition costs!`,
+
+  servicesAdvantages_HeadingDouble2: "Unsere Gebärdensprachdolmetscher",
+  servicesAdvantages_paraDouble2:
+    "Das umfangreiche Netzwerk von Gebärdensprachdolmetschern, die mit Rafiky zusammenarbeiten, ist auf verschiedene Bereiche wie Gesundheitswesen, Geschäftswelt, Rechtswesen usw. spezialisiert. Alle unsere Dolmetscher sind hochqualifiziert und bieten Gebärdensprachdolmetschdienste für verschiedene Veranstaltungen an. Sie können als Konferenzdolmetscher, Verhandlungsdolmetscher und mehr arbeiten. Die Wahl von Gebärdensprachdolmetschdiensten zeigt Menschlichkeit und Respekt gegenüber der gehörlosen Gemeinschaft. Durch die Hinzufügung von Übersetzungs- und Untertitelungsdiensten sowie LIS-Dolmetschung zu Ihrer Veranstaltung zeigen Sie große Mitgefühl und Rücksichtnahme für die gehörlose Gemeinschaft.",
+
   //The Advantages
-  theAdvantages_Heading: `Die Vorteile`,
+  theAdvantages_Heading: `Vertrauen Sie uns`,
   theAdvantages_para: `Rafiky kümmert sich bei Bedarf um die gesamte Organisation der Konferenz. Unser Team kann sich von der Pre-Event-Phase bis zur Post-Event-Phase um die Planung bis ins kleinste Detail kümmern. Dazu gehören eine Reihe von Dienstleistungen und Angeboten wie die Möglichkeit, das Logo oder den "Rednerumfang" anzupassen, die Erstellung einer Website, die ausschließlich der Bewerbung oder Registrierung für die Veranstaltung dient, oder sogar die Möglichkeit, mehr Dolmetscher und mehrere Sprachkombinationen für die Übersetzung anzufordern . Rafiky verfügt über ein unbegrenztes Netzwerk von branchenübergreifenden und muttersprachlichen Dolmetschern für insgesamt mehr als 200 Sprachen. Ein wirklich exklusiver Service ist das Dolmetschen in Gebärdensprache, das unerlässlich ist, um Ihre Webkonferenzen noch zugänglicher und umfassender zu gestalten. Rafiky verwaltet die gesamte Organisation der Konferenz, falls dies erforderlich ist. Unser Team kann sich von der Pre-Event-Phase bis zur Post-Event-Phase um die Planung bis ins kleinste Detail kümmern. Dazu gehören eine Reihe von Dienstleistungen und Angeboten wie die Möglichkeit, das Logo oder den "Rednerumfang" anzupassen, die Erstellung einer Website, die ausschließlich der Bewerbung oder Registrierung für die Veranstaltung dient, oder sogar die Möglichkeit, mehr Dolmetscher und mehrere Sprachkombinationen für die Übersetzung anzufordern . Rafiky verfügt über ein unbegrenztes Netzwerk von branchenübergreifenden und muttersprachlichen Dolmetschern für insgesamt mehr als 200 Sprachen. Ein wirklich exklusiver Service ist das Dolmetschen in Gebärdensprache, das unerlässlich ist, um Ihre Webkonferenzen noch zugänglicher und umfassender zu gestalten.`,
   theAdvantages_Btn: `DIE REVOLUTION BEGINNT`,
   //Pronto
@@ -245,7 +375,7 @@ export const de = {
   pronto_Btn: `FORDERN SIE JETZT EIN ANGEBOT AN`,
   //Services Sign Language
   servicesSignlanguage_Title: `Remote-Gebärdensprachdolmetscher mit einem Klick!`,
-  servicesSignlanguage_Subtitle: `Dolmetscherdienst in GEBÄRDENSPRACHE`,
+  servicesSignlanguage_Subtitle: `Dolmetscherdienst in Gebärdensprache`,
   servicesSignlanguage_para: `Machen Sie Ihre Veranstaltung noch zugänglicher mit Rafikys exklusivem Gebärdensprach-Dolmetschdienst!`,
   servicesSignlanguage_Btn: `KONTAKTIERE UNS`,
   //Services Language Interpretation
@@ -283,6 +413,211 @@ export const de = {
   servicesReady_Title: `BEREIT?`,
   servicesReady_Subtitle: `Fordern Sie jetzt ein Angebot für Ihre nächste Veranstaltung an!`,
   servicesReady_Btn: `FORDERN SIE JETZT EIN ANGEBOT AN`,
+  // Services Statistiken
+  services_stat1: `Sprachen`,
+  services_stat2: `Online-Veranstaltungen`,
+  services_stat3: `Professionelle Dolmetscher`,
+  //Services Simultaneous
+  servicesSimultaneous_Title: `Ferndolmetschdienst`,
+  servicesSimultaneous_SubTitle: `NICHT NUR ONLINE-EVENTS, SONDERN EINZIGARTIGE ERLEBNISSE!`,
+  servicesSimultaneous_para1: `Als Remote-Dolmetscheragentur kümmern wir uns um das komplette Management Ihrer Online-Veranstaltung und begleiten Sie in jeder Phase des Projekts.`,
+  servicesSimultaneous_para2: `Wir kombinieren Professionalität, Termintreue und Liebe zum Detail, höchste Aufmerksamkeit für jeden Aspekt, um allen Teilnehmern ein einzigartiges Erlebnis zu bieten.`,
+  servicesSimultaneous_contactBtn: `Kontaktieren Sie uns`,
+  servicesSimultaneous_cosaBtnTitle: `Angebot anfordern`,
+  servicesSimultaneous_cosaPara: `Ganz gleich, ob Sie Aktivitäten oder Produkte bewerben, Interviews führen, Workshops, Webinare oder Online-Kurse veranstalten möchten, die Organisation einer Veranstaltung online ist gar nicht so einfach. Es wird notwendig sein, Ziele und Strategien zu definieren, Arbeitspläne, Tagesordnungen und Fragebögen zu erstellen, sich um das Marketing und die Verwaltung der Teilnehmer zu kümmern, ohne den rein technischen Teil zu vernachlässigen. Das Team von Rafiky kümmert sich um jeden Aspekt Ihrer Online-Veranstaltung, um ein einzigartiges Erlebnis zu garantieren.`,
+  servicesSimultaneous_cardsTitle: `Sonstige Dienstleistungen`,
+  servicesSimultaneous_card1Heading: `Video Webkonferenzen`,
+  servicesSimultaneous_card2Heading: `Konferenz Dolmetschen`,
+  servicesSimultaneous_card3Heading: `Video-Dolmetschen aus der Ferne`,
+  servicesSimultaneous_card4Heading: `Dolmetscherdienste`,
+  servicesSimultaneous_card5Heading: `Dolmetscher-Agentur`,
+  servicesSimultaneous_card6Heading: `Remote-Dolmetscher`,
+  //Services Agency Interpretation
+  servicesAgency_Title: `Dolmetscheragentur Rafiky`,
+  servicesAgency_SubTitle: `DOLMETSCHERAGENTUR IN MAILAND UND GANZ ITALIEN`,
+  servicesAgency_para1: `Als Dolmetscheragentur verfügen wir über viel Erfahrung in der Welt des Ferndolmetschens.`,
+  servicesAgency_para2: `Das Dolmetscherbüro Rafiky bietet Simultandolmetschen in über +200 Sprachen Online-Veranstaltungen und Kongresse von Unternehmen, öffentlichen Einrichtungen und Verbänden des dritten Sektors an.`,
+  servicesAgency_cosaBtnTitle: `Angebot anfordern`,
+  servicesAgency_cosaTitle: `Dolmetscheragentur in Mailand`,
+  servicesAgency_cosaPara: `Wenn zwei oder mehr Teilnehmer einer Veranstaltung nicht die gleiche Sprache sprechen, ist die Hilfe einer Dolmetscheragentur oder eines Ferndolmetscherdienstes erforderlich, damit ihre Gäste die Veranstaltung in vollen Zügen genießen können.
+
+    Um die Aufmerksamkeit zu erhöhen und das Verständnis aller Teilnehmer zu erleichtern, können Sie auf die Erfahrung und Professionalität der Dolmetscher von Rafiky zählen.
+    
+    Rafiky gehört zu den besten Unternehmen im Bereich des professionellen Dolmetschens und kann hochspezialisierte Dolmetscher, Marketing vor und nach der Veranstaltung sowie technischen Support garantieren, der sich um die Durchführung der Veranstaltung bei 360 kümmert °.
+    
+    Denken Sie daran, dass der Erfolg Ihrer mehrsprachigen Veranstaltung von der Qualität Ihrer Dolmetscher abhängt.
+    
+    Lassen Sie uns Ihre nächste Veranstaltung noch heute zu einem Erfolg machen.`,
+  servicesAgency_card1Heading: `ENGAGIERTES TEAM`,
+  servicesAgency_card2Heading: `KOMPLETTPAKET`,
+  servicesAgency_card3Heading: `DIENSTLEISTUNGEN NACH DER VERANSTALTUNG`,
+  servicesAgency_card1Para: `Wir kümmern uns um jedes Detail für Ihre Veranstaltungen.
+
+    Wir begleiten, beraten und begleiten Sie vom Anfang bis zum Ende des Projekts, von der Werbung bis zum Service nach der Veranstaltung.
+    
+    Wir versetzen Sie in die Lage, mit minimalem Aufwand eine erfolgreiche Veranstaltung auf die Beine zu stellen.`,
+  servicesAgency_card2Para: `– HD-Video / Kristallklarer Ton
+
+    – White-Label-Service (Möglichkeit für den Kunden, seine eigene Marke / sein eigenes Logo / seine eigene Marke zu behalten)
+    
+    – Bildschirmfreigabe (Teilen von Multimedia-Inhalten, Präsentationen, Bildern über den Bildschirm)
+    
+    – Bis zu 1000 Videoteilnehmer und 5000 Zuschauer
+    
+    – Galerie-Ansicht
+    
+    – Live-Chat`,
+  servicesAgency_card3Para: `Abschlussbericht (Dampfdauer, abgegebene Stimmen, Statistiken)
+
+    Mediathek (HD/Video/Audio-Aufnahme, Videobearbeitung)`,
+  remoteSimultaneous_Btn: `PREVENTIVO VELOCE E GRATUITO`,
+
+  servicesAgencyInterpreting_Heading:
+    "Warum die Rafiky Interpreting Agency wählen?",
+  servicesAgencyInterpreting_para: `Die Merkmale, die unsere Remote-Dolmetschplattform auszeichnen, sind:
+
+Innovation: Unser plattformübergreifendes Plugin ist mit jeder Webkonferenzplattform kompatibel.
+Bis zu 200 Sprachen für Ihr Publikum jederzeit und überall.
+Senken Sie Ihre Kosten um +50%, ohne die Qualität zu beeinträchtigen. Vergessen Sie Geräte und Reisen.
+Kristallklarer Ton und HD-Videostreaming. So etwas haben Sie noch nie gesehen.
+Zugänglichkeit: Der Zugriff von jedem Gerät aus war noch nie so einfach.
+Wir werden Ihren Bedürfnissen gerecht und ermöglichen Ihnen die Durchführung einer erfolgreichen Veranstaltung mit minimalem Aufwand.
+Laden Sie unsere Anwendung herunter und erleben Sie den Erfolg Ihrer Veranstaltungen und Meetings.
+
+Rafiky, sind Sie bereit, Ihre Veranstaltung zu Höhenflügen zu bringen?`,
+  servicesAgencyInterpreting_Btn: "DIE REVOLUTION BEGINNT",
+  //Services Simultaneous Interpretation
+  servicesSimultaneousInterpretation_Title: `Simultandolmetschen mit Rafiky`,
+  servicesSimultaneousInterpretation_SubTitle: `Simultandolmetsch-Agentur in Mailand`,
+  servicesSimultaneousInterpretation_para1: `Organisieren Sie Ihr Event mit simultanem Dolmetschen und unbegrenzter Teilnehmerzahl mit uns!`,
+  servicesSimultaneousInterpretation_para2: `Keine Webkonferenzplattform kann uns stoppen, und keine Sprache kann nicht übersetzt werden. Unser System für simultanes, entferntes Dolmetschen ermöglicht eine perfekte Echtzeitübersetzung Ihrer Veranstaltung, von Reden bis zur Benutzeroberfläche der Teilnehmer, mit höchster Qualität.`,
+  servicesSimultaneousInterpretation_cosaTitle: `Simultandolmetschen, was ist das?`,
+  servicesSimultaneousInterpretation_cosaBtnTitle: `Angebot anfordern`,
+  servicesSimultaneousInterpretation_cosaPara: `Simultandolmetschen ist heutzutage ein Muss bei der Organisation von Online-Events und -Konferenzen. Es gibt viele Informationen, die Ihre Gäste verstehen und teilen müssen, und wenn diese unterschiedliche Sprachen sprechen, entsteht das Problem des gegenseitigen Verständnisses. Sprachliche Unterschiede wurden lange Zeit als Barrieren angesehen, unüberwindbare Unterschiede, die Menschen voneinander trennen. Deshalb gibt es Dolmetscher, die darauf spezialisiert sind, eine Rede während ihrer Äußerung zu übersetzen. Wie ändert sich diese Rolle mit der Digitalisierung? Mit Rafiky befinden wir uns dank der Digitalisierung bereits in der Zukunft: Veranstaltungen, die bequem von zu Hause aus erstellt und verwaltet werden, übersetzt von Dolmetschern, die ebenfalls bequem von zu Hause aus arbeiten, für einen garantierten (und verdienten) Erfolg von zu Hause aus.`,
+  servicesSimultaneousInterpretation_card1Heading: `Teilnehmerverwaltung`,
+  servicesSimultaneousInterpretation_card2Heading: `Marketingvorfeldverwaltung`,
+  servicesSimultaneousInterpretation_card3Heading: `Technischer Support`,
+  servicesSimultaneousInterpretation_card1Para: `Wir kümmern uns um das gesamte Management: Anmeldeformulare für die Teilnehmer, Programm, Einladungen, E-Mail-Kampagnen, Erinnerungen und alle anderen Informationen, die für die Teilnehmer Ihrer Veranstaltung nützlich sind. Einladungen, E-Mails und Kommunikation werden immer mit dem Logo/Markenzeichen des Unternehmens personalisiert.`,
+  servicesSimultaneousInterpretation_card2Para: `Wir kümmern uns vorab um das Marketing, d. h. um die Erstellung des Marketingmaterials zur Promotion des Produkts/Service (Erstellung einer dedizierten Website für die Veranstaltung mit dem Logo/Markenzeichen des Unternehmens, Broschüren, Videos, technische Dokumentation, Übertragung der Konferenz in sozialen Medien usw.).`,
+  servicesSimultaneousInterpretation_card3Para: `- Sie werden im Voraus die ordnungsgemäße Funktion von Geräten, Hardware und Verbindungen überprüfen.
+- Sie werden allen Rednern und Teilnehmern alle As
+pekte der Systemfunktion erklären.
+- Sie werden über Chaträume auf alle Fragen oder Anfragen der Teilnehmer antworten.
+- Sie werden alle eventuellen Probleme lösen können.`,
+  servicesSimultaneousInterpretation_Heading: `Simultandolmetschen in Mailand und ganz Europa`,
+  servicesSimultaneousInterpretation_para: `Als Agentur für simultanes Dolmetschen aus der Ferne arbeiten wir Seite an Seite mit Ihnen und bieten Ihnen spezialisierte Unterstützung während des gesamten Projekts, um das gleiche Ziel zu erreichen: den Erfolg der Veranstaltung und die vollständige Zufriedenheit aller Teilnehmer. Wir haben eine Vergangenheit voller erfolgreicher Veranstaltungen und eine Zukunft, die noch gefüllt werden muss. Diese Zukunft hat einen Platz, der darauf wartet, von Ihrer Veranstaltung ausgefüllt zu werden. Besuchen Sie die Seiten zum Ferndolmetschen für weitere Informationen und kontaktieren Sie uns, um Ihre nächste Veranstaltung gemeinsam zu organisieren! Mit Rafiky ist die Zukunft schon heute da.`,
+  servicesSimultaneousInterpretation_Btn: `Erfahren Sie mehr`,
+  servicesSimultaneousInterpretation_prontoSubTitle: "Bereit?",
+  servicesSimultaneousInterpretation_prontoTitle:
+    "Fordern Sie jetzt ein Angebot für Ihre nächste Veranstaltung an!",
+  servicesSimultaneousInterpretation_prontoBtn:
+    "Fordern Sie jetzt ein Angebot an",
+
+  // TALK WITH US
+
+  talkToSalesHeading: "Talk to sales",
+  talkToSalesPara: "Jede Veranstaltung ist einzigartig. Vereinbaren Sie ein 15-minütiges Gespräch mit uns, um über Ihre bevorstehende Veranstaltung zu sprechen und wie wir eine maßgeschneiderte Lösung entwickeln und Ihnen ein Angebot erstellen können, das Ihren Anforderungen entspricht.",
+
+
+  // UNLOCK
+
+  fndOut: "HERAUSFINDEN WIE",
+  inPersonHeading: "IN-PERSON UND HYBRIDE VERANSTALTUNGEN",
+  inPersonPara: "Entdecken Sie eine neue Ära der Hardware-Konnektivität mit unserer hochmodernen Cloud-basierten Dolmetschlösung. Verwandeln Sie Ihre Veranstaltungen in unvergessliche Erlebnisse.",
+  virtualMeetingsHeading: "VIRTUELLE VERANSTALTUNGEN",
+  virtualMeetingsPara: "Passen Sie Rafiky an, um Ihren mehrsprachigen Konferenzsaal zu erstellen und Tausende von Teilnehmern aufzunehmen. Gestalten Sie Ihre virtuellen Veranstaltungen einzigartig.",
+  onlineMeetingsHeading: "ONLINE MEETINGS",
+  onlineMeetingsPara: "Führen Sie reibungslose mehrsprachige Online-Meetings mit Rafiky durch und überwinden Sie mühelos Sprachbarrieren.",
+
+  //Services Interpretation servicesInterpret
+  servicesInterpret_Title: "Rafiky Dolmetschdienste",
+  servicesInterpret_SubTitle:
+    "SIMULTANDOLMETSCHEN FÜR ALLE BEDÜRFNISSE IHRES UNTERNEHMENS!",
+  servicesInterpret_para1:
+    "Über 20.000 Regierungs- und Nichtregierungsorganisationen vertrauen auf unsere universellen Dolmetschlösungen.",
+  servicesInterpret_para2:
+    "Bei Rafiky sind wir der Überzeugung, dass Ihr Unternehmen die besten Übersetzungs- und Dolmetschdienste für Ihre Konferenzen, Seminare und jegliche andere Form von Online-Veranstaltungen verdient.",
+  servicesInterpret_cosaTitle: "Professionelle Dolmetschdienste",
+  servicesInterpret_cosaBtnTitle: "Angebot anfordern",
+  servicesInterpret_cosaPara:
+    "Fern-Dolmetschen ist für Unternehmen und Organisationen weltweit unerlässlich, um eine effektive Kommunikation zu ermöglichen, sei es bei persönlichen Gesprächen oder großen Konferenzen. Die Bedeutung des Simultandolmetschens wächst für Unternehmen jeden Tag, da das Überwinden sprachlicher Barrieren interne Unternehmensprozesse erheblich erleichtert. Bei Rafiky bieten wir eine Reihe von Übersetzungsdiensten an, die darauf abzielen, Unternehmen in ihrer Kommunikation mit Kunden, Mitarbeitern usw. zu unterstützen. Unternehmen, die sich für uns entscheiden, haben Zugriff auf eine Vielzahl von Fern-Dolmetschlösungen, die alle darauf ausgelegt sind, ihre individuellen Ziele zu erreichen. Wir möchten Ihrem Unternehmen dabei helfen, zu kommunizieren, was es braucht und wann es es braucht.",
+  servicesInterpret_card1Heading: "DEDIZIERTES TEAM",
+  servicesInterpret_card2Heading: "TECHNISCHE UNTERSTÜTZUNG",
+  servicesInterpret_card3Heading: "DIENSTLEISTUNGEN NACH DER VERANSTALTUNG",
+  servicesInterpret_card1Para:
+    "Wir kümmern uns um jedes Detail. Wir begleiten Sie von Anfang bis Ende des Projekts, beraten und unterstützen Sie. Wir ermöglichen Ihnen eine erfolgreiche Veranstaltung mit minimalem Aufwand.",
+  servicesInterpret_card2Para:
+    "Unsere Techniker: - überprüfen im Voraus die ordnungsgemäße Funktion von Geräten, Hardware und Verbindungen - klären Referenten und Teilnehmer über alle Aspekte des Systembetriebs auf - beantworten über einen Chatraum alle Fragen oder Anfragen der Teilnehmer",
+  servicesInterpret_card3Para:
+    "Abschlussbericht (Streaming-Dauer, durchgeführte Bewertungen, Statistiken) Medienbibliothek (Video-/Audiomitschnitt in HD, Videobearbeitung)",
+  servicesInterpret_Heading: "Warum unsere Dolmetschdienste wählen?",
+  servicesInterpret_para: `Jede Phase Ihres Projekts, von der Erstellung des Marketingmaterials für die Veranstaltung über die Registrierung einzelner Benutzer bis hin zur Verwaltung von Einladungen, Erinnerungen und Kommunikation mit den Teilnehmern bis zur abschließenden Sammlung von Feedback, wird von unserem Team betreut.
+Sich auf Rafiky zu verlassen bedeutet: hochwertiges Simultandolmetschen; Übersetzung der grafischen Benutzeroberfläche der Veranstaltung in über 60 Sprachen; Kompatibilität mit allen Webkonferenzplattformen; professionelle und effiziente Dolmetscher für Übersetzungen in über 200 Sprachen; rund um die Uhr Unterstützung für maximale Leistung Ihrer Online-Veranstaltung; superschnelle Lieferung mit ebenso schneller Buchung. Die Optimierung jedes Prozesses ist unser Ziel. Worauf warten Sie? Fordern Sie noch heute ein Angebot an und erhalten Sie den Fern-Dolmetschservice, den Ihr Unternehmen verdient!`,
+  servicesInterpret_Btn: "MEHR ERFAHREN",
+  servicesInterpret_prontoSubTitle: "Bereit?",
+  servicesInterpret_prontoTitle:
+    "Fordern Sie jetzt ein Angebot für Ihre nächste Veranstaltung an!",
+  servicesInterpret_prontoBtn: "Jetzt Angebot anfordern",
+  //Simultandolmetscher-Services
+  servicesSimultaneousTranslation_Title: `Professionelle Simultandolmetscher für Ihre Online-Veranstaltungen`,
+  servicesSimultaneousTranslation_SubTitle: `UNSERE FERNÜBERSETZER STEHEN IHNEN ZUR VERFÜGUNG!`,
+  servicesSimultaneousTranslation_para1: `Rafiky bietet erstklassige Simultandolmetscher-Services für alle Arten von Online-Veranstaltungen. Egal, ob Sie Dolmetscher für ein Meeting, eine Konferenz oder ein Online-Seminar benötigen, Rafiky ist die richtige Wahl!`,
+  servicesSimultaneousTranslation_cosaTitle: `Was ist Simultandolmetschen?`,
+  servicesSimultaneousTranslation_cosaBtnTitle: `Kostenangebot anfordern`,
+  servicesSimultaneousTranslation_cosaPara: `Bei einer Veranstaltung können unterschiedliche Sprachen zu Missverständnissen führen, weshalb eine Simultandolmetschung der Beiträge erforderlich ist. Unsere Fernübersetzer, die geschult und erfahren im Umgang mit unserer Software sind, überwinden alle sprachlichen Barrieren während Ihrer Online-Veranstaltungen und bieten Ihren Gästen maximale Aufmerksamkeit und Komfort für ein einzigartiges Erlebnis. Darüber hinaus werden mit Rafiky Version 1.4 alle Bildschirminhalte bequem in über 60 Sprachen gleichzeitig übersetzt, indem ein praktisches Plugin verwendet wird, das sich an jede Plattform anpassen lässt. Wir legen Wert auf erstklassige Erfahrungen durch erstklassige Softwarequalität.`,
+  servicesSimultaneousTranslation_card1Heading: `Technische Tests vor der Veranstaltung`,
+  servicesSimultaneousTranslation_card2Heading: `Teilnehmermanagement`,
+  servicesSimultaneousTranslation_card3Heading: `Komplettes Paket`,
+  servicesSimultaneousTranslation_card1Para: `Wir führen alle erforderlichen Tests durch, um Ihnen das bestmögliche Benutzererlebnis zu bieten: Überprüfung von Verbindungen und Netzwerken, ordnungsgemäße Funktion von Geräten und technischem Equipment, Audio- und Videosystemen. Unser Expertenteam ist auch jederzeit bereit, technische Probleme oder Fehlfunktionen zu beheben.`,
+  servicesSimultaneousTranslation_card2Para: `Wir kümmern uns um das gesamte Teilnehmermanagement: Anmeldeformulare für die Teilnehmer, Programmplanung, Einladungen, E-Mail-Kampagnen, Erinnerungen und alle weiteren Informationen, die für die Teilnehmer Ihrer Veranstaltung relevant sind. Einladungen, E-Mails und Kommunikation werden immer individuell mit dem Logo/Markenzeichen des Kunden personalisiert.`,
+  servicesSimultaneousTranslation_card3Para: `Wir kümmern uns um das gesamte Teilnehmermanagement: Anmeldeformulare für die Teilnehmer, Programmplanung, Einladungen, E-Mail-Kampagnen, Erinnerungen und alle weiteren Informationen, die für die Teilnehmer Ihrer Veranstaltung relevant sind. Einladungen, E-Mails und Kommunikation werden immer individuell mit dem Logo/Markenzeichen des Kunden personalisiert.`,
+  servicesSimultaneousTranslation_Heading: `Simultandolmetschen und Rafiky - Vorteile:`,
+  servicesSimultaneousTranslation_para: `Durch
+die Verwendung von Rafiky bieten wir Ihren Gästen zahlreiche Vorteile, darunter:
+    Marketing-Management vor der Veranstaltung mit Erstellung einer dedizierten Plattform und erforderlichem Marketingmaterial;
+    Übersetzung der Beiträge in über 200 Sprachen;
+    Technische Tests vor der Veranstaltung, um den Erfolg Ihrer Webkonferenz zu gewährleisten;
+    Übersetzung der Benutzeroberfläche in über 60 Sprachen;
+    Umfassende technische Unterstützung während der gesamten Veranstaltung.
+    Kontaktieren Sie uns jetzt, um mehr über die Organisation virtueller Veranstaltungen zu erfahren.
+    Tauchen Sie ein in die Welt des Fernsimultandolmetschens mit Rafiky.`,
+  servicesSimultaneousTranslation_Btn: `MEHR ERFAHREN`,
+  servicesSimultaneousTranslation_prontoSubTitle: `Bereit?`,
+  servicesSimultaneousTranslation_prontoTitle: `Fordern Sie jetzt ein Angebot für Ihre nächste Veranstaltung an!`,
+  servicesSimultaneousTranslation_prontoBtn: `Jetzt Angebot anfordern`,
+  //Services Video Web Conference
+  servicesWebConference_Title: `Hochwertige Video-Konferenz mit Rafiky`,
+  servicesWebConference_SubTitle: `DIE BESTE WEB-KONFERENZ MIT QUALIFIZIERTEN FERNÜBERSETZERN!`,
+  servicesWebConference_para1: `Willkommen in der Zukunft, in der das Organisieren und Abhalten von mehrsprachigen Web-Konferenzen ohne das Verlassen Ihres Raumes ein Kinderspiel ist.`,
+  servicesWebConference_para2: `Dank der Rafiky-Software können Sie nun Online-Veranstaltungen mit Fernübersetzern in verschiedenen Sprachen organisieren und übertragen, um die Kommunikationsbarrieren mit Ihren Gästen zu überwinden.`,
+  servicesWebConference_cosaTitle: `Video-Konferenz mit Rafiky`,
+  servicesWebConference_cosaBtnTitle: `Kostenangebot anfordern`,
+  servicesWebConference_cosaPara: `Die Web-Konferenz ist mittlerweile unerlässlich, um Ihr Unternehmen und Ihr Personal stets auf dem neuesten Stand zu halten. Bei Online-Veranstaltungen mit Fernübersetzern kommt unsere Software zum Einsatz: Rafiky Web-Konferenzen sind zu 100% kompatibel mit den gängigsten Video-Konferenzplattformen.
+Face-to-Face-Interviews, Fernkonferenz-Meetings, Webinare, Online-Schulungen und Unternehmensupdates sind ab sofort kein Problem mehr.
+Mit unserer effizienten und kostengünstigen Fernübersetzungssoftware arbeiten wir rund um die Uhr daran, Ihre Web-Konferenz zu einem unvergesslichen Erlebnis für alle Teilnehmer Ihrer Veranstaltungen zu machen.`,
+  servicesWebConference_card1Heading: `DEDIZIERTES TEAM`,
+  servicesWebConference_card2Heading: `VOR-EVENT-MARKETING`,
+  servicesWebConference_card3Heading: `TRAINING`,
+  servicesWebConference_card1Para: `Wir kümmern uns um jedes Detail.
+Wir begleiten, beraten und unterstützen Sie von Anfang bis Ende des Projekts.
+Wir stellen sicher, dass Ihre Veranstaltung mit minimalem Aufwand ein Erfolg wird.`,
+  servicesWebConference_card2Para: `Wir kümmern uns zunächst um das Marketing vor der Veranstaltung, d.h. um die Erstellung des erforderlichen Marketingmaterials zur Bewerbung des Produkts/der Dienstleistung (Erstellung einer dedizierten Veranstaltungswebsite mit dem Logo/Brand der Kunden, Broschüren, Videos, technische Dokumentation, Streaming der`,
+  servicesWebConference_card3Para: `Durch ein spezielles Training zeigen wir Ihnen Schritt für Schritt, wie Sie Ihre Online-Konferenz organisieren können, und geben Ihnen Hinweise, Zeitpläne und bewährte Praktiken.
+(Falls auch Übersetzungsdienste erforderlich sind, ist auch eine Schulung für die Übersetzer vorgesehen.)`,
+  servicesWebConference_Heading: "Eine Web-Konferenz mit Rafiky bedeutet",
+  servicesWebConference_para: `Jeder Schritt Ihres Projekts, von der Erstellung des Marketingmaterials für die Veranstaltung über die Registrierung der einzelnen Benutzer bis hin zur Verwaltung von Einladungen, Erinnerungen und Kommunikation mit den Teilnehmern sowie der abschließenden Sammlung von Feedback, wird
+
+von unserem Team betreut.
+    Die Vorteile, die wir bieten, sind:
+    Einbindung Ihres Publikums in Web-Konferenzen - Rafiky hilft Ihnen dabei, Ihr Publikum problemlos einzubeziehen.
+    Zeitersparnis - Unser erfahrenes technisches Team hilft Ihnen dabei, viel Zeit bei der Organisation der Veranstaltung zu sparen.
+    Kostenersparnis - Unsere Web-Konferenzen sind darauf ausgelegt, Ihnen dabei zu helfen, Geld zu sparen. Es ist kein schweres Equipment oder Übersetzungskabinen erforderlich, ein PC, ein Laptop oder ein Telefon reicht aus.
+    Professionelle Kommunikation - Unsere hochqualifizierten Übersetzer beherrschen unsere Web-Konferenzsoftware und kommunizieren professionell, um alle Ihre Veranstaltungen für die Teilnehmer zu einem unvergesslichen Erlebnis zu machen.
+    Für weitere Informationen kontaktieren Sie uns bitte! Wir werden umgehend auf alle Ihre Fragen antworten.`,
+  servicesWebConference_Btn: "MEHR ERFAHREN",
+  servicesWebConference_prontoSubTitle: `Bereit?`,
+  servicesWebConference_prontoTitle: `Fordern Sie jetzt ein Angebot für Ihre nächste Veranstaltung an!`,
+  servicesWebConference_prontoBtn: `Jetzt ein Angebot anfordern`,
   //Services Remote Interpreting
   servicesRemoteinterpreting_Title: `Ferndolmetschdienst`,
   servicesRemoteinterpreting_Subtitle: `Professionelle Ferndolmetscher`,
@@ -307,14 +642,108 @@ export const de = {
   servicesReady_Heading: `BEREIT`,
   servicesReady_para: `VERWENDEN SIE DIE BESTE ÜBERSETZUNGSTECHNOLOGIE DER WELT`,
   servicesReady_Btn: `KONTAKTIERE UNS`,
+  // Rafiky Integration
+  rafikyIntegration_Title: `Fernübersetzungsdienst`,
+  rafikyIntegration_SubTitle: `FERNÜBERSETZER MIT EINEM KLICK!`,
+  rafikyIntegration_para1: `Rafiky ist mit allen führenden Webkonferenz-Softwarekompatibel.`,
+  rafikyIntegration_para2: `Wählen Sie eine hybride Lösung über Laptop, Tablet oder mobile App!`,
+  rafikyIntegration_cosaTitle: `Umfassender Fernübersetzungsdienst`,
+  rafikyIntegration_cosaBtnTitle: `Preisanfrage`,
+  rafikyIntegration_cosaPara: `Dank der maximalen Kompatibilität von Rafiky mit allen anderen Videokonferenzplattformen können die Teilnehmer an der Veranstaltung an jeder Konferenzplattform (Teams, Zoom, Meet usw.) in der gewünschten Sprache teilnehmen und die Audio-Simultanübersetzung über ihr Smartphone hören.
+  Ähnlich wie bei einem herkömmlichen Empfänger bei einer Veranstaltung vor Ort können die Teilnehmer mit Rafiky Folgendes hören:
+  - Hauptinhalt (mit Audio der Drittanwendung über die Rafiky-App geleitet)
+  - Übersetzungskanäle mit Fernübersetzer.`,
+  rafikyIntegration_card1Heading: `EINFACHE LÖSUNG`,
+  rafikyIntegration_card2Heading: `KEINE UMSCHALTKOSTEN`,
+  rafikyIntegration_card3Heading: `KOSTENEINSPARUNGEN`,
+  rafikyIntegration_card4Heading: `VORVERANSTALTUNGSTEST`,
+  rafikyIntegration_card5Heading: `TECHNISCHE UNTERSTÜTZUNG`,
+  rafikyIntegration_card6Heading: `QUALIFIZIERTE ÜBERSETZER`,
+  rafikyIntegration_card7Heading: `RISIKOREDUZIERUNG`,
+  rafikyIntegration_card8Heading: `EINMALIGES ERLEBNIS`,
+  rafikyIntegration_card1Para: `Durch die Vereinfachung von Zeitplänen, Planung und Betriebsführung können Sie an jeder Art von Veranstaltung teilnehmen, ohne Ihr Zuhause oder Ihren Arbeitsplatz zu verlassen.`,
+  rafikyIntegration_card2Para: `Verwenden Sie weiterhin Ihre bevorzugte Plattform und integrieren Sie den Fernübersetzungsdienst von Rafiky.
+  Keine Umschaltungskosten!`,
+  rafikyIntegration_card3Para: `Durch die Beseitigung der Kosten, die normalerweise mit herkömmlicher Übersetzung verbunden sind (von der Miete der Übersetzungsausrüstung bis hin zu Reise- und Unterbringungskosten für Übersetzer), können Sie Ihre Kosten um mehr als 80% senken, ohne die Servicequalität zu beeinträchtigen.`,
+  rafikyIntegration_card4Para: `Um das beste Nutzungserlebnis zu gewährleisten, führen Referenten und Teilnehmer kurz vor Beginn der Veranstaltung einen kostenlosen Test zur Verwendung von Rafiky in die gewünschte Plattform durch.`,
+  rafikyIntegration_card5Para: `Unsere Techniker bieten während der gesamten Veranstaltung spezialisierte technische Unterstützung
+
+.`,
+  rafikyIntegration_card6Para: `Erfahrene und qualifizierte Übersetzer, die bereits mit integrierten Systemen vertraut sind, stehen Ihnen zur Verfügung.
+  - Professionalität
+  - Erfahrung
+  - Kenntnis der Systeme`,
+  rafikyIntegration_card7Para: `Im Falle von Problemen oder Fehlfunktionen der Drittplattform können die Teilnehmer der Veranstaltung jederzeit vollständig auf Rafiky umsteigen und unsere App verwenden.`,
+  rafikyIntegration_card8Para: `Die besten Dolmetscher der Welt stehen Ihnen zur Verfügung, mit kristallklarem Ton und hochauflösendem Video-Streaming für ein einzigartiges Erlebnis mit minimalem Aufwand.`,
+  rafikyIntegration_Heading:
+    "Eine einfache App von außen, eine Welt zu entdecken von innen",
+  rafikyIntegration_para: `Wählen Sie einfach die gewünschte Sprache aus und nehmen Sie mit einem einfachen Klick an Videokonferenzen, Pressekonferenzen, Webinaren, Unternehmensmeetings oder Besprechungen teil: Die Fernübersetzungslösungen von Rafiky sind für Veranstaltungen jeder Art und Art konzipiert. Egal wo auf der Welt, professionelle und qualifizierte Dolmetscher sind in der Lage, jede Art von Botschaft in die Zielsprache zu übersetzen. Darüber hinaus ermöglicht die Live-Chat-Funktion dem Dolmetscher, während der Pausen Gespräche zu führen und/oder spezifische Anfragen während der Veranstaltung zu stellen.`,
+  rafikyIntegration_Btn: "MEHR ERFAHREN",
+  rafikyIntegration_prontoSubTitle: `BEREIT?`,
+  rafikyIntegration_prontoTitle: `Fordern Sie jetzt ein Angebot für Ihre nächste Veranstaltung an!`,
+  rafikyIntegration_prontoBtn: `Jetzt ein Angebot anfordern`,
+  // Rafiky Statistiken
+  rafiky_stat1: `Sprachen`,
+  rafiky_stat2: `Online-Veranstaltungen`,
+  rafiky_stat3: `Professionelle Dolmetscher`,
+  // Rafiky-Dienstleistungen
+  rafikyServices_Title: `Fern-Dolmetschservice`,
+  rafikyServices_SubTitle: `FERNDOLMETSCHER MIT EINEM KLICK!`,
+  rafikyServices_para1: `Rafiky ist mit allen gängigen Webkonferenz-Softwarelösungen kompatibel.`,
+  rafikyServices_para2: `Wählen Sie eine hybride Lösung über Laptop, Tablet oder mobile App!`,
+  rafikyServices_cosaTitle: `Rundum-Fern-Dolmetschservice`,
+  rafikyServices_cosaBtnTitle: `Kostenangebot anfordern`,
+  rafikyServices_cosaPara: `Dank der hohen Kompatibilität von Rafiky mit allen anderen Videokonferenzplattformen können die Teilnehmer der Veranstaltung jede Art von Konferenz auf ihrer bevorzugten Plattform (Teams, Zoom, Meet usw.) in der gewünschten Sprache verfolgen und über ihr Smartphone die Audioübersetzung in Echtzeit hören.
+
+  Genauso wie bei einem herkömmlichen Empfänger bei einer Vor-Ort-Veranstaltung können die Teilnehmer mit Rafiky Folgendes hören:
+  
+  - Hauptredner (mit dem Audio der Drittanbieteranwendung über die Rafiky-App übertragen)
+  - Dolmetscherkanäle mit Fern-Dolmetschern.`,
+  rafikyServices_card1Heading: `EINFACHE LÖSUNG`,
+  rafikyServices_card2Heading: `KEINE WECHSELKOSTEN`,
+  rafikyServices_card3Heading: `KOSTENSPAREN`,
+  rafikyServices_card4Heading: `VOR-EVENT-TEST`,
+  rafikyServices_card5Heading: `TECHNISCHE UNTERSTÜTZUNG`,
+  rafikyServices_card6Heading: `QUALIFIZIERTE DOLMETSCHER`,
+  rafikyServices_card7Heading: `RISIKOMINDERUNG`,
+  rafikyServices_card8Heading: `EINMALIGE ERFAHRUNG`,
+  rafikyServices_card1Para: `Durch Vereinfachung von Zeitplanung und -management können Sie an jeder Art von Veranstaltung teilnehmen, ohne Ihr Zuhause oder Ihren Arbeitsplatz verlassen zu müssen.`,
+  rafikyServices_card2Para: `Verwenden Sie weiterhin Ihre bevorzugte Plattform und integrieren Sie den Fern-Dolmetschservice von Rafiky.
+  
+  Keine Umstellungskosten!`,
+  rafikyServices_card3Para: `Durch den Wegfall der normalerweise mit herkömmlicher Dolmetschung verbundenen Kosten (von der Miete der Dolmetschtechnik bis hin zu Reise- und Unterkunftskosten für Dolmetscher) können Sie Ihre Kosten um über 80% senken, ohne die Qualität des Services zu beeinträchtigen.`,
+  rafikyServices_card4Para: `Um den Teilnehmern das beste Erlebnis zu bieten, werden kurz vor Veranstaltungsbeginn Redner und Teilnehmer einen kostenlosen Test mit der Integration von Rafiky in die gewünschte Plattform durchführen.`,
+  rafikyServices_card5Para: `Unsere Techniker bieten Ihnen während der gesamten Veranst
+
+altung spezialisierte technische Unterstützung.`,
+  rafikyServices_card6Para: `Erfahrene Dolmetscher mit vorheriger Erfahrung in der Arbeit mit Ihren integrierten Systemen.
+  - Professionalität
+  - Erfahrung
+  - Kenntnisse der Systeme`,
+  rafikyServices_card7Para: `Bei Problemen oder Störungen auf der Drittanbieterplattform können die Teilnehmer der Veranstaltung jederzeit vollständig auf Rafiky umsteigen und unsere App verwenden.`,
+  rafikyServices_card8Para: `Die besten Dolmetscher der Welt stehen Ihnen zur Verfügung, mit kristallklarem Audio und HD-Video-Streaming für ein einzigartiges Erlebnis mit minimalem Aufwand.`,
+  rafikyServices_Heading:
+    "Eine einfache App nach außen hin, eine Welt voller Möglichkeiten nach innen",
+  rafikyServices_para: `Wählen Sie einfach die gewünschte Sprache aus, und Sie können mit einem Klick an Videokonferenzen, Pressekonferenzen, Webinaren, Unternehmensmeetings oder Besprechungen teilnehmen: Die Fern-Dolmetschlösungen von Rafiky sind für Veranstaltungen jeder Art und Kategorie konzipiert. Wo auch immer Sie sich auf der Welt befinden, qualifizierte und erfahrene Dolmetscher können jede Art von Nachricht in die Zielsprache übersetzen. Darüber hinaus ermöglicht Ihnen die Live-Chat-Funktion Gespräche während der Pausen oder spezifische Anfragen während der Veranstaltung mit dem Dolmetscher zu führen.`,
+  rafikyServices_Btn: "MEHR ERFAHREN",
+  rafikyServices_prontoSubTitle: "BEREIT?",
+  rafikyServices_prontoTitle:
+    "Fordern Sie jetzt ein Angebot für Ihre nächste Veranstaltung an!",
+  rafikyServices_prontoBtn: "Jetzt Angebot anfordern",
   //Rafiky Xp
   rafikyXp_Title: `Nicht nur Online-Events, sondern einzigartige Erlebnisse!`,
   rafikyXp_SubTitle: `Ferndolmetschdienst`,
   rafikyXp_para: `Als Ferndolmetscheragentur übernehmen wir das komplette Management Ihrer Online-Veranstaltung und begleiten Sie in jeder Projektphase. Wir werden Professionalität, Einhaltung von Fristen und Liebe zum Detail mit größter Aufmerksamkeit für jeden Aspekt kombinieren, um ein einzigartiges Erlebnis für alle Teilnehmer zu schaffen.`,
   rafikyXp_Btn: `KONTAKTIERE UNS`,
   //Remote Interpreting
-  remoteInterpreting_Heading: `Ferndolmetschdienst Rafiky XP`,
-  remoteInterpreting_para: `Ob es darum geht, Aktivitäten oder Produkte zu bewerben, Interviews zu führen, Workshops, Webinare oder Online-Kurse abzuhalten, eine Online-Veranstaltung zu organisieren, ist gar nicht so einfach. Es wird notwendig sein, Ziele und Strategien zu definieren, Arbeitspläne zu erstellen, Tagesordnungen und Fragebögen zu erstellen, sich um die Marketingmaterialien und das Management der Teilnehmer zu kümmern, ohne den rein technischen Teil zu vernachlässigen. Das Team unserer Ferndolmetschagentur kümmert sich um alle Aspekte Ihrer Online-Veranstaltung für ein einzigartiges Rundum-Erlebnis.`,
+  remoteInterpreting_Heading: "Rafiky XP Remote-Interpretationsdienst",
+  remoteInterpreting_para:
+    "Die Organisation einer Online-Veranstaltung ist keine einfache Aufgabe, egal ob es darum geht, Aktivitäten oder Produkte zu bewerben, Interviews durchzuführen, Workshops, Webinare oder Online-Kurse abzuhalten.",
+  remoteInterpreting_paraOne:
+    "Es gilt, Ziele und Strategien zu definieren, Arbeitspläne, Tagesordnungen und Fragebögen zu erstellen, sich um das Begleitmarketing und das Teilnehmermanagement zu kümmern, ohne die technischen Aspekte zu vernachlässigen.",
+  remoteInterpreting_paraTwo:
+    "Das Team unserer Agentur für Remote-Interpretation kümmert sich um jeden Aspekt Ihrer Online-Veranstaltung und bietet Ihnen eine umfassende 360-Grad-Erlebnis.",
+
   remoteInterpreting_Btn: `FORDERN SIE EIN ANGEBOT AN`,
   remoteInterpreting_Firstcountingtest: `Sprachen`,
   remoteInterpreting_Seccountingtest: `Online-Veranstaltungen`,
@@ -351,7 +780,7 @@ export const de = {
   //Zoness Difference
   zonessDifference_Title: `Sind Sie bereit, etwas zu bewegen?`,
   zonessDifference_para: `Unsere Zusammenarbeit mit mehreren internationalen Partnern ist sicherlich ein Schlüsselelement für unseren Erfolg! Durch ein weltweites Partnernetzwerk können wir unseren Kunden sprachliche Komplettlösungen garantieren. Wir glauben fest an die Komplementarität von Know-how. Durch die Zusammenarbeit können wir einzigartige Pakete erstellen, die perfekte Lösungen für die Bedürfnisse unserer Kunden bieten. Gemeinsam können wir unser Geschäft weiterentwickeln, globale Märkte erschließen und mit den besten Marken der Welt zusammenarbeiten.`,
-  zonessDifference_FirstHeading: `Zonenunterschied`,
+  zonessDifference_FirstHeading: `Unser Netzwerk`,
   zonessDifference_Firstpara: `Treten Sie unserem Netzwerk bei. Wir beschäftigen nur professionelle Dolmetscher mit mindestens fünf Jahren Erfahrung. Wir bilden gezielt aus und garantieren unseren Linguisten eine solide Karriere.`,
   zonessDifference_SecHeading: `Sprachdienstleister`,
   zonessDifference_Secpara: `Wir bieten 360 % Full-Service für unsere globalen Partner. Wir stellen die Software entweder auf Abruf oder über Jahresabonnements und zu den besten Preisen auf dem Markt zur Verfügung!`,
@@ -468,6 +897,11 @@ export const de = {
   interpretersAll_Heading: `Dolmetscher in allen Sprachen`,
   interpretersAll_para: `Die Sprachdienste von Rafiky richten sich sowohl an den öffentlichen als auch an den privaten Sektor, um Sprachbarrieren abzubauen und die Kommunikation mit Verbrauchern aus der ganzen Welt zu ermöglichen. Dank unseres Netzwerks von erfahrenen Linguisten bieten wir Webkonferenzdienste mit Dolmetschern in allen Sprachen an. Congressi Internazionali ist der ideale Verbündete, um Ihren Erfolg in alle Sprachen zu übersetzen.`,
   //Our Offer
+
+  lingueMainTitle: "Dolmetscher in allen Sprachen",
+  lingueMainText:
+    "Die sprachlichen Dienstleistungen von Rafiky richten sich sowohl an den öffentlichen als auch an den privaten Sektor, um sprachliche Barrieren abzubauen und die Kommunikation mit Verbrauchern aus aller Welt zu ermöglichen. Dank unserem Netzwerk aus erfahrenen Sprachexperten bieten wir Webkonferenzdienste mit Dolmetschern in allen Sprachen an. Internationale Kongresse sind der ideale Partner, um Ihren Erfolg in allen Sprachen zu übersetzen.",
+
   ourOffer_FirstHeading: `Vollständige Palette von Dienstleistungen:`,
   ourOffer_Firstpara: `Die Rafiky-Plattform ist auf eine breite Palette von Dienstleistungen spezialisiert, die von den klassischsten bis zu den innovativsten Übersetzungsmethoden reichen: Technische Übersetzung, Video oder Vor-Ort-Dolmetschen, Website-Lokalisierung und Transkription sind nur einige der professionellen Sprachdienste, die Ihnen zur Verfügung stehen. Wir haben Dolmetscher in allen Sprachen und LIS, die es schaffen, auf die Bedürfnisse aller Arten von Kunden einzugehen.`,
   ourOffer_SecHeading: `Qualitätskontrollprozesse:`,
@@ -594,7 +1028,7 @@ export const de = {
   chineseInterpreter_para: `Rafiky bietet seinen Benutzern eine Reihe von chinesischen Ferndolmetschdiensten an. Die für den Übergang vom Chinesischen ins Italienische (und umgekehrt) ausgewählten Übersetzer sind bestrebt, schnell und effizient zu arbeiten. Hier sind einige der Vorteile, die Sie aus der Auswahl eines professionellen Italienisch-Chinesisch-Dolmetschers ziehen könnten: Simultanübersetzung Beteiligung einzelner Teilnehmer an der Veranstaltung Gelegenheit zum Eintritt in den chinesischen Markt Ein Chinesisch-Dolmetscher immer zu Ihrer Verfügung Was auch immer Sie brauchen Rafiky kann Ihnen helfen, den besten zu finden Lösung in kürzester Zeit. Ihr professioneller chinesischer Dolmetscher kümmert sich um die Verwaltung der Treffen zwischen den verschiedenen Parteien. Kein Teilnehmer wird vergessen und alle können in Ruhe am Meeting teilnehmen. Fordern Sie jetzt ein Angebot an, um Ihre Fragen zum Ferndolmetschen ins Chinesische zu beantworten. Lassen Sie uns dieses neue Abenteuer gemeinsam beginnen!`,
   chineseInterpreter_Btn: `FORDERN SIE EIN ANGEBOT AN`,
   //Interpretation Services
-  interpretationServices_Heading: `Dolmetscherdienste in Chinesisch und Lis`,
+  interpretationServices_HeadingChinese: `Dolmetscherdienste in Chinesisch und Lis`,
   interpretationServices_para: `Bei Rafiky können Sie sich auf die Professionalität eines Gebärdensprachdolmetschers vom Italienischen ins Chinesische verlassen. Alle Teilnehmer Ihrer Veranstaltung können dank Rafikys Chinesisch- und Lis-Dolmetscherdienst das Gespräch in Echtzeit verfolgen. Wenn Sie nach einer Möglichkeit suchen, Webkonferenz-Meetings mit einem chinesischen Dolmetscher zu verwalten, ist dies der schnellste Weg. Wir bieten Ihnen die Unterstützung eines professionellen Dolmetschers vom Italienischen ins Chinesische, der die Sprache in all ihren Variationen kennt. Wenn Sie sich außerdem für die Unterstützung eines Gebärdensprachdolmetschers vom Italienischen ins Chinesische entscheiden, werden Sie jede Art von Publikum zufrieden stellen.`,
   interpretationServices_Btn: `FORDERN SIE EIN ANGEBOT AN`,
   //Most Popular
@@ -618,6 +1052,8 @@ export const de = {
   russianInterpreter_Btn: `DOLMETSCHERDIENSTE IN RUSSISCH UND LIS`,
   //Interpretation Services
   interpretationServices_Heading: `Italienisch-Englisch-Dolmetscherdienste für Ihr Unternehmen!`,
+  interpretationServices_HeadingRussia:
+    "Dolmetschdienste in russischer Sprache und Gebärdensprache",
   interpretationServices_para: `Bei Rafiky können Sie sich auf die Professionalität eines Gebärdensprachdolmetschers vom Italienischen ins Russische verlassen. Alle Teilnehmer Ihrer Veranstaltung können dank Rafikys Russisch- und Lis-Dolmetscherdienst das Gespräch in Echtzeit verfolgen. Wenn Sie nach einer Möglichkeit suchen, Webkonferenz-Meetings mit einem Russisch-Dolmetscher zu verwalten, ist dies der schnellste Weg. Wir bieten Ihnen die Unterstützung eines professionellen Russisch-Dolmetschers, der die Sprache in all ihren Variationen kennt. Wenn Sie sich außerdem für die Unterstützung eines Gebärdensprachdolmetschers vom Italienischen ins Russische entscheiden, werden Sie jede Art von Publikum zufrieden stellen.`,
   interpretationServices_Btn: `FORDERN SIE EIN ANGEBOT AN`,
   //Most Popular
@@ -629,7 +1065,7 @@ export const de = {
   letsBegin_Btn: `FORDERN SIE EIN ANGEBOT AN`,
   //Estimate Rates
   estimateRates_Heading: `FORDERN SIE EIN ANGEBOT AN`,
-  estimateRates_para: `Mehr als 30'000 Veranstaltungen realisiert Über 200 Sprachen verfügbar 6'000 professionelle Dolmetscher!`,
+  estimateRates_para: `Kundenservice rund um die Uhr verfügbar, mehr als 200 verfügbare Sprachen, 20.000 professionelle Dolmetscher!`,
   estimateRates_RangeOne: `Anzahl der Stunden`,
   estimateRates_RangeTwo: `Anzahl der Teilnehmer`,
   estimateRates_RangeThree: `Anzahl Sprachen`,
@@ -766,25 +1202,65 @@ export const de = {
   ourMission_link: `Unsere Aufgabe`,
   //Do Best
   doBest_Heading: `Was wir am besten können`,
-  doBest_FirstSubHeading: `Organisation`,
-  doBest_SecSubHeading: `Stützmaterial`,
-  doBest_ThirdSubHeading: `Dolmetscherfähigkeitens `,
-  doBest_ForthSubHeading: `Mannschaftstraining`,
-  doBest_FivethSubHeading: `Analytisch`,
-  doBest_SixSubHeading: `Web Entwicklung`,
+  doBest_FirstSubHeading: `Spitzenkönnen in der Organisation`,
+  doBest_SecSubHeading: `Unterstützende Ressourcen`,
+  doBest_ThirdSubHeading: `Zertifizierte Dolmetscher`,
+  doBest_ForthSubHeading: `Teamtraining`,
+  doBest_FivethSubHeading: `Strategische Analyse`,
+  doBest_SixSubHeading: `Konstruktives Feedback`,
   doBest_SevenSubHeading: `Rückmeldung`,
   doBest_Btn: `ANGEBOTSANFRAGE`,
   //Our Skills
   ourSkills_Heading: "Unsere Fähigkeiten",
   ourSkills_FirstCardHeading: "Planung",
-  ourSkills_FirstCardDescription: "Unser Team verfügt über mehr als 10 Jahre Erfahrung in der Veranstaltungsplanung. Wir kümmern uns um jedes Detail",
+  ourSkills_FirstCardDescription:
+    "Unser Team verfügt über mehr als 10 Jahre Erfahrung in der Veranstaltungsplanung. Wir kümmern uns um jedes Detail",
   ourSkills_SecCardHeading: "Software",
-  ourSkills_SecCardDescription: "Unsere Plattform ist ISO 9241 zertifiziert. Benutzerfreundlich und super effizient",
+  ourSkills_SecCardDescription:
+    "Unsere Plattform ist ISO 9241 zertifiziert. Benutzerfreundlich und super effizient",
   ourSkills_ThirdCardHeading: "Feedback",
-  ourSkills_ThirdCardDescription: "Wir sind 24 Stunden am Tag erreichbar. Wir bieten kostenlose Präventivdienste in kürzester Zeit.",
+  ourSkills_ThirdCardDescription:
+    "Wir sind 24 Stunden am Tag erreichbar. Wir bieten kostenlose Präventivdienste in kürzester Zeit.",
   ourSkills_ForthCardHeadingpara: "Technische Unterstützung",
-  ourSkills_ForthCardHeadingDescription: "Wir garantieren Beratung und technische Unterstützung während der gesamten Veranstaltung.",
+  ourSkills_ForthCardHeadingDescription:
+    "Wir garantieren Beratung und technische Unterstützung während der gesamten Veranstaltung.",
+  ourSkills_SixthCardHeading: "Bequemlichkeit",
+  ourSkills_SixthCardDescription: `Wir optimieren die Kosten, ohne die Qualität zu beeinträchtigen, und bieten wirtschaftliche und praktische Lösungen für Ihre Veranstaltung oder Besprechung.`,
   ourSkills_Btn: "ANGEBOT ANFRAGEN",
+  //Case Studies
+  caseStudies_Title: `Fallstudien`,
+  caseStudies_subTitle: `FERNSIMULTANDOLMETSCHEN`,
+  // Fallstudie Novartis
+  caseStudyNovartis_Title: "Novartis",
+  caseStudyNovartis_subTitle: "FALLSTUDIE",
+  caseStudyNovartis_para:
+    "Dank des Remote-Zugangs spielte Rafiky eine entscheidende Rolle bei der Organisation und dem Erfolg eines Kongresses, der einen wichtigen Moment des Austauschs und der gemeinsamen Nutzung von Erfahrungen und Informationen darstellte: alles in Echtzeit, mit minimalen Kosten und der Exzellenz eines qualitativ hochwertigen Services.",
+  caseStudyNovartis_Heading: "DIE HERAUSFORDERUNG",
+  firstColorHeadingLaChallenge: "Der Kunde",
+  caseStudyNovartis_subHeading1: "Remote-Simultandolmetschen für Novartis",
+  caseStudyNovartis_subHeading2: "Remote-Simultandolmetschen für Novartis",
+  caseStudyNovartis_para1:
+    "Gegründet im Jahr 1996 durch den Zusammenschluss von Cyba-Geigy und Sandoz, ist Novartis heute eine führende globale Gruppe im Gesundheitssektor und eine der größten pharmazeutischen Gruppen in unserem Land, mit Büros im gesamten nationalen Gebiet.",
+  caseStudyNovartis_para2:
+    "Als einer der weltweiten Marktführer in der Entwicklung innovativer Medikamente in den wichtigsten therapeutischen Bereichen und in der Produktion und Vermarktung von generischen und biosimilaren Arzneimitteln integrierte Novartis 2018 das Unternehmen Advanced Accelerator Applications (AAA), das auf Radiopharmazeutika spezialisiert ist.",
+  caseStudyNovartis_para3:
+    "Für eine führende Gruppe wie Novartis, die sich ständig mit Informations- und Sensibilisierungsaktivitäten beschäftigt, ist eine gute Kommunikation entscheidend. Die Gewissheit, dass man auf einen schnellen und kostengünstigen Service zählen kann, der den Teilnehmern das bestmögliche Erlebnis bietet, und die Möglichkeit, dies mit äußerster Einfachheit und oft mit kurzer Vorankündigung zu tun, ist von entscheidender Bedeutung: Novartis bezeichnet Rafiky nicht gerne als Dienstleister, sondern als Partner, auf den man jederzeit zählen kann. Mit über ... erfolgreich abgeschlossenen Projekten stellt die etablierte Zusammenarbeit zwischen Novartis und Rafiky eine neue Ressource für die Übermittlung, den Austausch und die gemeinsame Nutzung von Erfahrungen im Dienste der Gesundheit dar",
+
+  // Fallstudie Volkswagen
+  caseStudyVolksWagen_Title: `Volkswagen`,
+  caseStudyVolksWagen_subTitle: `FALLSTUDIE`,
+  caseStudyVolksWagen_para: `Im Rahmen einer Reihe von Initiativen zu alternativer Mobilität und smarten Städten suchte Volkswagen die technische Unterstützung von Rafiky: einen flexiblen und praktischen Remote-Interpretationsservice, mit geringen Kosten und ohne sperrige Ausrüstung.
+Die Lösung? Die fortschrittlichste Technologie in der Interpretationsbranche, praktisch und äußerst funktional.`,
+  caseStudyVolksWagen_Heading: `Remote Simultandolmetschen für Volkswagen`,
+  caseStudyVolksWagen_subHeading1: `Der Kunde`,
+  caseStudyVolksWagen_para1: `Ein etabliertes Handelsunternehmen, das keiner Vorstellung bedarf.
+Gegründet in den 1930er Jahren, genießt der Automobilhersteller einen Ruf, der keine Grenzen kennt.
+Ein Kunde von Volkswagens Kaliber, dessen Eckpfeiler Technologie und Innovation sind, verlangt technologische und innovative Lösungen im Bereich der Interpretationsdienste.
+Ein exzellenter Service im Dienste der Exzellenz.`,
+  caseStudyVolksWagen_subHeading2: `Die fortschrittlichste Technologie in der Interpretationsbranche`,
+  caseStudyVolksWagen_para2: `Eine revolutionäre Software für Remote-Interpretation, die Praktikabilität, Qualität und Effizienz vereint.
+Rafiky ermöglicht die Nutzung der Remote-Simultandolmetschen (RSI) ganz einfach über Smartphones, Tablets oder Computer, in jeder Sprache und in Echtzeit. Dabei werden die Kosten reduziert und die Exzellenz eines durchgehend hochwertigen Services gewährleistet, ganz wie bei der traditionellen Dolmetschung, jedoch ohne die sperrigen Übersetzungskabinen und die damit verbundenen Kosten und Zeitaufwände für Aufbau und Abbau.`,
+
   //How Does
   howDoes_Title: `VIDEO AUS DER FERNE INTERPRETIERT`,
   howDoes_SubTitle: `Video aus der Ferne interpretiert`,
@@ -792,20 +1268,40 @@ export const de = {
   howDoes_Btn: `FORDERN SIE EIN ANGEBOT AN`,
   //Remote Video
   remoteVideo_Heading: `Öffnen Sie Innovationen die Türen mit Remote Video Interpretation`,
-  remoteVideo_para: `Remote-Videodolmetschen bietet die Unterstützung eines Online-Dolmetschers in jeder Sprache und in Echtzeit. Es ist nicht erforderlich, einen oder mehrere Dolmetscher vor Ort zu haben oder die umständliche Ausrüstung, die die Welt des traditionellen Dolmetschens bis heute geprägt hat. Indem wir die Kosten für Audio- und Videogeräte reduzieren oder manchmal sogar eliminieren, bietet unser Ferndolmetschdienst einen qualitativ hochwertigen Service, der auf dem heutigen Markt seinesgleichen sucht. Ferndolmetschen ist ideal für jede Art von internationalen Meetings oder Veranstaltungen. Und wenn die Qualität des aus der Ferne interpretierten Videos erstklassig und der Ton kristallklar ist, reichen ein paar einfache Schritte aus, um eine erfolgreiche Veranstaltung zu gestalten. Die Anwendung kombiniert die Leistungsfähigkeit der Cloud-Technologie mit modernen Geräten, um die Dolmetschtechnik zu erleichtern: Diese Art von Prozess ermöglicht es jedem, einfach zu kommunizieren, indem er die Vorteile der Remote-Simultanübersetzung über Smartphone, Tablet oder Computer nutzt. Die Anwendung ist intuitiv, leistungsstark und frei von Fehlern oder Störungen, die für Störungen im Kommunikationsprozess verantwortlich sind. Es funktioniert für jede Art von Besprechung oder Veranstaltung mit jeder Sprache und in Echtzeit und garantiert die Exzellenz eines stets hochwertigen Dienstes, genau wie beim traditionellen Dolmetschen, jedoch ohne die umständlichen Dolmetscherkabinen und die damit verbundenen Kosten und Zeiten für den Auf- und Abbau. Alles, was Sie brauchen, ist ein Gerät (PC, Laptop oder Smartphone) mit einer guten Internetverbindung, um einen professionellen Dolmetschdienst mit sofortiger Kommunikation zwischen Gesprächspartnern verschiedener Sprachen in Anspruch zu nehmen. Ein Netzwerk von Online-Dolmetschern hilft Ihnen bei der Bewältigung jeder Art von Notfällen!`,
+  remoteVideo_para:
+    "Die Fernvideo-Dolmetschung bietet die Unterstützung eines Online-Dolmetschers in jeder Sprache und in Echtzeit. Es ist nicht erforderlich, einen oder mehrere Dolmetscher vor Ort zu haben oder die sperrige Ausrüstung, die bisher die Welt der traditionellen Dolmetschung geprägt hat.",
+  remoteVideo_para2:
+    "Durch die Reduzierung oder sogar Beseitigung der Kosten für Audio- und Videogeräte bietet unser Service für die Fern-Dolmetschung eine unvergleichliche Qualität auf dem heutigen Markt.",
+  remoteVideo_para3:
+    "Die Fern-Dolmetschung eignet sich ideal für jede Art von internationaler Veranstaltung oder Besprechung. Wenn dann noch die Videoqualität für die Fern-Dolmetschung hervorragend und der Ton kristallklar ist, genügen nur wenige einfache Schritte, um eine erfolgreiche Veranstaltung zu organisieren. Die Anwendung kombiniert die Leistungsfähigkeit der Cloud-Technologie mit modernen Geräten, um die Dolmetschtechnik zu erleichtern. Dieser Prozess ermöglicht es jedem, auf einfache Weise zu kommunizieren und die Fernsimultanübersetzung über Smartphones, Tablets oder Computer zu nutzen. Die Anwendung ist intuitiv, leistungsstark und frei von Fehlern oder Störungen, die den Kommunikationsprozess beeinträchtigen könnten. Sie funktioniert für jede Art von Besprechung oder Veranstaltung, in jeder Sprache und in Echtzeit. Dabei wird die Exzellenz eines stets qualitativ hochwertigen Dienstes gewährleistet, ganz wie bei der traditionellen Dolmetschung, jedoch ohne die sperrigen Übersetzungskabinen und die damit verbundenen Kosten und Aufbau-/Abbauzeiten.",
+  remoteVideo_para4:
+    "Es genügt, ein Gerät (PC, Laptop oder Smartphone) mit einer guten Internetverbindung zu haben, um professionelle Dolmetschdienste mit sofortiger Kommunikation zwischen Sprechern verschiedener Sprachen zu nutzen. Ein Online-Netzwerk von Dolmetschern steht Ihnen zur Bewältigung von Notfällen jeder Art zur Verfügung!",
   remoteVideo_Btn: `FERNBEDIENUNG`,
   //Video Interpreted
   videoInterpreted_Heading: `Video aus der Ferne interpretiert`,
   videoInterpreted_para: `Wählen Sie einfach die Sprache, die Sie interessiert, und Sie können mit einem einfachen Klick an Videokonferenzen, Pressekonferenzen, Webinaren, Geschäftstreffen oder Versammlungen teilnehmen: Die Lösungen von Rafiky sind für Veranstaltungen jeder Art und Art konzipiert. Überall auf der Welt können professionelle und qualifizierte Online-Dolmetscher jede Art von Nachricht in die Zielsprache übersetzen. Darüber hinaus wird die Live-Chat-Funktion es dem Online-Dolmetscher ermöglichen, Gespräche in Pausen zu führen und/oder während der Veranstaltung spezifische Anfragen zu stellen.`,
   videoInterpreted_Btn: `DIE REVOLUTION BEGINNT`,
+
   //Remote Simultaneous
-  remoteSimultaneous_Title: `Remote-Simultanübersetzung`,
-  remoteSimultaneous_SubTitle: `DOLMETSCHER ANGESCHLOSSEN REMOTEL`,
-  remoteSimultaneous_list1: "Flexibility",
-  remoteSimultaneous_list2: "Real-time video and audio",
-  remoteSimultaneous_list3: "Live Chat with online Interpreters",
-  remoteSimultaneous_list4: "Live Chat with the onsite project manager",
-  remoteSimultaneous_Btn: `SCHNELLE UND KOSTENLOSE KOSTENVORANSCHLAG`,
+
+  remoteSimultaneous_Title: "Simultandolmetschen aus der Ferne",
+  remoteSimultaneous_SubTitle: "FERNDOLMETSCHER VERBUNDEN",
+  remoteSimultaneous_list1: "Flexibilität",
+  remoteSimultaneous_list2: "Echtzeit-Video und -Audio",
+  remoteSimultaneous_list3: "Audio-/Videoqualität",
+  remoteSimultaneous_list4: "Live-Chat mit Online-Dolmetschern",
+  remoteSimultaneous_list5: "Live-Chat mit dem Projektleiter vor Ort",
+  remoteSimultaneous_list1para: "Unübertroffene Flexibilität: Sofortiger Zugriff auf Dolmetscher, in jeder Sprache, für Veranstaltungen jeder Größe, von überall und zu jeder Zeit.",
+  remoteSimultaneous_list2para: "Erleben Sie nahtlose Echtzeit-Video- und Audio-Interpretation mit unserer Plattform und gewährleisten Sie eine sofortige und effektive Kommunikation.",
+  remoteSimultaneous_list3para: "Unsere Plattform bietet makellose Audio- und Videoqualität und garantiert eine klare und unterbrechungsfreie Kommunikation für eine nahtlose Ferninterpretation.",
+  remoteSimultaneous_list4para: "Unsere Plattform bietet ein bahnbrechendes Feature: Live-Chat mit Online-Dolmetschern. Überwinden Sie Sprachbarrieren sofort.",
+  remoteSimultaneous_list5para: "Verbinden Sie sich in Echtzeit mit dem Vor-Ort-Manager für persönliche Unterstützung und eine reibungslose Ferninterpretation.",
+  fuzianaVideoHeading: "Fern-Video-Dolmetschen",
+  fuzianaVideoparaone:
+    "Durch die Auswahl der gewünschten Sprache können Sie mit nur einem Klick an Videokonferenzen, Pressekonferenzen, Webinaren, Unternehmensbesprechungen oder jeder Art von Veranstaltung teilnehmen. Die Lösungen von Rafiky sind für Veranstaltungen jeder Art und Art ausgelegt.",
+  fuzianaVideoparaTwo:
+    "Egal, wo sie sich auf der Welt befinden, werden professionelle und qualifizierte Online-Dolmetscher in der Lage sein, jede Art von Nachricht in die Zielsprache zu übersetzen. Darüber hinaus ermöglicht die Live-Chat-Funktion dem Online-Dolmetscher, während Pausen Gespräche zu führen oder spezifische Anfragen während der Veranstaltung zu stellen.",
+
   //Ready
   ready_Title: `BEREIT`,
   ready_SubTitle: `VERÄNDERE DIE WELT MIT EINEM KLICK!`,
@@ -815,9 +1311,13 @@ export const de = {
   useCases_SubTitle: `DISTANZINTERPRETATION`,
   useCases_para: `BRINGEN SIE IHRE VERANSTALTUNG AUF DIE NÄCHSTE LEVEL MIT FERNDOLMETSCHEN!`,
   useCases_Btn: `FORDERN SIE EIN ANGEBOT AN`,
+
   //Microsoft Teams
-  microsoftTeams_Heading: `Was ist die Microsoft Teams-Integration auf Rafiky?`,
-  microsoftTeams_para: `Um eine erfolgreiche Konferenz zu organisieren, ist es nicht immer notwendig, technisches Equipment oder die Anwesenheit von professionellen Dolmetschern vor Ort einzusetzen. Dank unserer revolutionären Cloud-Plattform für Simultandolmetschen sind wir in der Lage, Benutzer in Echtzeit und von überall auf der Welt zu verbinden, wodurch Zeit und Kosten für technische Ausrüstung und Reisen entfallen, aber die Qualität eines professionellen Dolmetscherdienstes garantiert wird. Im Gegensatz zum herkömmlichen Simultandolmetschen ermöglicht unser Remote-Simultandolmetschen Dolmetschern, Sprechern und Zuhörern, über ein Smartphone, Tablet oder einen Computer aus der Ferne zu interagieren. Wenn Sie sich dafür entscheiden, eine Konferenz aus der Ferne zu organisieren, können die besten professionellen Dolmetscher jederzeit von Ihrem Arbeitsplatz aus einen hochwertigen Dolmetschdienst anbieten, während die Gäste die Konferenz aus der Ferne verfolgen. Dadurch entfallen die Kosten und der Zeitaufwand für traditionelles Dolmetschen, was eine noch breitere Teilnahme ermöglicht.`,
+  microsoftTeams_Heading: `Ferninterpretation für jede Art von Veranstaltung!`,
+  microsoftTeams_para: `Um eine erfolgreiche Konferenz zu organisieren, ist es nicht immer notwendig, auf technische Ausrüstung oder die Anwesenheit professioneller Dolmetscher vor Ort zurückzugreifen. Dank unserer revolutionären Cloud-basierten Simultanübersetzungsplattform können wir Benutzer in Echtzeit von überall auf der Welt miteinander verbinden und dabei die mit technischer Ausrüstung, Transport und Reisen verbundenen Zeitaufwände und Kosten eliminieren, während wir die Qualität professioneller Dolmetschdienste sicherstellen.`,
+  microsoftTeams_para2: `Im Gegensatz zur traditionellen simultanen Übersetzung ermöglicht unsere Remote-Simultanübersetzung Dolmetschern, Rednern und Zuhörern, aus der Ferne über Smartphones, Tablets oder Computer miteinander zu interagieren.`,
+  microsoftTeams_para3: `Wenn Sie sich dafür entscheiden, eine Konferenz aus der Ferne zu organisieren, können die besten professionellen Dolmetscher jederzeit hochwertige Dolmetschdienste von ihrem eigenen Arbeitsplatz aus anbieten, während die Teilnehmer die Konferenz remote verfolgen. Dies beseitigt die Kosten und logistischen Herausforderungen der traditionellen Übersetzung und ermöglicht eine noch breitere Teilnahme.`,
+
   microsoftTeams_FirstCountTesting: `Sprachen`,
   microsoftTeams_SecCountTesting: `Online-Veranstaltungen`,
   microsoftTeams_ThirdCountTesting: `Professionelle Dolmetscher`,
@@ -886,7 +1386,7 @@ export const de = {
   internetWifi_SixSubTitle: `Wie viele MB werden pro Benutzer und Stunde verbraucht?`,
   internetWifi_SixSubTitlepara: `Netzwerknutzung: Internetnutzung (wenn Online-Streaming aktiviert ist): Broadcaster-Software (Streaming zum Server): Upload bis zu 100 MB/h Download bis zu 4 MB/h App-Listener (Hören vom Server): bis zu 60 MB/h (für ein Smartphone )`,
   //Capacity Features
-  capacityFeatures_FirstSubTitle: `Kapazität und Funktionen`,
+  capacityFeatures_FirstSubTitle: `Kapazitat und Funktionen`,
   capacityFeatures_FirstSubTitlepara: `Gibt es verschiedene Streaming-Optionen? Ist es möglich, Konferenzaudio aufzuzeichnen? Ist es möglich, die Übersetzung vorab aufzunehmen und dann während der Veranstaltung zu streamen? Wie ist die Audioqualität? Welche Versionen von Windows oder Mac OS unterstützt Rafiky? Welche mobilen Betriebssysteme unterstützt Rafiky? Ist es möglich, mehrere Übersetzungen gleichzeitig zu haben? Wie viele Sprachoptionen kann die App gleichzeitig unterstützen? Können Dolmetscher während des Streams die Sprache ändern? Wie wählen Sie den gewünschten Eingang aus? Ist es möglich, über die App Feedback von Teilnehmern zu sammeln? Ist es möglich zu wissen, wie viele Personen der Konferenz zuhören?`,
   capacityFeatures_SecSubTitle: `Gibt es verschiedene Streaming-Optionen?`,
   capacityFeatures_SecSubTitlepara: `Ja, es ist möglich, das Streaming einer Veranstaltung auf drei Arten zu verfolgen: Die Teilnehmer können sich über WLAN mit dem Stream verbinden. Der Ton wird direkt über das lokale Netzwerk übertragen. einfach durch Wählen einer Telefonnummer. 1. Lokaler Stream: Für den Sender ist ein Internetzugang erforderlich. 2. Fernabhören über Wi-Fi/3G/4G/LTE: Sie können den Audiostream von überall aus anhören. Geben Sie einfach den "Standortcode" ein, um eine Verbindung zum Stream herzustellen, während Sie mobile Daten oder ein verfügbares WLAN verwenden. 3. Anrufoption: Es wird auch möglich sein, sich per Anruf mit dem Audiostream zu verbinden`,
@@ -970,6 +1470,19 @@ export const de = {
   aboutUs_SecSubTitlepara: `Wir verwenden Ihre personenbezogenen Daten für diese Zwecke im Vertrauen auf unsere legitimen Geschäftsinteressen „Geschäftszwecke", um einen Vertrag mit Ihnen „vertraglich“ mit Ihrer Zustimmung „Einwilligung“ abzuschließen oder durchzuführen und/oder um unseren gesetzlichen Verpflichtungen „Gesetzlich“ nachzukommen Gründe dafür" . Wir geben die spezifischen Verarbeitungsgründe an, auf die wir uns neben jedem unten aufgeführten Zweck stützen. Wir verwenden die Informationen, die wir sammeln oder erhalten: · Um Ihnen Verwaltungsinformationen für Ihr Konto, unsere Geschäftszwecke und/oder aus rechtlichen Gründen zuzusenden. Wir können Ihre personenbezogenen Daten verwenden, um Ihnen Produktservice- und neue Funktionsinformationen und/oder Informationen über Änderungen an unseren Allgemeinen Geschäftsbedingungen und Richtlinien zuzusenden. · Bereitstellung gezielter Werbung für unsere Geschäftszwecke und/oder mit Ihrer Zustimmung. Wir können Ihre Informationen verwenden, um Inhalte und Werbung zu entwickeln und anzuzeigen und mit Dritten zusammenzuarbeiten, die dies auf Ihre Interessen und/oder Ihren Standort zugeschnitten tun, und um deren Wirksamkeit zu messen. Weitere Informationen finden Sie in unserer Cookie-Richtlinie. Feedback für unsere Geschäftszwecke und/oder mit Ihrer Zustimmung anfordern. Wir können Ihre Informationen verwenden, um Feedback anzufordern und Sie bezüglich Ihrer Nutzung unserer Website zu kontaktieren. · Um unsere Website aus geschäftlichen und/oder rechtlichen Gründen zu schützen. Wir können Ihre Daten im Rahmen unserer Bemühungen verwenden, unsere Website sicher und geschützt zu halten, beispielsweise zur Betrugsüberwachung und -prävention. Um die Benutzer-zu-Benutzer-Kommunikation mit Ihrer Zustimmung zu ermöglichen. Wir können Ihre Informationen verwenden, um mit der Zustimmung jedes Benutzers die Kommunikation von Benutzer zu Benutzer zu ermöglichen. · Um unsere Geschäftsbedingungen und Richtlinien für unsere Geschäftszwecke und wie gesetzlich vorgeschrieben durchzusetzen. · Um auf rechtliche Anfragen zu reagieren und Schaden wie gesetzlich vorgeschrieben zu verhindern. Wenn wir eine Vorladung oder eine andere rechtliche Anfrage erhalten, müssen wir möglicherweise die von uns gespeicherten Daten überprüfen, um festzustellen, wie wir darauf reagieren sollen. Für andere Geschäftszwecke. Wir können Ihre Informationen für andere Geschäftszwecke verwenden, wie z. B. Datenanalysen zur Identifizierung von Nutzungstrends, die die Wirksamkeit unserer Werbekampagnen bestimmen, und zur Bewertung und Verbesserung des Marketings unserer Website-Produkte und Ihrer Erfahrungen. Zum Beispiel speichern wir Bildverarbeitungsaufzeichnungen im Auftrag von Benutzern, damit sie sie nach Belieben anzeigen und herunterladen können. Von Zeit zu Zeit können wir sie auch verwenden, um die Bildverarbeitungsalgorithmen zu verbessern, die den von uns angebotenen Diensten zugrunde liegen.`,
   aboutUs_ThirdSubTitle: `WERDEN IHRE INFORMATIONEN MIT JEMANDEM GETEILT?`,
   aboutUs_ThirdSubTitlepara: `Wir geben Ihre Informationen nur in den folgenden Situationen weiter und legen sie offen: · Einhaltung von Gesetzen. Wir können Ihre Informationen offenlegen, wenn wir gesetzlich dazu verpflichtet sind, um geltendem Recht, behördlichen Anfragen, einem Gerichtsverfahren, einem Gerichtsbeschluss oder einem Gerichtsverfahren nachzukommen, z Sicherheits- oder Strafverfolgungsanforderungen. Lebenswichtige Interessen und gesetzliche Rechte. Wir können Ihre Informationen offenlegen, wenn wir glauben, dass es notwendig ist, um mögliche Verstöße gegen unsere Richtlinien, mutmaßliche Betrugssituationen mit potenziellen Bedrohungen der Sicherheit von Personen und illegale Aktivitäten zu untersuchen oder Maßnahmen zu ergreifen, oder als Beweismittel in Rechtsstreitigkeiten, an denen wir beteiligt sind. Geschäftsübertragungen. Wir können Ihre Informationen im Zusammenhang mit oder während der Verhandlungen über eine Fusion, den Verkauf von Unternehmensvermögen, die Finanzierung oder den Erwerb unseres gesamten oder eines Teils unseres Geschäfts an ein anderes Unternehmen weitergeben oder übertragen. Werbetreibende von Drittanbietern. Wir können Drittanbieter-Werbeunternehmen einsetzen, um Anzeigen zu schalten, wenn Sie die Website besuchen. Diese Unternehmen können Informationen über Ihre Besuche auf unserer Website und anderen Websites, die in Web-Cookies und anderen Tracking-Technologien enthalten sind, verwenden, um Werbung für Waren und Dienstleistungen bereitzustellen, die für Sie von Interesse sind. Weitere Informationen finden Sie in unserer Cookie-Richtlinie. Mitgliedsorganisationen. Wir können Ihre Informationen mit unseren verbundenen Unternehmen teilen, in diesem Fall werden wir von diesen verbundenen Unternehmen verlangen, diese Datenschutzrichtlinie einzuhalten. Verbundene Unternehmen umfassen unsere Muttergesellschaft und alle Tochtergesellschaften, Joint-Venture-Partner oder andere Unternehmen, die wir kontrollieren oder die unter gemeinsamer Kontrolle mit uns stehen. · Geschäftspartner. Wir können Ihre Daten an unsere Geschäftspartner weitergeben, um Ihnen bestimmte Produktdienstleistungen oder Werbeaktionen anzubieten. Mit Ihrer Zustimmung. Wir können Ihre personenbezogenen Daten mit Ihrer Zustimmung für andere Zwecke offenlegen. Andere Benutzer. Wenn Sie personenbezogene Daten teilen, beispielsweise indem Sie Kommentare, Beiträge oder andere Inhalte auf der Website posten oder anderweitig mit öffentlichen Bereichen der Website interagieren, können diese personenbezogenen Daten von allen Benutzern eingesehen und auf Dauer öffentlich außerhalb der Website verbreitet werden.`,
+  aboutUs_ThirdSubTitlepara1: `- Einhaltung von Gesetzen. Wir können Ihre Informationen offenlegen, wenn wir rechtlich dazu verpflichtet sind, um geltendes Recht, behördliche Anfragen, gerichtliche Verfahren, Gerichtsanordnungen oder rechtliche Prozesse einzuhalten, beispielsweise als Reaktion auf eine Gerichtsanordnung oder Vorladung (auch als Reaktion auf behördliche Anforderungen im Rahmen nationaler Sicherheit oder der Strafverfolgung).`,
+  aboutUs_ThirdSubTitlepara2: `- Schutz lebenswichtiger Interessen und rechtlicher Rechte. Wir können Ihre Informationen offenlegen, wenn wir der Ansicht sind, dass dies erforderlich ist, um potenzielle Verstöße gegen unsere Richtlinien aufzudecken, zu verhindern oder zu handeln, Verdachtsfälle von Betrug, Situationen, die potenzielle Bedrohungen für die Sicherheit einer Person darstellen, und illegale Aktivitäten oder als Beweismittel in einem Rechtsstreit, an dem wir beteiligt sind.`,
+  aboutUs_ThirdSubTitlepara3: `- Übertragung von Geschäftstätigkeiten. Wir können Ihre Informationen im Zusammenhang mit Fusionen, dem Verkauf von Unternehmensvermögen, Finanzierungen oder dem Erwerb von ganz oder teilweise unserem Unternehmen an ein anderes Unternehmen teilen oder übertragen.
+  `,
+  aboutUs_ThirdSubTitlepara4: `- Drittanbieter-Werbetreibende. Wir können Drittanbieter-Werbeunternehmen verwenden, um Anzeigen zu schalten, wenn Sie die Website besuchen. Diese Unternehmen können Informationen über Ihre Besuche auf unserer Website und anderen Websites mithilfe von Web-Cookies und anderen Tracking-Technologien verwenden, um Ihnen Werbung für Produkte und Dienstleistungen anzuzeigen, die für Sie von Interesse sein könnten. Weitere Informationen finden Sie in unserer Cookie-Richtlinie.
+  `,
+  aboutUs_ThirdSubTitlepara5: `- Verbundene Unternehmen. Wir können Ihre Informationen mit unseren verbundenen Unternehmen teilen, wobei wir diese auffordern, diese Datenschutzerklärung einzuhalten. Zu den verbundenen Unternehmen gehören unsere Muttergesellschaft und alle Tochtergesellschaften, Joint-Venture-Partner oder andere Unternehmen, die wir kontrollieren oder die sich in gemeinsamer Kontrolle mit uns befinden.`,
+  aboutUs_ThirdSubTitlepara6: `- Geschäftspartner. Wir können Ihre Informationen mit unseren Geschäftspartnern teilen, um Ihnen bestimmte Produkte, Dienstleistungen oder Werbeaktionen anzubieten.
+  `,
+  aboutUs_ThirdSubTitlepara7: `- Mit Ihrer Zustimmung. Wir können Ihre personenbezogenen Informationen für jeden anderen Zweck offenlegen, für den Sie Ihre Zustimmung gegeben haben.
+  `,
+  aboutUs_ThirdSubTitlepara8: `- Andere Benutzer. Wenn Sie personenbezogene Informationen teilen (z. B. durch das Senden von Kommentaren, Beiträgen oder anderen Inhalten auf der Website) oder anderweitig mit öffentlichen Bereichen der Website interagieren, können diese personenbezogenen Informationen von allen Benutzern eingesehen und unbegrenzt außerhalb der Website öffentlich verbreitet werden.
+  `,
   aboutUs_FourSubTitle: `VERWENDEN WIR COOKIES UND ANDERE TRACKING-TECHNOLOGIEN?`,
   aboutUs_FourSubTitlepara: `Wir können Cookies und ähnliche Tracking-Technologien (wie Web-Beacons und Pixel) verwenden, um auf Informationen zuzugreifen oder diese zu speichern. Spezifische Informationen darüber, wie wir solche Technologien verwenden und wie Sie bestimmte Cookies ablehnen können, finden Sie in unserer Cookie-Richtlinie. `,
   aboutUs_FiveSubTitle: `WERDEN IHRE INFORMATIONEN INTERNATIONAL ÜBERTRAGEN?`,
@@ -978,12 +1491,24 @@ export const de = {
   aboutUs_SixSubTitlepara: `Die Website kann Werbung von Dritten enthalten, die nicht mit uns verbunden sind und die auf andere Website-Onlinedienste oder mobile Anwendungen verlinken können. Wir können die Sicherheit und Vertraulichkeit von Daten, die Sie Dritten zur Verfügung stellen, nicht garantieren. Von Dritten erhobene Daten fallen nicht unter diese Datenschutzerklärung. Wir sind nicht verantwortlich für den Inhalt oder die Datenschutz- und Sicherheitspraktiken und -richtlinien von Dritten, einschließlich anderer Website-Dienste oder Anwendungen, die mit oder von der Website verlinkt sein können. Sie sollten die Richtlinien dieser Drittanbieter lesen und sich direkt an sie wenden, um Ihre Fragen zu beantworten.`,
   aboutUs_SevenSubTitle: `WIE LANGE BEWAHREN WIR IHRE INFORMATIONEN AUF?`,
   aboutUs_SevenSubTitlepara: `Wir werden Ihre personenbezogenen Daten nur so lange aufbewahren, wie es für die in dieser Datenschutzrichtlinie dargelegten Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist erforderlich oder gesetzlich zulässig, wie z. B. die Steuerbilanz oder andere gesetzliche Anforderungen. Kein Zweck dieser Richtlinie erfordert, dass wir Ihre personenbezogenen Daten länger als 90 Tage nach der Kündigung Ihres Kontos aufbewahren. Wenn wir keine anhaltende legitime geschäftliche Notwendigkeit haben, Ihre personenbezogenen Daten zu verarbeiten, werden wir sie entweder löschen oder anonymisieren oder wenn dies nicht möglich ist, weil Ihre personenbezogenen Daten beispielsweise in Backup-Archiven gespeichert wurden, werden wir Ihre personenbezogenen Daten sicher speichern und isolieren jede weitere Verarbeitung bis zur Löschung ist möglich.`,
+  aboutUs_SevenSubTitlepara1:
+    "Wenn wir keinen legitimen geschäftlichen Grund haben, Ihre persönlichen Informationen zu verarbeiten, werden wir sie löschen oder anonymisieren, oder falls dies nicht möglich ist (z.B. weil Ihre persönlichen Informationen in Backups gespeichert wurden), werden wir Ihre persönlichen Informationen sicher aufbewahren und von jeglicher weiteren Verarbeitung isolieren, bis eine Löschung möglich ist.",
   aboutUs_EightSubTitle: `WIE SCHÜTZEN WIR IHRE INFORMATIONEN?`,
   aboutUs_EightSubTitlepara: `Wir haben angemessene technische und organisatorische Sicherheitsmaßnahmen implementiert, um die Sicherheit aller von uns verarbeiteten personenbezogenen Daten zu gewährleisten. Bitte denken Sie jedoch auch daran, dass wir nicht garantieren können, dass das Internet selbst zu 100 % sicher ist. Obwohl wir unser Bestes tun werden, um Ihre persönlichen Daten zu schützen, erfolgt die Übertragung persönlicher Daten zu und von unserer Website auf Ihr eigenes Risiko. Sie sollten nur in einer sicheren Umgebung auf die Dienste zugreifen.`,
   aboutUs_NineSubTitle: `ERHEBEN WIR INFORMATIONEN VON MINDERJÄHRIGEN?`,
   aboutUs_NineSubTitlepara: `Wir erbitten wissentlich keine Daten von Kindern unter 16 Jahren oder vermarkten diese an Kinder. Durch die Nutzung der Website erklären Sie, dass Sie mindestens 16 Jahre alt sind oder dass Sie ein Elternteil oder Erziehungsberechtigter eines solchen Minderjährigen sind, und stimmen der Nutzung der Website durch diesen minderjährigen Angehörigen zu. Wenn wir erfahren, dass personenbezogene Daten von Benutzern unter 16 Jahren erfasst wurden, werden wir das Konto deaktivieren und angemessene Maßnahmen ergreifen, um diese Daten umgehend aus unseren Aufzeichnungen zu löschen. Wenn Ihnen Daten bekannt werden, die wir von Kindern unter 16 Jahren gesammelt haben, kontaktieren Sie uns bitte unter info@rafiky.net.`,
   aboutUs_TenSubTitle: `WAS SIND IHRE DATENSCHUTZRECHTE?`,
   aboutUs_TenSubTitlepara: `Persönliche Informationen Sie können die Informationen jederzeit überprüfen oder ändern, indem Sie: · uns unter Verwendung der unten angegebenen Kontaktinformationen kontaktieren. Wir können Ihre Informationen auf Ihre Anfrage hin aktualisieren oder löschen, um Ihre Informationen aus unseren aktiven Datenbanken zu aktualisieren oder zu löschen. Einige Informationen können jedoch in unseren Dateien gespeichert werden, um Betrug vorzubeugen, Probleme zu beheben, bei Ermittlungen zu helfen, unsere Nutzungsbedingungen durchzusetzen und/oder gesetzliche Anforderungen einzuhalten. Cookies und ähnliche Technologien: Die meisten Webbrowser sind standardmäßig so eingestellt, dass sie Cookies akzeptieren. Wenn Sie es vorziehen, können Sie Ihren Browser normalerweise so einstellen, dass er Cookies entfernt und Cookies ablehnt. Wenn Sie sich dafür entscheiden, Cookies zu entfernen oder Cookies abzulehnen, kann dies bestimmte Funktionen oder Dienste unserer Website beeinträchtigen. Abmeldung vom E-Mail-Marketing: Sie können sich jederzeit von unserer Marketing-E-Mail-Liste abmelden, indem Sie auf den Abmeldelink in den von uns gesendeten E-Mails klicken oder uns über die unten angegebenen Kontaktdaten kontaktieren. Sie werden dann aus der Marketing-E-Mail-Liste entfernt, wir müssen Ihnen jedoch weiterhin servicebezogene E-Mails senden, die für die Verwaltung und Nutzung Ihres Kontos erforderlich sind. Sie können sich auch abmelden, indem Sie:`,
+  aboutUs_TenSubTitlepara1:
+    "- Indem Sie uns unter den unten angegebenen Kontaktinformationen kontaktieren",
+  aboutUs_TenSubTitlepara2:
+    "- Wir können Ihre Informationen auf Anfrage aktualisieren oder löschen, um sie aus unseren aktiven Datenbanken zu entfernen oder zu aktualisieren. Einige Informationen können jedoch in unseren Dateien aufbewahrt werden, um Betrug zu verhindern, Probleme zu lösen, bei Untersuchungen zu helfen, unsere Nutzungsbedingungen durchzusetzen und/oder rechtlichen Anforderungen zu entsprechen.",
+  aboutUs_TenSubTitlepara3:
+    "- Cookies und ähnliche Technologien: Die meisten Webbrowser sind standardmäßig so eingestellt, dass sie Cookies akzeptieren. Sie können jedoch in der Regel Ihren Browser so konfigurieren, dass er Cookies entfernt und ablehnt. Wenn Sie sich dafür entscheiden, Cookies zu entfernen oder abzulehnen, kann dies Auswirkungen auf bestimmte Funktionen oder Dienste unserer Website haben.",
+  aboutUs_TenSubTitlepara4:
+    "- Abmeldung vom E-Mail-Marketing: Sie können sich jederzeit von unserer E-Mail-Marketingliste abmelden, indem Sie auf den Abmeldelink in den von uns gesendeten E-Mails klicken oder uns unter den unten angegebenen Kontaktdaten kontaktieren. Sie werden dann von der Liste der Marketing-E-Mails entfernt - jedoch müssen wir Ihnen weiterhin Service-E-Mails senden, die zur Verwaltung und Nutzung Ihres Kontos erforderlich sind. Sie können auch wählen, das Konto nicht mehr zu erhalten, indem Sie:",
+  aboutUs_TenSubTitlepara5:
+    "- Indem Sie uns unter den unten angegebenen Kontaktinformationen kontaktieren.",
   aboutUs_ElevenSubTitle: `MACHEN WIR AKTUALISIERUNGEN AN DIESER RICHTLINIE?`,
   aboutUs_ElevenSubTitlepara: `Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Die aktualisierte Version wird durch ein aktualisiertes „Revised“-Datum angezeigt und die aktualisierte Version tritt in Kraft, sobald sie zugänglich ist. Wenn wir wesentliche Änderungen an dieser Datenschutzrichtlinie vornehmen, können wir Sie benachrichtigen, indem wir entweder an prominenter Stelle eine Mitteilung über solche Änderungen veröffentlichen oder Ihnen direkt eine Benachrichtigung zusenden. Wir empfehlen Ihnen, diese Datenschutzrichtlinie regelmäßig zu lesen, um darüber informiert zu sein, wie wir Ihre Daten schützen. `,
   aboutUs_TwelevSubTitle: `WIE KÖNNEN SIE UNS ZU DIESER RICHTLINIE KONTAKTIEREN?`,
@@ -1013,6 +1538,101 @@ export const de = {
   getStarted_Title: `Lass uns anfangen `,
   getStarted_SubTitle: `Bereit für eine echte Veränderung? Lassen Sie uns dieses Ding zusammen bauen!`,
   getStarted_Btn: `FORDERN SIE EIN SCHNELLES ANGEBOT AN`,
+
+  //Meta tags title
+  servizi_pageTitle: "Dienstleistungen - Rafiky",
+  agenziaInterpretariato_pageTitle: "Ferndolmetscheragentur 2023 | Rafiky",
+  interpretariatoSimultaneo_pageTitle:
+    "Simultandolmetschen | Die beste Dolmetschersoftware 2023",
+  serviziDiInterpretariato_pageTitle:
+    "Dolmetscherdienste 2023 | Übersetzer | Rafiky",
+  serviziDiTraduzioneSimultanea_pageTitle:
+    "Simultanübersetzungsdienste | CSR-Software für Online-Events",
+  videowebconferencing_pageTitle:
+    "Videokonferenz | Dolmetscher und Übersetzer online 2023 | Rafiky",
+  thankYou_pageTitle: "Bedankpagina - Rafiky",
+  blogItNew_pageTitle: "Blog IT Neu - Rafiky",
+  termsAndConditions_pageTitle: "Algemene voorwaarden - Rafiky",
+  reschedulingCancellationPolicy_pageTitle:
+    "Annulerings- en restitutiebeleid voor het opnieuw plannen - Rafiky",
+  cookiesPolicy_pageTitle: "Cookiebeleid - Rafiky",
+  privacyPolicy_pageTitle: "Privacybeleid - Rafiky",
+  renegotiationCancellationAndRefundPolicy_pageTitle:
+    "Heronderhandeling annulerings- en restitutiebeleid - Rafiky",
+  caseStudies_pageTitle: "Casestudy's - Rafiky",
+  caseStudiesVolkswagen_pageTitle: "Casestudy Volkswagen - Rafiky",
+  caseStudiesRedBull_pageTitle:
+    "Simultaanvertaling op afstand voor bedrijven Red Bull Case Study - Rafiky",
+  caseStudiesNovartis_pageTitle: "Casestudy novartis - Rafiky",
+  simultaneousRemoteInterpretation_pageTitle:
+    "Simultaanvertaling op afstand | Rafiky: online evenementen",
+  rafikyIntegration_pageTitle: "Rafiky Integratie - Rafiky",
+  remoteInterpretersDistance_pageTitle: "Professionelle Ferndolmetscher",
+  rafikyServicesIntermediatePageDuplicate_pageTitle:
+    "Rafiky Services (Tussenpagina) (duplicaat) - Rafiky",
+  FAQParticipant_pageTitle: "Deelnemers - Rafiky",
+  FAQAttrezzaturaTecnica_pageTitle: "Technische uitrusting - Rafiky",
+  FAQApp_pageTitle: "App - Rafiky",
+  FAQInterpreti_pageTitle: "Castmen - Rafiky",
+  FAQInternetAndWiFi_pageTitle: "Internet en wi-fi - Rafiky",
+  FAQCapacityAndFeatures_pageTitle: "Mogelijkheden en functies - Rafiky",
+
+  //meta desc
+  agenziaInterpretariato_pageDesc:
+    "Ferndolmetscheragentur für Online-Events. Mit Rafiky können Sie für jede Webkonferenz einen Simultandolmetscherdienst in Anspruch nehmen!",
+  interpretariatoSimultaneo_pageDesc:
+    "Simultandolmetschen für Online-Veranstaltungen | Simultandolmetschen in Mailand und online in ganz Europa. Besuchen Sie die Website, um mehr zu erfahren!",
+  serviziDiInterpretariato_pageDesc:
+    "Ferndolmetscherdienste für Online-Veranstaltungen. Benötigen Sie eine Software für Simultandolmetschen? Besuchen Sie Rafikys Website und kontaktieren Sie uns!",
+  serviziDiTraduzioneSimultanea_pageDesc:
+    "Simultanübersetzung für Online-Events | Unsere Software ermöglicht die Simultanübersetzung von Reden in jeder Online-Veranstaltung oder...",
+  videowebconferencing_pageDesc:
+    "Videokonferenzen mit Ferndolmetschen | Die Software von Rafiky unterstützt Sie bei all Ihren Videokonferenzen und Online-Meetings.",
+  aboutUs_pageDesc:
+    "Betreed de wereld van simultaan tolken op afstand! Met Rafiky elke deugdzame gebeurtenis[...] | Doe mee door ons je sollicitatie te sturen!",
+  simultaneousRemoteInterpretation_pageDesc:
+    "Gleichzeitige Fernübersetzung für Ihre virtuellen Veranstaltungen | Die beste Online-Event-Plattform mit Remote-Übersetzer",
+  rafikyIntegration_pageDesc:
+    "Tolkservice op afstand - Waarom kiezen voor onze software voor tolken op afstand voor uw virtuele evenementen? Het is...",
+  remoteInterpretersDistance_pageDesc:
+    "Professionele tolken op afstand voor evenementen...? Neem contact met ons op om uw tolkenberoep op afstand bij ons uit te voeren!",
+  caseStudies_pageDesc:
+    "Laat niets aan het toeval over! Ontdek de casestudy's van Rafiky, het platform voor gecertificeerd en 100% veilig tolken op afstand.",
+  caseStudiesNovartis_pageDesc:
+    "Ontdek de Novartis Case Study en vertrouw op de professionals van het plannen en organiseren van uw evenement op afstand!",
+  caseStudiesRedBull_pageDesc:
+    "Ontdek de Redbull Case Study en vertrouw op de professionals van het plannen en organiseren van uw evenement op afstand!",
+  caseStudiesVolkswagen_pageDesc:
+    "Ontdek de Volkswagen Case Study en vertrouw op de professionals van het plannen en organiseren van uw evenement op afstand!",
+  blogItNew_pageDesc:
+    "Raadpleeg onze blog om op de hoogte te blijven van het laatste nieuws over Rafiky.",
+  FAQPerformer_pageDesc: "Sind Sie ein Künstler und möchten Sie die für Sie während einer Veranstaltung verfügbaren Funktionen entdecken? Entdecken Sie Rafikys dedizierte FAQ-Sektion!",
+  FAQPerformer_pagetitle: "Sind Sie ein Künstler und möchten Sie entdecken",
+  FAQParticipant_pageDesc:
+    "Bent u deelnemer en wilt u de functies ontdekken die voor u beschikbaar zijn tijdens een evenement? Ontdek Rafiky's speciale FAQ-sectie!",
+  FAQAttrezzaturaTecnica_pageDesc:
+    "Wilt u weten wat de benodigde vereisten zijn of welke apparatuur u met Rafiky moet gebruiken? Bezoek de FAQ-sectie gewijd aan technische apparatuur!",
+  FAQApp_pageDesc:
+    "Gebruik je de Rafiky App en heb je instructies nodig? Ontdek onze FAQ-sectie gewijd aan de app op IOS of Android!",
+  FAQInterpreti_pageDesc:
+    "Bent u Interpreti deelnemer en wilt u de functies ontdekken die voor u beschikbaar zijn tijdens een evenement? Ontdek Rafiky's speciale FAQ-sectie!",
+  FAQInternetAndWiFi_pageDesc:
+    "Wilt u weten of er speciale netwerk- of Wi-Fi-vereisten zijn? Ontdek Rafiky's speciale FAQ-sectie!",
+  FAQCapacityAndFeatures_pageDesc:
+    "Wil je de eigenschappen van Rafiky op 360 graden weten? Ontdek de speciale FAQ-sectie!",
+  TermsAndCondition_pageDesc:
+    "Laat niets aan het toeval over! Lees nu de algemene voorwaarden van Rafiky. Lees meer!",
+  TermsAndConditionCookiesPolicy_pageDesc:
+    "Laat niets aan het toeval over! Lees nu het cookiebeleid van Rafiky. Lees meer!",
+  TermsAndConditionPrivacyPolicy_pageDesc:
+    "Laat niets aan het toeval over! Lees nu het privacybeleid van Rafiky. Lees meer!",
+  TermsAndConditionReschedulingCancellationRefundPolicy_pageDesc:
+    "Laat niets aan het toeval over! Lees nu de algemene voorwaarden van Rafiky over het beleid voor herschikking, annulering en terugbetaling. Lees meer!",
+  TermsAndConditionRenegotiationCancellationRefundPolicy_pageDesc:
+    "Laat niets aan het toeval over! Lees nu de algemene voorwaarden van Rafiky over heronderhandeling, annulering en restitutiebeleid. Lees meer!",
+  ThankYou_pageDesc:
+    "Laat niets aan het toeval over! Neem contact met ons op voor elk verzoek en een lid van ons team neemt zo snel mogelijk contact met u op!",
+
   // Refund Policy
 
   refundPolicy_header_subHeading: `Siehe unsere`,
@@ -1043,6 +1663,160 @@ export const de = {
   refundPolicy_summary_sixteenthPara: `Wir werden Ihre Bestellung auf die ursprüngliche Zahlungsmethode zurückerstatten, sobald sie bearbeitet wurde.`,
   refundPolicy_summary_eighthHeading: `Rückerstattungszyklus:`,
   refundPolicy_summary_seventeenthPara: `Der vollständige Rückerstattungsprozess dauert normalerweise etwa 5-15 Werktage ab dem Datum der Bestätigung der Rückerstattung.`,
+
+  //images alt text
+  alt_img_advantages: "Voordelen",
+  alt_img_sign_language_interpretation: "interpretatie van gebarentaal",
+  alt_img_qualified_interpreters: "gekwalificeerde tolken",
+  alt_img_remote_interpreting: "tolken op afstand",
+  alt_img_mobile_remote_interpretation_system: "Mobiel tolksysteem op afstand",
+  alt_img_about_main: "over-main",
+  alt_img_our_mission: "Onze-missie",
+  alt_img_our_team: "Ons-team",
+  alt_img_microsoft_teams_integration: "Microsoft Teams-integratie",
+  alt_img_country: "land",
+
+  // OUR CUSTOMERS
+  ourCustomer: "ONZE KLANTEN",
+  ourCustomerLogo: "klant-logo",
+
+  // OUR CLIENT
+  weLove: "WIJ HOUDEN VAN",
+  ourClient: "ONZE KLANTEN!",
+
+  LaChallengeFirstHeading: "EVENT IN 8 VERSCHIEDENEN SÄLEN",
+  LaChallengeFirstPara:
+    "Teilnehmer in 8 verschiedenen Sälen angeordnet. Teilnehmer, die in verschiedenen virtuellen Räumen über Streaming verbunden sind.",
+  LaChallengeSecHeading: "80 Dolmetscher",
+  LaChallengeSecPara:
+    "Simultandolmetschen aus der Ferne in 40 Sprachen! Ein Team von Dolmetschern, das sich an verschiedenen Orten weltweit befindet.",
+  LaChallengeThirdHeading: "5 Sprachkombinationen pro Raum",
+  LaChallengeThirdPara:
+    "Jeder Raum erfordert simultane Übersetzungen in 5 Sprachen.",
+  LaChallengeFourthHeading: "3 Wochen",
+  LaChallengeThirdPara:
+    "Nur drei Wochen Zeit, um alle erforderlichen Aspekte zu organisieren.",
+
+  risultatiHeading: "Ergebnisse",
+  risultatifirstpara: `Nach Auswahl der besten Dolmetscherprofile basierend auf den behandelten Themen hat unser technisches Team alles unternommen, um einen hochwertigen simultanen Fern-Dolmetschservice im Hauptsaal und den angrenzenden Räumen gemäß den Anforderungen des Kunden zu gewährleisten.`,
+  risultatisecpara: `Dank unserer Anwendung konnten die Dolmetschkabinen und damit verbundene Kosten und Montagezeiten vermieden werden, und dennoch wurde ein professioneller Dolmetschservice sichergestellt.`,
+  risultatithirdpara: `Nach den technischen Proben unterstützten über 30 Mitarbeiter von Rafiky das Event von Anfang bis Ende und gewährleisteten den gesamten erforderlichen Support für eine erfolgreiche simultane Fern-Dolmetschung.`,
+  risultatifourthpara: `Der Kunde sowie die Teilnehmer zeigten sich äußerst zufrieden, und die Veranstaltung endete in allgemeiner Begeisterung.`,
+  isultatifourthpara:
+    "Sia il Cliente che i partecipanti hanno mostrato grande soddisfazione e l’evento si è concluso nell’entusiasmo generale.",
+
+  rafikyConnectsubtHeading:
+    "REMOTE SIMULTANEOUS INTERPRETATION AND RAFIKY CONNECT",
+  rafikyConnectfirstHeading:
+    "The easiest way to experience high-quality remote simultaneous interpreting services",
+  rafikyConnectpara:
+    "With Rafiky, you can now set up a virtual conference room, anywhere and at any time: no bulky hardware is needed! We combine the power of cloud technology with modern devices to enhance your remote simultaneous interpretation experience!",
+
+  connectServiceheadingOne: ` Geschäftstreffen`,
+  connectServiceparaOne:
+    "Mehrsprachige Treffen mit ausländischen Partnern - gleichzeitige Fernübersetzung. Möglichkeit, bis zu 30 Teilnehmer gleichzeitig anzuschließen. Möglichkeit, Meetings aufzuzeichnen. Technischer Support im Paket enthalten.",
+  connectServiceheadingTwo: "Konferenzen vor Ort",
+  connectServiceparatwo: ` 50% Ersparnis bei technischer Ausrüstung (keine Kabine erforderlich). Ideal für Räume, in denen die Installation von Kabinen nicht möglich ist/mehr Aufwand und Kosten erfordert. Audio-Video-Regie und technische Unterstützung vor Ort.`,
+  connectServiceheadingThree: "Webinare",
+  connectServiceparathree:
+    "Präsentation von Inhalten auf Ihrem Bildschirm. Video-Streaming. Unterschiedliche Räume für jede Konferenz mit Aufteilung der Themen. Textkommunikation über Chat. Erstellung und Präsentation von Quizzen und Fragebögen.",
+  connectServiceheadingfour: "Pressekonferenzen",
+  connectServiceparafour:
+    "Große Auswahl an Positionen für Redner und Teilnehmer. Globale Teilnahme. Flexible Anzahl von Teilnehmern. Moderation der Fragen von Journalisten. Aufzeichnung der Konferenz. Keine besonderen technischen Anforderungen.",
+
+  refundPolicyparaOne: "Riscadenziamento della carica",
+
+  novartisFirstHeading: "VERANSTALTUNG IN 8 VERSCHIEDENEN RÄUMEN",
+  novartisSecHeading: "16 Dolmetscher",
+  novartisThirdHeading: "8 Sprachkombinationen pro Raum",
+  novartisFourthHeading: "48 Stunden Zeit",
+  novartisFirstPara:
+    "Teilnehmer in 8 verschiedenen Räumen angeordnet. Teilnehmer über Streaming in verschiedenen virtuellen Räumen verbunden.",
+  novartisSecPara:
+    "Streaming-Veranstaltung in 8 Sprachen! Ein Team von Dolmetschern, das sich an verschiedenen Orten der Welt befindet.",
+  novartisThirdPara:
+    "Jeder Raum erfordert simultane Übersetzungen in 8 Sprachen.",
+  novartisFourthPara:
+    "Nur 48 Stunden Zeit, um alle erforderlichen Aspekte zu organisieren.",
+
+  volksVeganFirstHeading: "EVENT IN 8 UNTERSCHIEDLICHEN RÄUMEN",
+  volksVeganSecHeading: "8 Dolmetscher",
+  volksVeganThirdHeading: "4 Sprachkombinationen pro Raum",
+  volksVeganFourthHeading: "96 Stunden Zeit",
+  volksVeganFirstPara:
+    "Teilnehmer befinden sich in 8 verschiedenen Räumen. Teilnehmer sind über Streaming in verschiedenen virtuellen Räumen verbunden.",
+  volksVeganSecPara:
+    "Streaming-Veranstaltung in 4 Sprachen! Ein Team von Dolmetschern, das sich an verschiedenen Orten der Welt befindet.",
+  volksVeganThirdPara:
+    "Jeder Raum erfordert eine simultane Übersetzung in 4 Sprachen.",
+  volksVeganFourthPara:
+    "Nur 96 Stunden Zeit, um alle notwendigen Aspekte zu organisieren.",
+
+  volksVageHeading: "Ergebnisse",
+  volksVagepara:
+    "Nachdem die Veranstaltungsdetails abgestimmt und die Anzahl der Teilnehmer festgelegt waren, führte das Rafiky-Team eine Online-Demonstration der Software durch.",
+  volksVagepara2:
+    "Jeder Teilnehmer erhielt Zugangsdaten zur Plattform sowie detaillierte Anweisungen, wie er an der Veranstaltung remote teilnehmen konnte.",
+  volksVagepara3:
+    "Auf diese Weise bot Rafiky eine einfache Lösung, um den Bedürfnissen des Kunden gerecht zu werden, indem Zeit- und Kostenfaktoren für die Organisation von Geräten eliminiert wurden und dennoch der Erfolg der Veranstaltung gewährleistet wurde.",
+  volksVagepara4:
+    "Die Einfachheit der Kommunikation beeindruckte den Kunden: Die Teilnehmer konnten selbst die benutzerfreundliche Software, klaren Klang und die Qualität des Dolmetschdienstes hautnah erleben.",
+  volksVageQuote:
+    '"Die Bequemlichkeit der Software ist außergewöhnlich. Es bedarf nur weniger einfacher Schritte, um einen qualitativ hochwertigen Service vom eigenen Smartphone aus zu nutzen. Vielen Dank an Rafiky, dass sie uns einen wirklich einzigartigen Service zur Verfügung gestellt haben."',
+
+  caseStudyNovartis_Heading: "DIE HERAUSFORDERUNG",
+  firstColorHeadingLaChallengeRedBull: "Der Kunde",
+  caseStudyRedBull_subHeading1: "Remote-Simultandolmetschen für Red Bull",
+  caseStudyRedBull_para1:
+    "Inspiriert von funktionalen Getränken aus Fernost entwickelte Dietrich Mateschitz ein äußerst innovatives Produkt, das ein einzigartiges Marketingkonzept widerspiegelt. In den mittleren 1980er Jahren entstand ein Produkt, das heute von Athleten, Sportbegeisterten, Fachleuten und Studenten weltweit geschätzt wird.",
+  caseStudyRedBull_para2:
+    "Als weltweit führendes Unternehmen in der Entwicklung innovativer Medikamente in wichtigen therapeutischen Bereichen sowie in der Produktion und Vermarktung von Generika und Biosimilars hat Novartis im Jahr 2018 Advanced Accelerator Applications (AAA), ein Unternehmen, das sich auf Radiopharmazeutika spezialisiert hat, in seinen Konzern aufgenommen.",
+  caseStudyRedBull_para3:
+    "Rafiky ist seit vielen Jahren ein treuer Partner von Red Bull und unterstützt das Unternehmen bei der Organisation großer internationaler Veranstaltungen.",
+  secondColorHeadingLaChallengeRedBull:
+    "Manchmal sind die einfachsten Lösungen die effektivsten.",
+  secondColorHeadingLaChallenge: `La tecnologia più avanzata nel settore dell’interpretariato`,
+  caseStudyRedBull_para4:
+    "Eine revolutionäre Software für Remote-Dolmetschen, die Praktikabilität, Qualität und Effizienz vereint.",
+  caseStudyRedBull_para5:
+    "Die Agenda umfasste neben einer ersten Präsentation im Hauptveranstaltungsraum auch eine Reihe von Diskussionen in kleineren Räumen neben dem Hauptsaal. Jeder Raum erforderte 5 verschiedene Sprachkombinationen.",
+  caseStudyRedBull_para6:
+    "Die Installation mehrerer Dolmetschkabinen in jedem Raum war nicht praktikabel, aber das Publikum war vielfältig, und die Botschaft musste alle Teilnehmer unabhängig von ihrer Sprache erreichen.",
+  mainTitleRedBull: "Remote-Simultandolmetschen - Red Bull",
+  caseStudyRedBull_paraMain:
+    "Um Unternehmensaktualisierungen im Hinblick auf ihre erzielten Ergebnisse zu präsentieren, führt Red Bull regelmäßig weltweit wichtige Kongresse und Tagungen durch. Das neueste große Projekt, das die technische Unterstützung von Rafiky erforderte, umfasste eine umfangreiche Agenda mit Präsentationen, Produktvorführungen, verschiedenen Diskussionssitzungen und natürlich internationalen Gästen. Ein zuverlässiger Service für Remote-Simultandolmetschen war genau das, was sie brauchten.",
+  redBullQuote: `"Vielen Dank an das Team für die technische Unterstützung. Wir hätten nicht geglaubt, dass eine so komplexe Veranstaltung mit so viel Ernsthaftigkeit und Professionalität bewältigt werden kann. Die Dolmetscher waren äußerst professionell, die Techniker waren tadellos. Keine Zwischenfälle, alles verlief perfekt!"`,
+  caseStudyNovartis_para5: `Raﬁky consente di sfruttare l’interpretazione simultanea a distanza (IRS) semplicemente attraverso smartphone, tablet o computer, in qualsiasi lingua e in tempo reale, riducendo i costi e garantendo l’eccellenza di un servizio sempre di qualità, proprio come nell’interpretariato tradizionale ma senza le ingombranti cabine di traduzione e i relativi costi e tempi di montaggio/smontaggio necessari.`,
+  caseStudyNovartis_para6: `Sarà suﬃciente disporre di un dispositivo (pc, laptop o smartphone) con una buona connessione Internet, per usufruire di un servizio di interpretariato professionale, con comunicazione immediata tra interlocutori di lingue diverse.`,
+
+  caseStudyNovartis_para4: `Un software rivoluzionario di interpretariato da remoto che coniuga esigenze di praticità, qualità ed eﬃcacia.`,
+
+  firstColorHeadingLaChallengeRedBull: "Der Kunde",
+  caseStudyVolksvagen_subHeading1: "Fern-Dolmetschen für Volkswagen",
+  caseStudyVolksvagen_para1:
+    "Ein etabliertes kommerzielles Unternehmen, das keiner Vorstellung bedarf.",
+  caseStudyVolksvagen_para2:
+    "Gegründet in den 1930er Jahren, genießt das Automobilunternehmen heute einen beispiellosen Ruf.",
+  caseStudyVolksvagen_para3:
+    "Ein Kunde von Volkswagens Kaliber, dessen Grundprinzipien Technologie und Innovation sind, erwartet technologische und innovative Dolmetschlösungen, wenn er Dolmetschdienste benötigt.",
+  caseStudyVolksvagen_para7: "Ein exzellenter Service für Exzellenz.",
+  secondColorHeadingVolksVegan: "Modernste Technologie in der Dolmetschbranche",
+  caseStudyVolksvagen_para4:
+    "Eine revolutionäre Fern-Dolmetschsoftware, die Praktikabilität, Qualität und Effizienz vereint.",
+  caseStudyVolksvagen_para5:
+    "Raﬁky ermöglicht Fern-Dolmetschen über Smartphones, Tablets oder Computer in Echtzeit und in beliebiger Sprache. Dabei werden Kosten reduziert und die Exzellenz eines stets qualitativ hochwertigen Dienstes sichergestellt, ähnlich wie beim traditionellen Dolmetschen, jedoch ohne sperrige Übersetzungskabinen und die damit verbundenen Kosten und Aufbau-/Abbauzeiten.",
+  caseStudyVolksvagen_para6:
+    "Alles, was Sie benötigen, ist ein Gerät (PC, Laptop oder Smartphone) mit einer guten Internetverbindung, um professionelle Dolmetschdienste mit sofortiger Kommunikation zwischen Sprechern verschiedener Sprachen zu nutzen.",
+
+  risultatiHeading: "Ergebnisse",
+  risultatipara: `Après avoir effectué tous les tests nécessaires la veille de l'événement, l'équipe de Raﬁky a déployé toutes les ressources nécessaires pour garantir le succès de l'événement.`,
+  risultatipara2:
+    "Heute sind wir stolz darauf, Novartis bei der Organisation einer so wichtigen globalen Veranstaltung unterstützt zu haben und dank dieser starken Zusammenarbeit unsere Plattform jeden Tag zum Wohle der Gesundheit einzusetzen.",
+  risultatipara3:
+    "Der Erfolg der Veranstaltung war unser Erfolg, und die Zufriedenheit des Kunden unsere größte Belohnung.",
+  risultatiQuote:
+    '"Es ist unglaublich, wie das Rafiky-Team sofort reagiert hat, um unsere Anfrage zu erfüllen. Innerhalb von nur 48 Stunden konnten wir einen Videokonferenzkongress mit 300 Teilnehmern durchführen. Die Anwendung ist äußerst einfach zu bedienen: Wir erhielten alle detaillierten Informationen zum Zugriff auf die Plattform und eine schrittweise Anleitung; das Team hat uns keinen Moment allein gelassen und dafür gesorgt, dass alles reibungslos verläuft. Rafiky hat sich als wertvolle Entdeckung erwiesen und ist heute eine unverzichtbare Hilfe für unser Unternehmen."',
+
   faqData: [
     {
       heading: "Wie funktioniert Rafiky?",
@@ -1107,767 +1881,252 @@ export const de = {
     ] m-auto"
     >
       <div className="py-20">
-        <div
-          className="text-[#666666
-    ]"
-        >
-          <p
-            className="border border-b-[#666666
-    ] max-w-[
-        90px
-    ]"
-          >
-            DISCLAIMER
-          </p>
-          <p className="py-3">
-            The information contained in this website is for general information
-            purposes only. The information is provided by https: //rafiky.net
-            (“Rafiky LTD.” or “we”).{" "}
-          </p>
-          <p className="text-black font-semibold">
-            Rafiky is a flexible, scalable and premium cloud interpreting
-            platform for any kind of event, conferences or meeting.
-          </p>
-          <p className="py-3">
-            You understand and agree that we (a) do not guarantee the accuracy,
-            completeness, validity, or timeliness of information listed by us or
-            any third parties; and (b) shall not be responsible for any
-            materials posted by us or any third party. You shall use your own
-            judgment, caution, and common sense in evaluating any prospective
-            methods or offers and any information provided by us or any third
-            party.
-          </p>
-          <p className="py-3">
-            Further, we shall not be liable for direct, indirect consequential
-            or any other form of loss or damage that may be suffered by a user
-            through the use of the www.rafiky.net Website including loss of data
-            or information or any kind of financial or physical loss or damage.
-          </p>
-          <p className="py-3">
-            We shall not be responsible for any loss of data, property, stock
-            while using our service.
-          </p>
-          <p className="py-3">We are not responsible to you for:</p>
-          <ul className="pl-4">
-            <li className=" list-disc">
-              any reliance that you may place on any material or commentary
-              posted on our website. Please note that nothing contained in our
-              website or the material published on it is intended to amount to
-              advice on which you should rely; or
-            </li>
-            <li className=" list-disc">
-              any losses you suffer because the information you put into our
-              website is inaccurate or incomplete; or
-            </li>
-            <li className=" list-disc">
-              any losses you suffer because you cannot use our website at any
-              time; or
-            </li>
-            <li className=" list-disc">
-              any errors in or omissions from our website; or
-            </li>
-            <li className=" list-disc">
-              any unauthorised access or loss of personal information that is
-              beyond our control.{" "}
-            </li>
+        <div>
+          <p>&nbsp;</p>
+          <p><strong>TERMINI e CONDIZIONI GENERALI &ndash; ACCORDO CON L&rsquo;UTENTE</strong></p>
+          <p>&nbsp;</p>
+          <p><strong>PREMESSE</strong></p>
+          <p>&nbsp;</p>
+          <p>1. La Societ&agrave; &egrave; un&rsquo;impresa specializzata in servizi linguistici in varie lingue attraverso il sito&nbsp;<a href="https://rafiky.net/">https://rafiky.net/</a>. Rafiky &egrave; una piattaforma di interpretariato da remoto che coniuga esigenze di praticit&agrave;, qualit&agrave; ed efficacia, per qualsiasi tipo di evento, conferenza o meeting;</p>
+          <p>&nbsp;</p>
+          <p>2. La Societ&agrave; offre i propri servizi primariamente via web, senza esclusione di contatto diretto agli utenti che sono interessati ad utilizzare i servizi forniti;</p>
+          <p>&nbsp;</p>
+          <p>3. Prima di inviare una richiesta di servizi alla Societ&agrave;, l&rsquo;Utente deve aver in ogni caso preso atto dei requisiti tecnici e organizzativi per la fornitura dei Servizi;</p>
+          <p>&nbsp;</p>
+          <p>4. Le parole utilizzate nel presente documento, indipendentemente dal numero o dal genere specificamente utilizzati, devono essere considerate e interpretate in maniera da includere qualsiasi altro numero, singolare o plurale, e qualsiasi altro genere, maschile, femminile o neutro, come richiesto dal contesto.</p>
+          <p>Le presenti Condizioni sono regolate dalla legge italiana in vigore, nonch&eacute; da qualsiasi altro atto o legge a cui LingoYou Group Srl sia soggetta; ogni riferimento ad atti normativi di qualsiasi genere si intender&agrave; riferito alla versione al tempo vigente</p>
+          <p>La divisione di questo documento in articoli e sezioni, la presenza di un sommario e l&rsquo;inserimento di titoli sono utilizzati esclusivamente per comodit&agrave; di riferimento e non pregiudicano l&rsquo;interpretazione del documento stesso.</p>
+          <p>&nbsp;</p>
+          <p>I presenti Termini, comprese eventuali note legali e disclaimer contenuti in questo Sito Web, costituiscono l&rsquo;intero accordo tra il Fornitore e l&rsquo;Utente e sostituiscono tutti i precedenti accordi e intese. Si specifica che l&rsquo;utilizzo dei servizi proposti &egrave; subordinato alla presa d&rsquo;atto ed accettazione dei Termini e Condizioni qui elencati, dei documenti richiamati ed eventuali altre note aggiuntive specifiche presenti.</p>
+          <p>&nbsp;</p>
+          <p>Aderendo ad i presenti termini e/o utilizzando il Sito Web in qualsiasi modalit&agrave;, l&rsquo;utente riconosce espressamente di aver letto e di aver compreso tutti i termini qui inclusi. Nondimeno dichiara di aver impiegato tutto il tempo atto a valutare le conseguenze di questa importante decisione. Se, in qualsiasi momento, l&rsquo;utente dovesse essere non in grado di accettare o rispettare anche parzialmente le seguenti condizioni d&rsquo;uso, dovr&agrave; cessare immediatamente l&rsquo;uso del Sito Web.</p>
+        </div>
+        <div>
+          <p>&nbsp;</p>
+          <p>A.&nbsp;<strong>Propriet&agrave; Intellettuale</strong></p>
+          <p>1. Durante qualsiasi relazione contrattuale, negoziazione, presentazione di idee, utilizzo del Sito Web, acquisto di servizi, prodotti e simili, il Fornitore ha la piena propriet&agrave; intellettuale di qualsiasi materiale non prodotto dall&rsquo;Utente.&nbsp;</p>
+          <p>Si indica quale &ldquo;Contenuto Generato dall&rsquo;Utente&rdquo; qualsiasi contenuto prodotto e/o aggiunto dallo stesso rispetto a quello gi&agrave; presente nel Sito Web (ricomprendendo il materiale da tradurre). Tutti i contenuti caricati dagli utenti sul Sito Web sono contenuti generati esclusivamente dagli stessi.&nbsp;</p>
+          <p>Il Fornitore non controlla e non si assume alcuna responsabilit&agrave; riguardo l'appropriatezza dei contenuti caricati/creati dall'utente, le eventuali violazioni del copyright, marchi o altri diritti.</p>
+          <p>Il Fornitore non si assume alcuna responsabilit&agrave; di eventuali violazioni compiute dagli utenti con il materiale caricato dagli stessi.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>2. Si specifica, altres&igrave;, che ogni contenuto di questo Sito web &egrave; coperto da diritto d'autore, anche di terze parti.</p>
+          <p>&nbsp;</p>
+          <p>3. L'Utente non potr&agrave;, salvo autorizzazione scritta del Fornitore, distribuire o sfruttare commercialmente alcun materiale di propriet&agrave; dello stesso in qualunque modo, ed a qualsiasi titolo, reperito. Il Fornitore rivendica anche i diritti di propriet&agrave; ai sensi delle leggi sul copyright e sui marchi relativi alla "funzione grafica" ed "aspetto" del Sito Web, includendo le combinazioni di colori, suoni, layout e design.</p>
+          <p>&nbsp;</p>
+          <p>B.&nbsp;<strong>Oggetto dell&rsquo;Accordo</strong></p>
+          <p>1. Con l'accettazione del presente Accordo e dei Termini ivi inclusi, il Cliente affida al Fornitore, che si riserva di accettare in modo espresso, l&rsquo;incarico di prestare un servizio come di volta in volta nello specifico individuato (d&rsquo;ora in avanti anche solo &ldquo;Ordine&rdquo;). I servizi oggetto dell&rsquo;Accordo, nella loro pi&ugrave; ampia eccezione (ricomprendendo tutti quelli compatibili con l&rsquo;oggetto sociale del Fornitore) saranno collettivamente ed individualmente riferiti quali i &ldquo;Servizi&rdquo;.</p>
+          <p>&nbsp;</p>
+          <p>2. Per quanto di inerenza ai nostri Servizi ed all&rsquo;Oggetto dell&rsquo;Accordo di volta in volta stipulato ci sforziamo di fornire informazioni accurate sulle specifiche e sui prezzi. Nonostante ci&ograve;, possono verificarsi errori tipografici, informatici e di battitura. Per questo motivo il Fornitore si riserva il diritto di correggere eventuali errori, inesattezze o omissioni, nonch&eacute; di modificare o aggiornare le informazioni (comprese, senza limitazione, le informazioni relative a testo, prezzi, disponibilit&agrave; e descrizioni dei prodotti) in qualsiasi momento senza preavviso (anteriormente ad aver confermato un ordine).&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>3. L&rsquo;Utente non potr&agrave; in alcun modo cedere a terzi il presente Contratto.</p>
+          <p>&nbsp;</p>
+          <p>C.&nbsp;<strong>Servizi ed Ordini</strong></p>
+          <p>1. Le funzionalit&agrave; di acquisto del Sito Web sono disponibili per gli utenti di et&agrave; pari o superiore ai 18 anni. Utilizzando questo Sito Web, l'utente dichiara e garantisce di avere piena capacit&agrave; di agire per stipulare un contratto vincolante. Il Fornitore, in caso di acquisto effettuato da soggetto privo delle summenzionate qualit&agrave;, si riserva il diritto di annullare l&rsquo;acquisto trattenendo le somme.</p>
+          <p>&nbsp;</p>
+          <p>2. Ogni richiesta di Servizi deve essere accompagnata da un ordine composto dal prezzo sul quale le parti si sono accordate. L&rsquo;accettazione dell&rsquo;Ordine avviene nel momento in cui il Cliente accetta il Preventivo ed il Fornitore presta la sua disponibilit&agrave; ad effettuare l&rsquo;incarico.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>3. Il Cliente &egrave; l&rsquo;unico responsabile di controllare e verificare che l&rsquo;Ordine sia completo e corretto. In particolare, &egrave; indispensabile che l&rsquo;utente si assicuri che tutti i Servizi che intende acquistare siano correttamente inseriti nell&rsquo;Ordine con le dovute specifiche. Nel momento in cui il Cliente dovesse richiedere delle modifiche all&rsquo;Ordine, dovr&agrave; comunicarle per iscritto o tramite e-mail per permetterci di inviare un Preventivo rettificato. Nel caso di accettazione, l&rsquo;Ordine rettificato ed eventuali variazioni di prezzo diventeranno parte integrante dell&rsquo;Ordine. Di conseguenza, anche la data di consegna dei nostri Servizi potrebbe subire emendamenti, se non diversamente concordato.</p>
+          <p>&nbsp;</p>
+          <p>4. Il Fornitore si riserva il diritto di rifiutare eventuali commissioni a sua insindacabile discrezionalit&agrave;. &nbsp;</p>
+          <p>&nbsp;</p>
+          <p>5. Se un Servizio o un Ordine &egrave; elencato a un prezzo errato, con informazioni errate o con una prezzistica errata, il Fornitore ha il diritto, a sua esclusiva discrezione e nella misura massima consentita dalla legge, di rifiutare o annullare la transazione incriminata.&nbsp;</p>
+          <p>Laddove il metodo di pagamento dell'utente sia stato addebitato per qualsiasi ordine successivamente annullato, il Fornitore emetter&agrave; un rimborso a credito della stessa entit&agrave; sul metodo di pagamento utilizzato.&nbsp;</p>
+          <p>In caso di annullamento di un ordine da parte del Cliente, viceversa, il lavoro gi&agrave; effettuato sar&agrave; fatturato integralmente riservandosi il Fornitore di decidere, a sua insindacabile discrezionalit&agrave;, in che misura addebitare il lavoro ancora sospeso e non effettuato.</p>
+          <p>&nbsp;</p>
+          <p>6. I prezzi e la disponibilit&agrave; dei nostri Servizi sono soggetti a modifiche senza preavviso.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>7. Offerte di particolari beni e servizi potranno essere assoggettate a termini e condizioni contrattuali specifici pubblicati sul Sito Web. In tal caso gli specifici termini e condizioni per i singoli beni e servizi offerti prevarranno sulle Condizioni ivi incluse, ove in contrasto con quest&rsquo;ultime.</p>
+          <p>&nbsp;</p>
+          <p>D.&nbsp;<strong>Politiche di Esecuzione dei Servizi</strong></p>
+          <p>1. I testi tecnici saranno accompagnati da documenti di riferimento forniti dal Cliente e/o di disegni o piantine che permettano una migliore comprensione degli stessi. Ci impegneremo affinch&eacute; i nostri Servizi riflettano il pi&ugrave; fedelmente possibile il contenuto originale, tenendo conto di possibili errori tipografici o evidenti, nonch&eacute; di variazioni linguistiche (incluse, ma non limitatamente a, variazioni nel conteggio parole). Generalmente le traduzioni non saranno soggette ad adattamenti, riscritture o variazioni, se non diversamente concordato dalle parti.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>2. L'unit&agrave; di conteggio per una traduzione &egrave; la parola nella lingua di origine, salvo accordi particolari specificati per iscritto. Come gi&agrave; specificato, non saremo tenuti a controllare e/o verificare l&rsquo;autenticit&agrave; del Contenuto caricato dal Cliente e non saremo responsabili dello stesso sotto alcun profilo di responsabilit&agrave; giuridica. Il Cliente accetta e conviene che &egrave; l&rsquo;unico responsabile a garantire la validit&agrave;, la leggibilit&agrave; e l&rsquo;utilizzabilit&agrave; del contenuto fornito. Non garantiamo e non rispondiamo per qualsiasi contenuto impreciso o illeggibile e non saremo ritenuti responsabili per eventuali errori od omissioni riconducibili a errori od omissioni del Cliente.</p>
+          <p>&nbsp;</p>
+          <p>3. Nel caso in cui i Servizi includano la traduzione o l&rsquo;interpretazione (orale, scritta o di altro tipo) tra due lingue differenti, il Cliente conviene ed accetta che:&nbsp;</p>
+          <p>(i) tale traduzione o interpretazione avverr&agrave; nella lingua principale utilizzata da quel Paese o comunit&agrave; in questione (come specificato nell&rsquo;Ordine), se non diversamente concordato dalle parti. Non garantiamo la fornitura di Servizi in un particolare dialetto o sulla base di specifiche regole sintattiche e/o lessicali proprie di una regione, se non da Noi precedentemente approvato per iscritto e specificato nell&rsquo;Ordine;&nbsp;</p>
+          <p>(ii) ci potrebbero essere variazioni o differenze nel conteggio parole (il numero potrebbe risultare maggiore o minore) tra l&rsquo;originale e il prodotto finito;&nbsp;</p>
+          <p>(iii) nel caso in cui si tratti di traduzione o interpretazione da o verso una lingua rara o un dialetto raro (da noi riconosciuto come tale ed a lei espressamente indicato), non garantiamo e non saremo responsabili per eventuali errori od omissioni.</p>
+          <p>&nbsp;</p>
+          <p>4. Per poterle fornire correttamente i Servizi, potrebbe essere necessario ricevere ulteriori informazioni e chiarimenti. Nel caso in cui tali informazioni non ci vengano fornite entro un tempo ragionevole o ci vengano fornite informazioni errate o incomplete, potremmo decidere di recedere dal Contratto o di rettificare la data di consegna dei nostri Servizi indicata nell&rsquo;Ordine, posticipandola di un tempo che riterremo idoneo a colmare il ritardo.</p>
+          <p>&nbsp;</p>
+          <p>E.&nbsp;<strong>Politiche di Consegna, Rimborso e Cancellazione</strong></p>
+          <p>1. La data di consegna dei Servizi &egrave; quella risultante dall&rsquo;Ordine. Le modalit&agrave; di consegna dell&rsquo;Ordine saranno quelle comunicate di volta in volta e ritenute pi&ugrave; appropriate a nostra piena ed insindacabile discrezione. Di regola, a meno che non sia specificato espressamente per iscritto, le consegne degli Ordini avvengono in via digitale. Eventuali costi per l&rsquo;esecuzione e la consegna di un Ordine in via analogica (ad esempio tramite servizio postale o corriere espresso) saranno totalmente a carico del Cliente. Non saremo responsabili per qualsiasi inadempimento, ritardo, errore o omissione imputabili al servizio postale o al corriere durante la consegna dei Servizi indicati nell&rsquo;Ordine.</p>
+          <p>&nbsp;</p>
+          <p>2. Tutte le transazioni devono considerarsi quali definitive e quindi non idonee per il successivo ritorno, rimborso o credito. Nuovamente, prima di acquistare un Servizio, invitiamo caldamente gli Utenti a verificare con attenzione l&rsquo;Ordine, come specificato in precedenza, il Fornitore, alla luce di cancellazione dell&rsquo;Utente, pu&ograve; applicare penali. Unica eccezione &egrave; da rinvenirsi laddove le leggi applicabili nella vostra giurisdizione prevedano diversamente. In ogni caso il recesso dal Contratto per il Cliente &egrave; sempre possibile, fermo restando l&rsquo;applicazione di penali come indicato (ad eccezione di particolari normative applicabili all&rsquo;Utente anche in virt&ugrave; del suo status di consumatore). Seguendo la normativa di riferimento &egrave; comunque escluso il rimborso per Servizi utilizzati anche parzialmente.</p>
+          <p>Tutte le cancellazioni devono essere effettuate per iscritto e inoltrate via e-mail. La data di ricezione dell&rsquo;e-mail far&agrave; fede per considerare valida la cancellazione.</p>
+          <p>Si specifica che, anche in caso di rimborso, verranno addebitati integralmente tutti i costi non rimborsabili come spese bancarie, costi bancari sostenuti, spese vive e tasse per il rimborso.</p>
+          <p>&nbsp;</p>
+          <p>3. Non &egrave; previsto alcun diritto al rimborso per:&nbsp;</p>
+          <p>(i) mancato utilizzo totale o parziale;&nbsp;</p>
+          <p>(ii) dati forniti / dichiarazioni parzialmente o integralmente inesatti o mendaci.</p>
+          <p>&nbsp;</p>
+          <p>4. Ci riserviamo il diritto di sospendere o posticipare la data di consegna/fornitura del Servizio o di rescindere il Contratto qualora si verifichi un evento come di seguito specificato:&nbsp;</p>
+          <p>(i) evento di forza maggiore;&nbsp;</p>
+          <p>(ii) vi sia la necessit&agrave; di risolvere alcuni problemi tecnici o di apportare modifiche tecniche minori;&nbsp;</p>
+          <p>(iii) vi sia la necessit&agrave; di aggiornare i nostri Servizi affinch&eacute; si adeguino alle leggi pertinenti e ai requisiti normativi;&nbsp;</p>
+          <p>(iv) siano state richieste aggiunte e modifiche all&rsquo;Ordine;&nbsp;</p>
+          <p>(v) vi sia la mancata osservanza da parte dell&rsquo;Utente di ciascuna norma applicabile (ricomprendendo la creazione di materiale discriminatorio, istigatorio di comportamenti violenti, fraudolento o qualsiasi comportamento comunque illecito);&nbsp;</p>
+          <p>(vi) vi sia il mancato, inesatto e/o ritardato pagamento del corrispettivo previsto;&nbsp;</p>
+          <p>(vii) altre situazioni ad esclusiva discrezionalit&agrave; del Fornitore;&nbsp;</p>
+          <p>Occasionalmente, potrebbe essere necessario apportare delle modifiche ai Servizi, ad esempio, al fine di adeguarli a cambiamenti delle leggi e dei requisiti normativi pertinenti, o per integrare modifiche tecniche minori come, ma non limitatamente a, questioni linguistiche regionali, tipografiche o di dialetto.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>F.&nbsp;<strong>Politiche di Pagamento</strong></p>
+          <p>1. Il prezzo del servizio, sia esso singolo o congiuntamente ad altri, &egrave; determinato nell&rsquo;Ordine, fermo restando quanto stabilito su eventuali aggiornamenti dello stesso.</p>
+          <p>&nbsp;</p>
+          <p>2. Tutti i servizi sono fatturati in EUR. Si informa che, nel caso in cui la valuta locale dell'Utente sia diversa dall'EUR, verr&agrave; automaticamente convertita nella valuta sopra indicata. I prezzi includono l'IVA esclusivamente laddove ci&ograve; &egrave; specificato.</p>
+          <p>&nbsp;</p>
+          <p>3. Al fine di agevolare le transazioni commerciali, il Fornitore offre diversi metodi di pagamento. Il Fornitore si riserva il diritto, a sua esclusiva discrezione, di accettare solo alcuni dei servizi offerti.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>4. Qualora non diversamente indicato il pagamento &egrave; sempre da intendersi anticipato a mezzo bonifico bancario. Non sono ordinariamente accettati in pagamento assegni bancari, cambiali ed altre forme di promesse di pagamento. Al momento dell'acquisto, l'utente pu&ograve; avere la possibilit&agrave; di pagare tramite un Servizio Esterno di collezione del pagamento (quale, ad esempio, Paypal). Alcuni Servizi Esterni potrebbero addebitarti un'imposta sulle vendite, a seconda di dove vivi, che potrebbe cambiare di volta in volta e sulla quale il Fornitore non ha alcun potere decisionale.</p>
+          <p>&nbsp;</p>
+          <p>5. Prima di poter inviare un pagamento, nel caso in cui sia stato scelto il pagamento tramite carta di credito/debito, potrebbe esserti richiesto di fornire un numero di carta di pagamento valido e le informazioni associate, includendo a tal fine:&nbsp;</p>
+          <p>(i) il nome come appare sulla carta;&nbsp;</p>
+          <p>(ii) il tipo di carta di credito o di debito;&nbsp;</p>
+          <p>(iii) la data di scadenza;&nbsp;</p>
+          <p>(iv) eventuali numeri o codici di attivazione necessari per addebitare la carta;&nbsp;</p>
+          <p>(v) l'indirizzo di fatturazione o codice postale associato. L'Utente si impegna a fornire informazioni aggiornate, complete e accurate in merito ai metodi di pagamento utilizzati. Laddove il pagamento venga effettuato con carta di credito o debito, ci riserviamo la facolt&agrave; di:&nbsp;</p>
+          <p>- eseguire uno o pi&ugrave; controlli di autorizzazione;&nbsp;</p>
+          <p>- eventualmente tentare un nuovo addebito laddove il primo sia stato infruttuoso.</p>
+          <p>&nbsp;</p>
+          <p>G.&nbsp;<strong>Responsabilit&agrave; ed Obblighi</strong></p>
+          <p>1. La Societ&agrave; presta i propri servizi di intermediazione secondo la migliore diligenza professionale, impegnandosi a individuare esperti traduttori ed interpreti di comprovata affidabilit&agrave;; tuttavia, non risponder&agrave; direttamente dell&rsquo;operato di questi, fatti salvi i casi di dolo e colpa grave.</p>
+          <p>&nbsp;</p>
+          <p>2. L&rsquo;utente, in ossequio agli obblighi di correttezza e buona fede di cui agli articoli 1175 e 1275 del codice civile, informa il Fornitore, direttamente e tempestivamente, di eventuali difetti di conformit&agrave; durante l'esecuzione del servizio. Solo a fronte della tempestiva contestazione (entro 5 gg lavorativi), il Fornitore pu&ograve; porre rimedio al difetto rilevato. In caso di mancata tempestiva contestazione nulla potr&agrave; essere richiesto a titolo risarcitorio. Il Fornitore non potr&agrave; altres&igrave; essere ritenuto responsabile per difetti imputabili all&rsquo;utente o ad un terzo estraneo alla fornitura dei servizi.</p>
+          <p>&nbsp;</p>
+          <p>3. L&rsquo;Utente si obbliga altres&igrave; a fornire del materiale in formati di buona qualit&agrave; e leggibilit&agrave;, prendendo atto che la Societ&agrave; ed i suoi traduttori/interpreti non effettueranno sul materiale originale correzioni grammaticali o formali, n&eacute; la Societ&agrave; sar&agrave; in alcun modo responsabile per traduzioni che risultino stilisticamente insoddisfacenti.</p>
+          <p>&nbsp;</p>
+          <p>4. In nessun caso il Fornitore potr&agrave; essere resa responsabile per traduzioni che risultino stilisticamente non soddisfacenti. Particolarmente in materia pubblicitaria, i Servizi di si limitano, se non espressamente specificato, alla semplice traduzione. Il Fornitore non &egrave; tenuto a redigere il testo in uno stile pubblicitario diverso da quello del testo sorgente. La nostra responsabilit&agrave;, ad ogni modo, si limita all'importo corrisposto.</p>
+          <p>&nbsp;</p>
+          <p>H.&nbsp;<strong>Violazioni ed Indennizzi</strong></p>
+          <p>1. L'utente si impegna a risarcire e tenere indenne il Fornitore per eventuali danni derivanti da una violazione dei presenti Termini, o di altri accordi.</p>
+          <p>L'utente riconosce ed accetta che, in caso di violazione o minaccia di violazione di qualsiasi disposizione relativa ai presenti Termini, o qualsiasi altro accordo, il danno subito dal Fornitore non sar&agrave; compensabile con i soli danni monetari e, di conseguenza, il Fornitore avr&agrave; diritto al ristoro di anche tutti i danni non patrimoniali subiti.</p>
+          <p>&nbsp;</p>
+          <p>2. In caso di mancato rispetto da parte nostra delle presenti Condizioni, il rimborso o altro, sar&agrave; limitato al prezzo specificato nell&rsquo;Ordine. Non rispondiamo di perdite o danni imprevedibili. La perdita o il danno &egrave; da intendersi prevedibile nel caso in cui il suo verificarsi sia ovvio o se, al momento della stipula del Contratto, entrambe le parti erano a conoscenza del fatto che tale perdita o danno si sarebbe potuta verificare.</p>
+          <p>&nbsp;</p>
+          <p>I.&nbsp;<strong>Limitazione di Responsabilit&agrave;</strong></p>
+          <p>1. Il Fornitore risponde unicamente dei danni arrecati all&rsquo;utente a motivo dell&rsquo;inadempimento totale o parziale delle prestazioni contrattualmente dovute, a meno che provi che l&rsquo;evento &egrave; derivato da fatto dell&rsquo;Utente (ivi comprese iniziative autonomamente assunte da quest&rsquo;ultimo nel corso dell&rsquo;esecuzione dei servizi) o dal fatto di un terzo a carattere imprevedibile o inevitabile, da circostanze estranee alla fornitura delle prestazioni previste in contratto, da caso fortuito, da forza maggiore, ovvero da circostanze che lo stesso Provider non poteva, secondo la diligenza professionale, ragionevolmente prevedere o risolvere.</p>
+          <p>&nbsp;</p>
+          <p>2. Non siamo inoltre responsabili per:</p>
+          <p>(i) eventuali perdite commerciali. Nel caso in cui il Cliente si avvalga dei nostri Servizi a fini commerciali, aziendali o di rivendita, non saremo responsabili per eventuali perdite o danni, perdite di gestione, interruzioni di attivit&agrave; o opportunit&agrave; commerciali;</p>
+          <p>(ii) danni causati da guasti, interruzioni, sovraccarichi delle linee elettriche, telefoniche, o altri sistemi di comunicazione in generale, nazionali e internazionali che impediscano la regolare fruizione dei Servizi;</p>
+          <p>(iii) inadempimenti alle proprie obbligazioni scaturenti da cause di forza maggiore, quali, a titolo meramente indicativo, incendi, alluvioni, esplosioni, ecc., n&eacute; potr&agrave; essere responsabile per inadempimenti, ritardi e dinieghi in genere di terzi e/o della pubblica autorit&agrave; che pregiudicano la resa dei Servizi o ne ritardano il completamento, con particolare, ma non esclusivo riferimento al rilascio di atti di autentica ed apostille.</p>
+          <p>&nbsp;</p>
+          <p>3. Nessun risarcimento danni potr&agrave; essere richiesto all&rsquo;Utente per danni diretti e/o indiretti &ndash; ivi incluso il mancato guadagno e la violazione di diritti d&rsquo;uso e d&rsquo;autore altrui &ndash; causati dalla errata o incompleta prestazione dei Servizi. &Egrave; in ogni caso escluso ogni risarcimento qualora la Societ&agrave; si sia offerta di porre rimedio al vizio rilevato in un termine congruo avuto riguardo degli usi del settore dei servizi di traduzione e interpretariato. In ogni caso la modifica, purch&eacute; non essenziale e/o peggiorativa, non comporta il diritto di recesso e/o di revisione del prezzo. Per ogni dubbio e chiarimento, il cliente &egrave; invitato a contattare la nostra assistenza all&rsquo;indirizzo info@lingoyou.com</p>
+          <p>&nbsp;</p>
+          <p>4. La natura dei servizi offerti dalla Societ&agrave; comprende la diffusione di informazioni tra diverse parti attraverso la traduzione. Pertanto, a causa dell&rsquo;eccessiva responsabilit&agrave; che altrimenti graverebbe sulla Societ&agrave;, indipendentemente da qualsiasi altra disposizione in questi termini e condizioni o in qualsiasi altro accordo tra le parti, la Societ&agrave; non sar&agrave; responsabile nei confronti dell&rsquo;Utente e/o del cliente o di terze parti per eventuali danni (diretti e indiretti), perdite o spese derivanti da o in connessione con qualsiasi violazione di riservatezza e non divulgazione, salvo nei casi di dolo o colpa grave da parte della Societ&agrave;.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>5. Si ribadisce che, ferme le limitazioni di cui sopra, la nostra responsabilit&agrave;, ad ogni modo, si limita all'importo corrisposto.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>NEUTRAL VENUE</p>
+          <p>6. L'attivit&agrave; svolta dalla Societ&agrave; nell'ambito dei Servizi offerti sul Sito Web consiste esclusivamente nell'offrire agli Utenti il Servizio prescelto mediante professionisti terzi. In nessun caso il Provider, i suoi affiliati, fornitori di servizi, dipendenti, agenti, funzionari o amministratori saranno responsabili per danni di qualsiasi tipo, derivanti da o in connessione con, l'utilizzo, o l'incapacit&agrave; di utilizzare, il Sito Web o derivante da qualsiasi azione o omissione di tali professionisti terzi. Il Provider potr&agrave; ritenersi responsabili, ai sensi dell&rsquo;ordinamento, esclusivamente per dolo o per colpa grave. Il Provider non offre alcuna garanzia specifica circa i risultati che sono attesi, sperati od ottenuti con l&rsquo;uso dei Servizi, n&eacute; circa l&rsquo;esattezza, puntualit&agrave; o aggiornamento delle informazioni ivi reperibili, fatti salvi gli obblighi contrattuali espressamente assunti.</p>
+          <p>&nbsp;</p>
+          <p>7. La Societ&agrave; non ha funzioni di controllo, n&eacute; &egrave; attiva nella stessa area di competenza dei terzi incaricati delle traduzioni, declinando ogni responsabilit&agrave; derivante da o connessa. Dunque, al fine di fugare ogni dubbio, il Cliente accetta e riconosce che:&nbsp;</p>
+          <p>(i) il nostro &egrave; essenzialmente un servizio di intermediazione e che pertanto rispondiamo unicamente, fatte salve le suddette limitazioni di responsabilit&agrave;, di tale attivit&agrave; e non dei contenuti tradotti e/o del materiale in genere prodotto tra i soggetti intermediati;&nbsp;</p>
+          <p>(ii) fermo quanto al punto che precede, i servizi di intermediazione e la traduzione devono ritenersi esclusivamente prestazioni di opera intellettuale, nelle quali pu&ograve; essere garantito solamente la messa a disposizione di mezzi adeguati, ma non uno specifico risultato, restando pertanto definitivamente esclusa ogni nostra responsabilit&agrave; per difetti qualitativi di qualsiasi genere contestati al servizio di traduzione in quanto tale.</p>
+          <p>&nbsp;</p>
+          <p>8. Le limitazioni ivi esposte ricomprendono eventuali danni diretti, indiretti, speciali, incidentali, consequenziali, etc., inclusi, a titolo esemplificativo, ma non limitativo, lesioni personali, danno biologico, disagio emotivo, perdita di entrate o profitti, perdita di dati, danni patrimoniali, danni d&rsquo;immagine, perdita di chance, etc.</p>
+          <p>&nbsp;</p>
+          <p>9. Quanto precede non pregiudica alcuna responsabilit&agrave; che non possa essere esclusa o limitata sulla base della legge applicabile. Resta, in ogni caso, nuovamente inteso che eventuali responsabilit&agrave; accertate a carico della Societ&agrave; non potranno eccedere quanto gi&agrave; versato economicamente dell&rsquo;Ordine.</p>
+          <p>&nbsp;</p>
+          <p>J.&nbsp;<strong>Informativa dei rischi</strong></p>
+          <p>1. L'Utente &egrave; l'unico responsabile della sua scelta cosciente dell'uso e/o acquisto di uno qualsiasi dei servizi e prodotti offerti sul Sito Web.</p>
+          <p>&nbsp;</p>
+          <p>2. Il Fornitore pu&ograve; essere costretto a sospendere o interrompere o a modificare qualsiasi prodotto offerto da terzi o in conto terzi se richiesto dagli organi preposti o dalla legge applicabile, senza preavviso e per qualsiasi motivo.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>3. Il Fornitore non sar&agrave; altres&igrave; responsabile per ritardi, errori, interruzioni o inadempienze, ai sensi delle presenti Condizioni Generali, qualora il ritardo o il guasto siano direttamente o indirettamente dovuti a cause indipendenti da qualsiasi controllo, inclusi, a titolo esemplificativo e non esaustivo:</p>
+          <p>(i) atti divini, naturali e/o ricomprendibili alle cause di forza maggiore;</p>
+          <p>(ii) guasti o interruzioni delle reti di telecomunicazioni, dei canali di comunicazione o dei sistemi di informazione pubblici o privati;&nbsp;</p>
+          <p>(iii) atti o omissioni di atti da parte di terzi dei quali non si &egrave; in alcun modo responsabili, dopo aver posto in essere tutti i pi&ugrave; diligenti e prevedibili sistemi di difesa;</p>
+          <p>(iv) ritardi, guasti, interruzioni o indisponibilit&agrave; di servizi di terzi;&nbsp;</p>
+          <p>(v) scioperi, serrate, conflitti di lavoro, guerre, atti terroristici e rivolte.</p>
+          <p>&nbsp;</p>
+          <p>4. L'utente comprende e accetta di utilizzare i Servizi venduti dal Fornitore a proprio rischio. La presente sezione non &egrave; esaustiva e non ricomprende tutti i rischi associati all&rsquo;utilizzo del Sito Web ed acquisto dei Servizi. A tal fine &egrave; necessario consultare anche il disclaimer in calce al presente documento o presente sul Sito Web. Si ribadisce che il Fornitore non si assume alcuna responsabilit&agrave; per eventuali lesioni personali, danni alla propriet&agrave; o altre perdite, incidenti, ritardi, disagi o irregolarit&agrave; che potrebbero verificarsi a causa di qualsiasi problema al di fuori del suo controllo.</p>
+          <p>&nbsp;</p>
+          <p>K.&nbsp;<strong>Clausola di Confidenzialit&agrave;</strong></p>
+          <p>1. L&rsquo;Utente prende atto che ogni informazione, dato, risultato o documento relativo al presente Accordo ed all&rsquo;offerta inviata all&rsquo;Utente, sia mantenuta in regime di confidenzialit&agrave;. Per informazione confidenziale s&rsquo;intende qualsiasi informazione rivelata o consegnata tra le Parti, in relazione ai rapporti tra le Parti.</p>
+          <p>&nbsp;</p>
+          <p>2. L&rsquo;Utente ed il Fornitore si impegnano a trattare come confidenziale ogni e qualsiasi informazione e si accordano per l&rsquo;utilizzo delle stesse esclusivamente a fini dell&rsquo;oggetto del presente contratto, e di non divulgare le stesse a terzi, n&eacute; tanto meno di renderle pubbliche o accessibili con qualsiasi altro mezzo, a meno che non sia espressamente consentito tramite un consenso scritto.</p>
+          <p>&nbsp;</p>
+          <p>3. L&rsquo;Utente concede al Fornitore ed ai suoi incaricati (ivi ricompresi i traduttori) un diritto d&rsquo;uso non esclusivo, globale, revocabile e modificabile ai fini della prestazione dei Servizi, che si intender&agrave; automaticamente cessato al completamente degli stessi, oltre che nei casi di recesso e risoluzione.</p>
+          <p>&nbsp;</p>
+          <p>L.&nbsp;<strong>Termini Generali</strong></p>
+          <p>1. L'Utente si impegna a non compiere azioni attraverso il Sito che violino qualsivoglia disposizione di legge o normativa di funzionamento del Sito Web.</p>
+          <p>&nbsp;</p>
+          <p>2. Se una qualsiasi disposizione dei presenti Termini &egrave; ritenuta inapplicabile o non valida ai sensi di qualsiasi legge applicabile, tale inapplicabilit&agrave; o invalidit&agrave; non render&agrave; i presenti Termini inapplicabili o non validi nel loro complesso.</p>
+          <p>&nbsp;</p>
+          <p>3. Il Fornitore pu&ograve; apportare modifiche ai suoi Termini di volta in volta. Quando queste modifiche vengono effettuate, berr&agrave; esposta una nuova copia dei termini di servizio disponibili su questa pagina.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>4. L'utente &egrave; consapevole e accetta che, se utilizza il Sito Web dopo la data in cui i Termini di servizio sono cambiati, accetta tacitamente i nuovi Termini di servizio.</p>
+          <p>&nbsp;</p>
+          <p>M.&nbsp;<strong>Siti Terzi</strong></p>
+          <p>1. Sul Sito Web possono essere inseriti collegamenti ipertestuali collegati a siti di terzi. I collegamenti ipertestuali hanno unicamente la funzione di facilitare la navigazione dell&rsquo;Utente senza che vi sia alcun rapporto tra il contenuto del Sito e quello del sito terzo raggiunto.</p>
+          <p>&nbsp;</p>
+          <p>2. Il Fornitore non assume alcuna responsabilit&agrave; per il funzionamento dei link, il contenuto, la struttura, la veridicit&agrave;, la correttezza e l&rsquo;adeguatezza dei materiali e/o delle informazioni reperibili sui siti terzi, nonch&eacute; l&rsquo;accessibilit&agrave; dei siti terzi collegati al proprio.</p>
+          <p>&nbsp;</p>
+          <p>3. L&rsquo;Utente &egrave; consapevole ed accetta che, accedendo tramite il collegamento ipertestuale ad un sito terzo, conseguentemente cesseranno di applicarsi i presenti Termini e si applicheranno sul sito terzo specifiche condizioni di utilizzo predisposte dal terzo titolare.</p>
+          <p>&nbsp;</p>
+          <p>N.&nbsp;<strong>Informativa Privacy Ridotta</strong></p>
+          <p>1. Titolare del trattamento &egrave; LingoYou Group S.R.L. come sopra individuato. Non &egrave; attualmente previsto un DPO.</p>
+          <p>&nbsp;</p>
+          <p>2. La finalit&agrave; del trattamento &egrave; la fornitura del Servizio, mentre la base giuridica &egrave; (1) l'esecuzione degli obblighi contrattuali, (2) il consenso esplicito e (3) l'adempimento di obblighi di legge.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>3. I dati personali trattati sono quelli necessari al perfezionamento ed all&rsquo;esecuzione del contratto, raccolti sulla proposta di acquisto di servizio, che vengono comunicati volontariamente, seppur in maniera necessaria per la fruizione dei prodotti.&nbsp;</p>
+          <p>I dati personali saranno oggetto di comunicazione (1) al nostro personale dipendente, (2) ai fornitori terzi (ad es. traduttori), (3) ai liberi professionisti e consulenti incaricati alla gestione finanziaria e contabile della societ&agrave; ovvero (4) a soggetti cui l&rsquo;accesso ai dati sia riconosciuto da disposizioni di legge, di regolamento o di normativa.&nbsp;</p>
+          <p>L&rsquo;utente &egrave; informato che, nel caso in cui il servizio turistico acquistato richiedesse la comunicazione dei dati personali in Paesi "Extra UE", il Regolamento ammette il trasferimento nel caso in cui sia necessario - tra gli altri - all&rsquo;esecuzione di un contratto. In tale evenienza, l&rsquo;utente non potr&agrave; esercitare i diritti previsti Regolamento poich&eacute; non previsti dalle leggi dei Paesi ospitanti.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>4. I dati personali saranno conservati per tre anni successivi alla fruizione del servizio acquistato e, successivamente, per il tempo necessario per adempiere agli obblighi di conservazione per finalit&agrave; fiscali e/o per altre finalit&agrave; di legge. &Egrave; possibile esercitare i diritti (revoca, laddove fornito, del consenso, di accesso ai dati personali, di rettifica o di cancellazione degli stessi, di limitazione del trattamento che lo riguardano o di opposizione al loro trattamento), inviando l&rsquo;apposito modulo (scaricabile sul sito del Garante della Protezione dei dati personali) o a mezzo e-mail al Fornitore o a mezzo posta all&rsquo;indirizzo in premessa.</p>
+          <p>&nbsp;</p>
+          <p>5. Ogni utente ha diritto altres&igrave; a proporre formale reclamo all&rsquo;autorit&agrave; Garante secondo le modalit&agrave; indicate sul sito dell&rsquo;Autorit&agrave; stessa.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>O.&nbsp;<strong>Legge applicabile e foro competente</strong></p>
+          <p>1. Le presenti Condizioni sono disciplinate dal diritto italiano ed interpretate in base ad esso, fatta salva qualsiasi diversa norma imperativa prevalente del paese di residenza abituale del l'acquirente.&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>2. Di conseguenza l'interpretazione, esecuzione e risoluzione delle Condizioni sono soggette esclusivamente alla legge Italiana.</p>
+          <p>&nbsp;</p>
+          <p>3. Eventuali controversie inerenti e/o conseguenti alle stesse dovranno essere risolte in via esclusiva dall'autorit&agrave; giurisdizionale italiana individuandosi, quale competente, il Foro di Milano. Si fa salvo quanto disposto dal Codice del Consumo in merito allo status di consumatore.</p>
+          <p>&nbsp;</p>
+          <p>Le presenti condizioni sono operative dal Foro di Milano</p>
+          <p>&nbsp;</p>
+          <p>L&rsquo;UTENTE&nbsp;</p>
+          <p>PER ACCETTAZIONE MEDIANTE APPOSIZIONE DI FLAG, EFFETTUAZIONE DEL PAGAMENTO O AVVIO DEL SERVIZIO</p>
+          <p>&nbsp;</p>
+          <p>Nonostante i termini ivi inclusi siano stati presentati al Cliente e resi a lui disponibili con contestuale possibilit&agrave; di modifica, ai sensi degli Artt. 1341 e 1342 cc., il Cliente dichiara di aver letto con attenzione e di approvare specificamente le pattuizioni contenute nei punti seguenti: Propriet&agrave; Intellettuale;&nbsp;</p>
+        </div>
+        <div>
+          <ul>
+            <li>Oggetto dell&rsquo;Accordo;&nbsp;</li>
+            <li>Servizi ed Ordini;&nbsp;</li>
+            <li>Politiche di Consegna, Rimborso e Cancellazione;&nbsp;</li>
+            <li>Responsabilit&agrave; ed Obblighi;&nbsp;</li>
+            <li>Violazioni ed Indennizzi; I. Limitazione di Responsabilit&agrave;;&nbsp;</li>
+            <li>Informativa dei rischi;&nbsp;</li>
+            <li>Legge applicabile e foro competente.</li>
           </ul>
         </div>
-        <div
-          className="text-[#666666
-    ] py-10"
-        >
-          <p className="text-black font-semibold">General</p>
-          <p className="py-3">
-            The website, its content and service are provided on an “as is” and
-            “as available” basis without any warranties of any kind, including
-            that the website will operate error-free or that the website, its
-            servers, its content or its service are free of computer viruses or
-            similar contamination or destructive features. Although we seek to
-            maintain safe, secure, accurate, and well-functioning services, we
-            cannot guarantee the continuous operation of or access to our
-            services, and there may at times be inadvertent technical or factual
-            errors or inaccuracies.{" "}
-          </p>
-          <p className="text-black font-semibold">1. No warranties</p>
-          <p className="py-3">
-            We specifically (but without limitation) disclaim
-          </p>
-          <p className="text-black font-semibold">No guarantee of accuracy.</p>
-          <p className="py-3">
-            We do not guarantee the accuracy of, and disclaims all liability
-            for, any errors or other inaccuracies in the information, content,
-            recommendations, and materials made available through the services.{" "}
-          </p>
-          <p className="text-black font-semibold">
-            1. No warranties regarding third parties.
-          </p>
-          <p className="py-3">
-            {" "}
-            We make no representations, warranties, or guarantees, express or
-            implied, regarding any third party service or advice provided by a
-            third party. Every effort is made to keep the website up and running
-            smoothly. However, we take no responsibility for, and will not be
-            liable for, the website being temporarily unavailable due to
-            technical issues beyond our control. If you require any more
-            information or have any questions about our site’s disclaimer,
-            please feel free to contact us by email at info@rafiky.net.
-          </p>
+        <div>
+          <p>&nbsp;</p>
+          <p>L&rsquo;UTENTE&nbsp;</p>
+          <p>PER ACCETTAZIONE MEDIANTE APPOSIZIONE DI FLAG, EFFETTUAZIONE DEL PAGAMENTO O AVVIO DEL SERVIZIO</p>
+          <p>&nbsp;</p>
+          <p>DISCLAIMER</p>
+          <p>&nbsp;</p>
+          <p>1. L'utente &egrave; l'unico responsabile della sua scelta cosciente dell'uso e/o acquisto di uno qualsiasi dei servizi e prodotti offerti sul Sito Web.</p>
+          <p>&nbsp;</p>
+          <p>2. Nei limiti di quanto consentito dalla vigente normativa applicabile, gli utenti riconoscono che l&rsquo;utilizzo del sito avviene a proprio esclusivo rischio. Il sito web viene fornito cos&igrave; &ldquo;come &egrave;&rdquo; e &ldquo;come disponibile&rdquo;.</p>
+          <p>&nbsp;</p>
+          <p>3. La navigazione e le informazioni disponibili sul Sito Web sono fruibili a titolo gratuito. Alcune informazioni contenute nel sito hanno carattere puramente informativo e, salvo ove diversamente previsto, non costituiscono una proposta contrattuale n&eacute; una offerta al pubblico ai sensi dell&rsquo;art. 1336 del Codice Civile dei servizi descritti, n&eacute; un invito ad offrire, n&eacute; possono considerarsi impegnative per la conclusione di alcun contratto n&eacute; per qualsivoglia trattativa o relazione commerciale.</p>
+          <p>Tale sito, pur presentando alcuni contenuti informativi e di aggiornamento non &egrave; una testata giornalistica o, comunque, un prodotto editoriale, soggetto alla disciplina di cui all&rsquo;art. 1, comma 3 della L. 62 del 7.3.2001, poich&eacute; la pubblicazione di contenuti informativi viene effettuata senza alcuna periodicit&agrave;, ma a carattere sporadico e occasionale, senza che il Fornitore presenti alcuna organizzazione o linea editoriale.</p>
+          <p>&nbsp;</p>
+          <p>4. In nessun caso LingoYou Group S.R.L. i suoi affiliati, fornitori di servizi, dipendenti, agenti, funzionari o amministratori saranno responsabili per danni di qualsiasi tipo, derivanti da o in connessione con, l'utilizzo, o l'incapacit&agrave; di utilizzare, il Sito Web.</p>
+          <p>Le altre parti come appena specificate potranno ritenersi responsabili, ai sensi dell&rsquo;ordinamento, esclusivamente per dolo o per colpa grave.</p>
+          <p>Parimenti, le parti come appena specificate non potranno essere ritenute responsabili per qualsiasi contenuto del Sito Web o qualsiasi servizio o oggetto ottenuto attraverso il Sito Web o portali sponsorizzati.</p>
+          <p>Tali limitazioni ricomprendono eventuali danni diretti, indiretti, speciali, incidentali, consequenziali, etc, inclusi, a titolo esemplificativo, ma non limitativo, lesioni personali, danno biologico, disagio emotivo, perdita di entrate, etc.</p>
+          <p>&nbsp;</p>
+          <p>5. N&eacute; il Fornitore, n&eacute; alcuno dei suoi agenti saranno responsabili per la gestione o l'esecuzione di qualsiasi servizio offerto da terzi sul Sito Web (ivi comprese compagnie aeree e di trasporto, fornitori di servizi d&rsquo;intermediazione, guide, etc.). Quanto precede, non pregiudica alcuna responsabilit&agrave; che non possa essere esclusa o limitata sulla base della legge applicabile.</p>
+          <p>&nbsp;</p>
         </div>
-        <div
-          className="text-[#666666
-    ] py-5"
-        >
-          <p className="text-black font-semibold">TERMS AND CONDITIONS</p>
-          <p className="py-2">
-            This Agreement was last revised on April 20th, 2020.
-            <p className="py-2">Contents</p>
-            <p className="">TERMS AND CONDITIONS</p>
-          </p>
-
-          <ul className="py-1">
-            <li className="py-1">{"I. INTRODUCTION"}</li>
-            <li>II. DEFINITIONS</li>
-            <li className="py-1">III. INTERPRETATION</li>
-            <li>IV. INTRODUCTION AND SCOPE</li>
-            <li className="py-1">V. SERVICES</li>
-            <li>VI. MODIFICATIONS TO THE SERVICE</li>
-            <li className="py-1">VII. REGISTRATION</li>
-            <li>VIII. USER SUBMISSIO</li>
-            <li className="py-1">IX. GRANT OF LICENSE</li>
-            <li>X. PAYMENT</li>
-            <li className="py-1">XI. SUSPENSION OF SERVICE</li>
-            <li>XII. GENERAL CONDITIONS</li>
-            <li className="py-1">XIII. LIMITED GUARANTEE</li>
-            <li>XIV. GEOGRAPHIC RESTRICTION</li>
-            <li className="py-1">XV. USER RESPONSIBILITIES</li>
-            <li>XVI. EXCLUSION OF LIABILITY</li>
-            <li className="py-1">XVII. NO RESPONSIBILITY</li>
-            <li>XVIII. THIRD PARTY LINKS</li>
-            <li className="py-1">
-              XIX. PERSONAL INFORMATION AND PRIVACY POLICY
-            </li>
-            <li>XX. ERRORS, INACCURACIES AND OMISSIONS</li>
-            <li className="py-1">
-              XXI. DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY
-            </li>
-            <li>XXII. COPYRIGHT AND TRADEMARK</li>
-            <li className="py-1">XXIII. INDEMNIFICATION</li>
-            <li>XXIV. MISCELLANEOUS</li>
-          </ul>
-        </div>
-        <div
-          className="text-[#666666
-    ] py-2"
-        >
-          <h2 className="text-black font-semibold py-3">I. INTRODUCTION</h2>
-          <p>www.rafiky.net (“we,” “us,” or “our”) welcomes you. </p>
-          <p>
-            We offer you access to our product and services through our
-            “Website” (defined below) subject to the following Terms of Service,
-            which may be updated by us from time to time with or without notice
-            to you. By accessing and using this Website, you acknowledge that
-            you have read, understood and agree to be lawfully bound by these
-            terms and conditions and our Privacy Policy, which are hereby
-            incorporated by reference (collectively, this “Agreement”). In case
-            you do not agree with any of these terms, then please do not use the
-            Website.
-          </p>
-          <h2 className="text-black font-semibold py-3">II. DEFINITIONS</h2>
-          <p>
-            • “Agreement” denotes to this Terms and Conditions and the Privacy
-            Policy and other documents provided to you by the Website;{" "}
-          </p>
-          <p>
-            • “Service” or “Services” is a reference to any service defined
-            below, which we may supply and which you may request via our
-            Website;
-          </p>
-          <p>
-            • “User”, “You” and “your” denotes the person who is accessing for
-            taking any service from us. User shall include the company,
-            partnership, sole trader, person, body corporate or association
-            taking services of this Website;
-          </p>
-          <p>
-            • “We”, “us”, “our” and “Company” are references to Rafiky Ltd,;
-          </p>
-          <p>
-            • ”Website” shall mean and include “https: //rafiky.net, and any
-            successor Website of the Company or any of its affiliates;
-          </p>
-          <p>
-            • “Customer Content”: means any sound, videos, graphic presentations
-            (text, graphics, images, documents (physical or electronic) or data
-            made available by you to us for the purposes of us delivering the
-            Services to you.
-          </p>
-          <p>
-            • “Quotation”: The price for the Services will be set out in a
-            quotation (“Quotation”). Any Quotation that we may give you will
-            only be valid for 15 calendar days from the date that we issue the
-            Quotation to you, unless we notify you otherwise.
-          </p>
-          <p>
-            • “User Account” shall mean an electronic account opened for the
-            user for availing various services offered in the website;
-          </p>
-          <h2 className="text-black font-semibold py-3">III. INTERPRETATION</h2>
-          <p>
-            • Words used herein regardless of the number and gender specifically
-            used, shall be deemed and construed to include any other number,
-            singular or plural, and any other gender, masculine, feminine or
-            neuter, as the context requires.
-          </p>
-          <p>
-            • Reference to any statute, ordinance or other law includes all
-            regulations and other instruments and all consolidations,
-            amendments, re-enactments or replacements for the time being in
-            force.
-          </p>
-          <p>
-            • All headings, bold typing and italics (if any) have been inserted
-            for convenience of reference only and do not define limit or affect
-            the meaning or interpretation of the terms of this Agreement.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            IV. INTRODUCTION AND SCOPE
-          </h2>
-          <p>
-            • Acceptance. By using the Website in any manner, you are bound by
-            these Terms and Conditions, as well as the terms of the Agreement
-            identified above. In case you do not accept the terms, then please
-            do not use the Website. If you are accepting these Terms on behalf
-            of a Company, organization, government, or other legal entity, you
-            hereby represent and warrant that (a) you are legally authorized to
-            do so, (b) the entity agrees to be legally bound by the Terms, and
-            (c) neither you nor the entity is barred from using the Services or
-            accepting the Terms under the laws of the applicable jurisdiction.
-          </p>
-          <p>
-            • Scope. These Terms govern your use of the Website and the
-            Services. Except as otherwise specified, these Terms do not apply to
-            Third-Party Products or Services, which are governed by their own
-            terms of service.
-          </p>
-          <p>
-            • Eligibility: Certain Service of the Website is not available to
-            users under the age of 13 or to any users suspended or removed from
-            the system by us for any reason.
-          </p>
-          <p>
-            • Electronic Communication: When you use this Website or send
-            e-mails and other electronic communications from your desktop or
-            mobile device to us, you are communicating with us electronically.
-            By sending, you agree to receive a reply communications from us
-            electronically in the same format and you can keep copies of these
-            communications for your records.
-          </p>
-          <h2 className="text-black font-semibold py-3">V. SERVICES</h2>
-          <p>
-            Rafiky is a flexible, scalable and premium cloud interpreting
-            platform for any kind of event, conferences or meeting. <br />
-            Through Rafiky’s platform, interpreters can work from anywhere,
-            removing the need for event organizers to hire and deploy
-            specialized hardware, interpreting booths or pay for interpreters’
-            travel and accommodation expenses.
-            <br />
-            Event attendees can enjoy conference-level interpreting by listening
-            to the language of their choice in crystal-clear audio through the
-            Rafiky app or through radio headsets.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            VI. MODIFICATIONS TO THE SERVICE{" "}
-          </h2>
-          <p>
-            We reserve the right, in our discretion, to change, modify, add to,
-            or remove portions of the Terms (collectively, “Changes”), at any
-            time. We may notify you of Changes by sending an email to the
-            address identified in your Account or by posting a revised version
-            of the Terms incorporating the Changes to its Website.
-          </p>
-          <h2 className="text-black font-semibold py-3">VII. REGISTRATION</h2>
-          <p>
-            For accessing the website and using certain Resources, you may be
-            required to provide specific information and to create a user ID and
-            password to establish an account. <br /> You accept that the details
-            you provide in relation to establishing an account is correct and
-            that you will keep your details up-to-date. You are responsible for
-            the security of all of your user names, passwords and registration
-            information (such as unique account identifiers or historical
-            billing information), and you are solely responsible for any use
-            (authorized or not) of your accounts. You agree to notify us
-            immediately about any unauthorized activity regarding any of your
-            accounts or other breaches of security. We may at our discretion
-            suspend or terminate any of your user names and passwords at any
-            time with or without notice.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            VIII. USER SUBMISSION{" "}
-          </h2>
-          <p>
-            A. Content Responsibility. <br /> When you use this website, you
-            agree to adhere to the content guidelines listed in our terms of
-            services and privacy policies. You are solely responsible for the
-            content submitted by you. You represent that you have required
-            permission to use the content. <br /> Please do not use content
-            that: <br /> • contains ill-mannered, profane, abusive, racist or
-            hateful language or expressions, text, photographs or illustrations
-            that are pornographic or in poor taste, inflammatory attacks of a
-            personal, racial or religious nature <br />• is defamatory,
-            threatening, disparaging, grossly inflammatory, false, misleading,
-            fraudulent, inaccurate, unfair, contains gross exaggeration or
-            unsubstantiated claims <br /> • violates the privacy rights of any
-            third party, is unreasonably harmful or offensive to any individual
-            or community <br /> • discriminates on the grounds of race,
-            religion, national origin, gender, age, marital status, sexual
-            orientation or disability, or refers to such matters in any manner
-            prohibited by law <br />• violates or inappropriately encourages the
-            violation of any municipal, state, federal or international law,
-            rule, regulation or ordinance <br />• sends repeated messages
-            related to another user and/or makes derogatory or offensive
-            comments about another individual or repeats prior posting of the
-            same message under multiple emails or subjects <br />• Information
-            or data which are unlawfully obtained <br /> Any submitted content
-            may be refused. If repeated violations occur, we reserve the right
-            to cancel user access to our services without advanced notice.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            IX. GRANT OF LICENSE
-          </h2>
-          <p>
-            • Subject to the terms and conditions of this Agreement we hereby
-            grant you a non-exclusive, non-transferable, revocable license to
-            use the Service as per the Terms of this agreement. <b />• Nothing
-            in this Agreement shall be considered as a grant of title or
-            ownership in the Service to the user.
-          </p>
-          <h2 className="text-black font-semibold py-3">X. PAYMENT</h2>
-          <p>
-            • All the purchases from this website shall be governed by our terms
-            and conditions. <br />• When you order Services from us or contact
-            us about the supply of Services then we will issue you with a
-            Quotation (as defined above). Any Quotation shall not be final or
-            binding on you or us until you and we agree the scope and price of
-            the Services at which point the Quotation shall be deemed to form
-            part of the Order. <br />• Payment mode shall be: <br /> o Online:
-            Credit Cards and Debit cards;
-            <br /> o PayPal <br />• Our acceptance of your Order will take place
-            when you accept the Quotation and we let you know that we are able
-            to supply you with the Services, at which point a Contract will come
-            into existence between you and us. Please allow approximately three
-            (3) working days for us to confirm your Order. <br />• At the time
-            ordering, while providing your details it is your duty to be careful
-            and warrant that the information provided are true and accurate.{" "}
-            <br />• If we are unable to accept Your Order, We will inform you of
-            this and will not charge you for the Services. <br />• We will
-            assign an Order number to Your Order and will tell you what it is
-            when we accept Your Order. It will help us if you can tell us the
-            Order number whenever you contact us about Your Order. <br />• We
-            may refuse or be unable to process your order if: <br /> Your card
-            or Paypal account does not give authorization for the payment of
-            purchase price. <br />• You do not meet the eligibility to order
-            criteria set out above. <br />• You must pay for the Services when
-            we deliver them to you or as specified in the Quote. (whichever is
-            earlier). If You do not make any payment to Us by the due date We
-            may charge interest to You on the overdue amount at the rate of four
-            percent (4%) a year above the base lending rate of the Royal Bank of
-            Scotland plc from time to time. This interest shall accrue on a
-            daily basis from the due date until the date of actual payment of
-            the overdue amount, whether before or after judgment. You must pay
-            us interest together with any overdue amount. <br />• If You think
-            an invoice is wrong please contact Us no later than three (3)
-            calendar days from the date that We issue Our invoice to You to let
-            Us know. You will not have to pay any interest until the dispute is
-            resolved. Once the dispute is resolved We will charge You interest
-            on correctly invoiced sums from the original due date.
-            <br />• To cancel the order users can contact us by email
-            info@rafiky.net. <br />• All refund shall be applicable as per the
-            refund policy.
-            <br />• We take user feedback very seriously and use it to
-            constantly improve our products and quality of service.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XI. SUSPENSION OF SERVICE
-          </h2>
-          <p>
-            We may suspend the delivery/supply of Services to You. We may have
-            to suspend the supply of the Services because: <br /> (a) We have to
-            deal with technical problems or make minor technical changes; <br />{" "}
-            (b) update the Services to reflect changes in relevant laws and
-            regulatory requirements; or <br />
-            (b) update the Services to reflect changes in relevant laws and
-            regulatory requirements; or <br />
-            We will contact you in advance to tell you that we will be
-            suspending supply of the Services, unless the problem is urgent or
-            an emergency. If we have to suspend the supply of Services for
-            longer than one (1) month we will adjust the price so that you do
-            not pay for Services while they are suspended. You may contact us to
-            end the agreement for the supply of Services if we suspend it, or
-            tell you We are going to suspend it, in each case for a period of
-            more than one (1) month and We will refund any sums You have paid in
-            advance for the Services in respect of the period after You end the
-            agreement. If we have provided you with some of the Services then we
-            will refund to you an amount proportionate to the balance of the
-            remaining Services.
-            <br />
-            We may also suspend supply of the Services if you do not pay. If you
-            do not pay us for the Services when you are supposed to and you
-            still do not make payment within two (2) calendar days of Us
-            reminding you that payment is due, We may suspend supply of the
-            Services until You have paid us the outstanding amounts. We will
-            contact you to tell you that we are suspending supply of the
-            Services. We will not suspend the Services where you dispute the
-            unpaid invoice. We will not charge you for the Services during the
-            period for which they are suspended. As well as suspending the
-            Services We can also charge you interest on your overdue payments.
-            <br />
-            We are not responsible for delays outside our control. If our
-            delivery of the Services is delayed by an event outside our control
-            then we will contact you as soon as possible to let you know and we
-            will take steps to minimise the effect of the delay. Provided we do
-            this we will not be liable for delays caused by the event, but if
-            there is a risk of substantial delay you may contact us to end the
-            Contract and receive a refund for any Services You have paid for but
-            not received.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XII. GENERAL CONDITIONS
-          </h2>
-          <p>
-            • We do not guarantee the accuracy, completeness, validity, or
-            timeliness of information listed by us. <br /> • We make material
-            changes to these terms and conditions from time to time, we may
-            notify you either by prominently posting a notice of such changes or
-            via email communication.
-            <br /> • The website is licensed to you on a limited, non-exclusive,
-            non-transferrable, non-sub-licensable basis, solely to be used in
-            connection with the Service for your private, personal,
-            non-resalable use, subject to all the terms and conditions of this
-            Agreement as they are applicable to the Service.
-            <br />• In the event of any failure of the website to conform to any
-            applicable warranty, including those implied by law, you may notify
-            us of such failure; upon notification, our sole warranty obligation
-            to you will be to refund to you the purchase price, if any, of the
-            Website.
-            <br />• We under no obligation and shall not be liable to review
-            such data for accuracy, acceptability or potential liability.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XIII. LIMITED GUARANTEE
-          </h2>
-          <p>
-            By this Website:
-            <br />• We provide an opportunity for you to avail the offered
-            Services from our Website.
-            <br />• We do not provide any warranty or guarantee that the Service
-            descriptions are accurate, complete, reliable, current, or
-            error-free. If a Services offered by the Website is not as
-            described, your sole remedy is to intimate us about Services for
-            taking further action.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XIV. GEOGRAPHIC RESTRICTION
-          </h2>
-          <p>
-            We reserve the right, but not the obligation, to limit the usage or
-            supply of any service to any person, geographic region or
-            jurisdiction. We may use this right as per the necessity. We reserve
-            the right to suspend any Service at any time. Any offer to provide
-            any Service made on this Website is invalid where banned.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XV. USER RESPONSIBILITIES
-          </h2>
-          <p>
-            • You shall use the Service and Website for a lawful purpose and
-            comply with all the applicable laws while using the Website;
-            <br />
-            • You shall not use or access the Website for collecting any market
-            research for some competing business;
-            <br />
-            • You shall not misrepresent or personate any person or entity for
-            any false or illegal purpose;
-            <br />
-            • You shall not use any virus, hacking tool for interfering in the
-            operation of the Website or data and files of the Website;
-            <br />
-            • You will not use any device, scraper or any automated thing to
-            access the Website for any means without taking permission.
-            <br />
-            • You will inform us about anything is inappropriate or you can
-            inform us if you find something illegal;
-            <br />
-            • You will not interfere with or try to interrupt the proper
-            operation of the Website through the use of any virus, device,
-            information collection or transmission mechanism, software or
-            routine, or access or try to gain access to any data, files, or
-            passwords connected to the Website through hacking, password or data
-            mining, or any other means;
-            <br />
-            • You will not cover, obscure, block, or in any way interfere with
-            any advertisements and/or safety features (e.g., report abuse
-            button) on the Website; <br />
-            • You will not take any action that levies or may levy (in our sole
-            decision) an unreasonable or unreasonably big load on our technical
-            arrangement; and
-            <br />
-            • You will let us know about unsuitable content of which you become
-            aware. If you discover something that infringes any law, please let
-            us know, and we’ll review it.
-            <br />
-            We reserve the right, in our sole and absolute discretion, to deny
-            you access to the Website or any service, or any portion of the
-            Website or service, without notice, and to remove any content.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XVI. EXCLUSION OF LIABILITY
-          </h2>
-          <p>
-            We shall not be responsible for any loss of data, property, stock
-            while using our service. <br />
-            You understand and agree that we (a) do not guarantee the accuracy,
-            completeness, validity, or timeliness of information listed by us or
-            any third parties; and (b) shall not be responsible for any
-            materials posted by us or any third party. You shall use your own
-            judgment, caution, and common sense in evaluating any prospective
-            methods or offers and any information provided by us or any third
-            party.
-            <br />
-            Further, we shall not be liable for direct, indirect consequential
-            or any other form of loss or damage that may be suffered by a user
-            through the use of the www.rafiky.net Website including loss of data
-            or information or any kind of financial or physical loss or damage.
-            <br />
-            In no event shall Rafiky Ltd, , nor its Owner, directors, employees,
-            partners, agents, suppliers, or affiliates, be accountable for any
-            indirect, incidental, special, eventful or exemplary costs,
-            including without limitation, loss of proceeds, figures, usage,
-            goodwill, or other intangible losses, consequential from (i) your
-            use or access of or failure to access or use the Service; (ii) any
-            conduct or content of any third party on the Service; (iii) any
-            content attained from the Service; and (iv) unlawful access, use or
-            alteration of your transmissions or content, whether or not based on
-            guarantee, agreement, domestic wrong (including carelessness) or any
-            other lawful concept, whether or not we’ve been aware of the
-            possibility of such damage, and even if a cure set forth herein is
-            originated to have futile of its important purpose.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XVII. NO RESPONSIBILITY
-          </h2>
-          <p>
-            We are not responsible to you for: <br />
-            ● any reliance that you may place on any material or commentary
-            posted on our website. Please note that nothing contained in our
-            website or the material published on it is intended to amount to
-            advice on which you should rely; or
-            <br />
-            ● any losses you suffer because the information you put into our
-            website is inaccurate or incomplete; or
-            <br />
-            ● any losses you suffer because you cannot use our website at any
-            time; or
-            <br />
-            ● any errors in or omissions from our website; or
-            <br />
-            ● any losses you may suffer by relying on any commentary, postings
-            or reviews (of our services or that of our partners) on our website;
-            or
-            <br />● any unauthorised access or loss of personal information that
-            is beyond our control.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XVIII. THIRD PARTY LINKS
-          </h2>
-          <p>
-            The Website may comprise links to external or third-party Websites
-            (“External Sites”). These links are provided exclusively as ease to
-            you and not as an authorization by us of the content on such
-            External Sites. The content of such External Sites is created and
-            used by others. You can communicate the site administrator for those
-            External Sites. We are not accountable for the content provided in
-            the link of any External Sites and do not provide any
-            representations about the content or correctness of the information
-            on such External Sites. You should take safety measures when you are
-            downloading files from all these Websites to safeguards your
-            computer from viruses and other critical programs. If you agree to
-            access linked External Sites, you do so at your own risk.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XIX. PERSONAL INFORMATION AND PRIVACY POLICY
-          </h2>
-          <p>
-            By accessing or using this Website, you approve us to use, store or
-            otherwise process your personal information as per our Privacy
-            Policy.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XX. ERRORS, INACCURACIES AND OMISSIONS
-          </h2>
-          <p>
-            Every effort has been taken to ensure that the information offered
-            on this Website is accurate and error-free. We apologize for any
-            errors or omissions that may have occurred. We cannot give you any
-            warranty that usage of the Website will be error-free or fit for
-            purpose, timely, that defects will be amended, or that the site or
-            the server that makes it available are free of viruses or bugs or
-            signifies the full functionality, accuracy, reliability of the
-            Website and we do not make any warranty whatsoever, whether express
-            or implied, relating to fitness for purpose, or accuracy.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XXI. DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY
-          </h2>
-          <p>
-            THE WEBSITE AND THE SERVICE ARE PROVIDED ON AN “AS IS” AND “AS
-            AVAILABLE” BASIS WITHOUT ANY WARRANTIES OF ANY KIND, INCLUDING THAT
-            THE WEBSITE WILL OPERATE ERROR-FREE OR THAT THE WEBSITE, ITS SERVERS
-            OR ITS CONTENT OR SERVICE ARE FREE OF COMPUTER VIRUSES OR SIMILAR
-            CONTAMINATION OR DESTRUCTIVE FEATURES.
-            <br />
-            WE DISCLAIM ALL LICENSES OR WARRANTIES, INCLUDING, BUT NOT LIMITED
-            TO, LICENSES OR WARRANTIES OF TITLE, MERCHANTABILITY, NON-VIOLATION
-            OF THIRD PARTIES’ RIGHTS, AND FITNESS FOR PARTICULAR PURPOSE AND ANY
-            WARRANTIES ARISING FROM A MATTER OF DEALING, COURSE OF PERFORMANCE,
-            OR USAGE OF TRADE. IN RELATION WITH ANY WARRANTY, CONTRACT, OR
-            COMMON LAW TORT CLAIMS: (I) WE SHALL NOT BE LIABLE FOR ANY
-            UNINTENDED, INCIDENTAL, OR SUBSTANTIAL DAMAGES, LOST PROFITS, OR
-            DAMAGES RESULTING FROM LOST DATA OR BUSINESS STOPPAGE RESULTING FROM
-            THE USE OR INABILITY TO ACCESS AND USE THE WEBSITE OR THE CONTENT,
-            EVEN IF WE HAVE BEEN RECOMMENDED OF THE POSSIBILITY OF SUCH DAMAGES.
-            <br />
-            THE WEBSITE MAY COMPRISE TECHNICAL INCORRECTNESS OR TYPOGRAPHICAL
-            ERRORS OR OMISSIONS. UNLESS REQUIRED BY APPLICABLE LAWS, WE ARE NOT
-            ACCOUNTABLE FOR ANY SUCH TYPOGRAPHICAL, TECHNICAL, OR PRICING ERRORS
-            RECORDED ON THE WEBSITE. THE WEBSITE MAY CONTAIN INFORMATION ON
-            CERTAIN SERVICES, NOT ALL OF WHICH ARE AVAILABLE IN EVERY LOCATION.
-            A REFERENCE TO A SERVICE ON THE WEBSITES DOES NOT SUGGEST THAT SUCH
-            SERVICE IS OR WILL BE ACCESSIBLE IN YOUR LOCATION. WE RESERVE THE
-            RIGHT TO DO CHANGES, CORRECTIONS, AND/OR IMPROVEMENTS TO THE WEBSITE
-            AT ANY TIME WITHOUT NOTICE. <br />
-            Rafiky shall use reasonable efforts consistent with prevailing
-            industry standards to maintain the Services in a manner which
-            minimizes errors and interruptions in the Services and shall perform
-            the Services in a professional and workmanlike manner. Services may
-            be temporarily unavailable for scheduled maintenance or for
-            unscheduled emergency maintenance, either by Rafiky or by third
-            party providers, or because of other causes beyond Rafiky reasonable
-            control, but Rafiky shall use reasonable efforts to provide advance
-            notice in writing or by e-mail of any scheduled Service disruption.
-            HOWEVER, RAFIKY DOES NOT WARRANT THAT THE SERVICES WILL BE
-            UNINTERRUPTED OR ERROR FREE; NOR DOES IT MAKE ANY WARRANTY AS TO THE
-            RESULTS THAT MAY BE OBTAINED FROM USE OF THE SERVICES. EXCEPT AS
-            EXPRESSLY SET FORTH IN THIS SECTION, THE SERVICES ARE PROVIDED “AS
-            IS” AND RAFIKY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
-            INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY
-            AND FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XXII. COPYRIGHT AND TRADEMARK
-          </h2>
-          <p>
-            The Website contains material, such as software, text, graphics,
-            images, designs, sound recordings, audiovisual works, and other the
-            material provided by or on behalf of us (collectively referred to as
-            the “Content”). The Content may be possessed by us or third parties.
-            Unauthorized use of the Content may infringe copyright, trademark,
-            and other laws. You have no rights in or to the Content, and you
-            will not take the Content except as allowed under this Agreement. No
-            other use is allowed without prior written consent from us. You must
-            recollect all copyright and other proprietary notices contained in
-            the original Content on any copy you make of the Content. You may
-            not transfer, provide license or sub-license, sell, or modify the
-            Content or reproduce, display, publicly perform, make a derivative
-            version of, distribute, or otherwise use the Content in any way for
-            any public or commercial purpose. The use or posting of the Content
-            on any other Website or in a networked computer environment for any
-            purpose is expressly prohibited.
-            <br />
-            If you infringe any part of this Agreement, your permission to
-            access and/or use the Content and the Website automatically
-            terminates and you must immediately destroy any copies you have made
-            of the Content.
-            <br />
-            Our trademarks, service marks, and logos used and displayed on the
-            Website are registered and unregistered trademarks or service marks
-            of us. Other company, product, and service names located on the
-            Website may be trademarks or service marks owned by others (the
-            “Third-Party Trademarks,” and, collectively with us, the
-            “Trademarks”). Nothing on the Website should be construed as
-            granting, by implication, estoppel, or otherwise, any license or
-            right to use the Trademarks, without our prior written permission
-            specific for each such use. None of the Content may be retransmitted
-            without our express, written consent for each and every instance.
-          </p>
-          <h2 className="text-black font-semibold py-3">
-            XXIII. INDEMNIFICATION
-          </h2>
-          <p>
-            You agree to defend, indemnify, and hold us and our officers,
-            directors, employees, successors, licensees, and assigns harmless
-            from and against any claims, actions, or demands, including, without
-            limitation, reasonable legal and accounting fees, arising or
-            resulting from your breach of this Agreement or your misuse of the
-            Content or the Website. We shall provide notice to you of any such
-            claim, suit, or proceeding and shall assist you, at your expense, in
-            defending any such claim, suit, or proceeding. We reserve the right,
-            at your expense, to assume the exclusive defense and control of any
-            matter that is subject to indemnification under this section. In
-            such case, you agree to cooperate with any reasonable requests
-            assisting our defense of such matter.
-          </p>
-          <h2 className="text-black font-semibold py-3">XXIV. MISCELLANEOUS</h2>
-          <p>
-            SEVERABILITY
-            <br />
-            If any provision of these Terms is found to be unenforceable or
-            invalid, that provision will be limited or eliminated to the minimum
-            extent necessary so that the Terms will otherwise remain in full
-            force and effect and enforceable.
-            <br />
-            TERMINATION
-            <br />
-            Term. The Services will be provided to you can be cancelled or
-            terminated by us. We may terminate these Services at any time, with
-            or without cause, upon written notice. We will have no liability to
-            you or any third party because of such termination. Termination of
-            these Terms will terminate all of your Services subscriptions.
-            Effect of Termination. Upon termination of these Terms for any
-            reason, or cancellation or expiration of your Services: (a) We will
-            cease providing the Services; (b) you will not be entitled to any
-            refunds or usage fees, or any other fees, pro-rata or otherwise; (c)
-            any fees you owe to us will immediately become due and payable in
-            full, and (d) we may delete your archived data within 30 days. All
-            sections of the Terms that expressly provide for survival, or by
-            their nature should survive, will survive termination of the Terms,
-            including, without limitation, indemnification, warranty
-            disclaimers, and limitations of liability.
-            <br />
-            ENTIRE AGREEMENT
-            <br />
-            This Agreement constitutes the entire agreement between the parties
-            hereto with respect to the subject matter contained in this
-            Agreement.
-            <br />
-            GOVERNING LAW AND JUDICIAL RECOURSE The terms herein will be
-            governed by and construed in accordance with Law of England and
-            Wales without giving effect to any principles or conflicts of law.
-            The Courts of England and Wales shall have exclusive jurisdiction
-            over any dispute arising from the use of the Website. FORCE MAJEURE
-            We will have no liability to you, your users, or any third party for
-            any failure us to perform its obligations under these Terms in the
-            event that such non-performance arises as a result of the occurrence
-            of an event beyond the reasonable control of us, including, without
-            limitation, an act of war or terrorism, natural disaster, failure of
-            electricity supply, riot, civil disorder, or civil commotion or
-            other force majeure event. ASSIGNMENT The Company shall have the
-            right to assign/transfer this agreement to any third party including
-            its holding company, subsidiaries, affiliates, associates and group
-            companies, without any consent of the User. CONTACT INFORMATION If
-            you have any questions about these Terms, please contact us at
-            info@rafiky.net.
-          </p>
-        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
       </div>
     </div>
   ),

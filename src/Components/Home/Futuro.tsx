@@ -1,9 +1,10 @@
-import Button from "../Button";
-import Image from "next/image";
-import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
-import Link from "next-translate-routes/link";
+import useTranslation from "@/hooks/useTranslation";
 import { freeQuoteSlug } from "@/utils";
+import Link from "next-translate-routes/link";
+import Image from "next/image";
+import Button from "../Button";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
 
 const Futuro = () => {
   const { t } = useTranslation();
@@ -15,8 +16,9 @@ const Futuro = () => {
     {
       heading: t("futureRemote_Heading"),
     },
+   
     {
-      text: t("futureRemote_para"),
+      text2: t("futureRemote_para2"),
     },
   ];
 
@@ -31,8 +33,9 @@ const Futuro = () => {
                   <h2 className="text-[#333333] text-[30px] sm:text-[45px] font-bold leading-10 sm:leading-[60px]">
                     {item.heading}
                   </h2>
+                  
                   <p className=" text-base text-[#666666] font-medium max-w-[795px] mx-auto  py-2 sm:py-3">
-                    {item.text}
+                    {item.text2}
                   </p>
                 </div>
               );
@@ -47,8 +50,8 @@ const Futuro = () => {
             />
           </Link>
         </div>
-        <div className="max-w-[700px]">
-          <Image  src="/heroMobile.png" width={1000} height={0} alt="mobile" />
+        <div className="w-full">
+        <LiteYouTubeEmbed id="KCgEhNeVhUc" title='rafiky' />
         </div>
       </div>
     </div>

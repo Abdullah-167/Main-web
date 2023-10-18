@@ -1,7 +1,5 @@
-import useTranslation from "@/hooks/useTranslation";
-import Image from "next/image";
-import Link from "next-translate-routes/link";
 import GetLocale from "@/hooks/getLocale";
+import useTranslation from "@/hooks/useTranslation";
 import {
   britishSlugs,
   chineseSlugs,
@@ -11,6 +9,8 @@ import {
   spanishSlugs,
   usaSlugs,
 } from "@/utils";
+import Link from "next-translate-routes/link";
+import Image from "next/image";
 
 const Flag = () => {
   const { t } = useTranslation();
@@ -56,17 +56,17 @@ const Flag = () => {
     {
       img: "/china.png",
       text: `${t("ourOffer_Language5")}`,
-      url: chineseSlug
+      url: chineseSlug,
     },
     {
       img: "/russia.png",
       text: `${t("ourOffer_Language6")}`,
-      url: russianSlug
+      url: russianSlug,
     },
   ];
 
   return (
-    <div className="container">
+    <div className="container" id="languages">
       <div className="pt-10 pb-36">
         <h2 className="text-5xl font-semibold text-center pb-8">
           {t("ourOffer_Title")}
@@ -74,21 +74,22 @@ const Flag = () => {
         <p className="text-center font-normal text-base pb-20">
           {t("ourOffer_para")}
         </p>
-        <div className=" grid grid-cols-3 gap-10">
+        <div className=" grid grid-cols-3 gap-10" >
           {data.map((item, index) => {
             return (
               <Link href={slug + item?.url} key={index}>
                 <div className="flag-hover flag-shadow px-10 py-8 rounded-md cursor-pointer">
                   <Image
+                    loading="lazy"
                     className="flex justify-center mx-auto pb-7"
                     src={item.img}
-                    alt={"Country"}
+                    alt={t("alt_img_country")}
                     width={150}
                     height={0}
                   />
-                  <p className="text-xl text-center font-semibold">
+                  <h3 className="text-xl text-center font-semibold">
                     {item.text}
-                  </p>
+                  </h3>
                 </div>
               </Link>
             );

@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import Button from '../Button'
-import { IoIosArrowDown } from 'react-icons/io';
 import useTranslation from '@/hooks/useTranslation';
+import { Link } from 'next-translate-routes';
+import { useEffect, useState } from 'react';
+import Button from '../Button';
+import Speaking from '../NewComponents/Speaking';
 
 
 const Cosa = () => {
@@ -42,13 +43,13 @@ const Cosa = () => {
 
         },
         {
-            num: '+30000',
+            num: '24/7',
             text: t('teamsIntegration_Seccountingtest'),
             color: '#2EA3F2',
             color2: '#0c71c3'
         },
         {
-            num: '+6000',
+            num: `+20'000`,
             text: t('teamsIntegration_Thirdcountingtest'),
             color: '#f22ed4',
             color2: '#ea20e3'
@@ -69,7 +70,9 @@ const Cosa = () => {
                                     {item.para}
                                 </p>
                                 <div className='mt-10'>
-                                    <Button text={t('teamsIntegration_Btn')} color={'white'} backgroundColor={'#682CCD'} minWidth={undefined} />
+                                    <Link href={'/richiesta-preventivo'}>
+                                        <Button text={t('teamsIntegration_Btn')} color={'white'} backgroundColor={'#682CCD'} minWidth={undefined} />
+                                    </Link>
                                 </div>
                             </div>
                             <div className='w-full'>
@@ -78,30 +81,7 @@ const Cosa = () => {
                         </div>
                     )
                 })}
-                <div className='flex flex-col md:flex-row justify-center md:justify-between gap-5'>
-                    {counting.map((item, index) => {
-                        return (
-                            <div key={index}>
-                                <p
-                                    className='text-[60px] lg:text-[72px] font-medium text-center'
-                                    style={{
-                                        color: item.color
-                                    }}
-                                >
-                                    {count >= declaredNum ? item.num : count}
-                                </p>
-                                <p
-                                    className='text-[20px] lg:text-[26px] font-medium text-center'
-                                    style={{
-                                        color: item.color2
-                                    }}
-                                >
-                                    {item.text}
-                                </p>
-                            </div>
-                        );
-                    })}
-                </div>
+               <Speaking/>
             </div>
 
         </div>

@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Button from "../Button";
-import BgImage from "../../../public/pink.png";
 import useTranslation from "@/hooks/useTranslation";
+import { Link } from "next-translate-routes";
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import BgImage from "../../../public/pink.png";
+import Button from "../Button";
 
 const Vedio = () => {
   const { t } = useTranslation();
@@ -29,12 +29,14 @@ const Vedio = () => {
               </div>
             </div>
             <div className="mb-10">
-              <Button
-                text={t("videoInterpreted_Heading")}
-                color={"white"}
-                backgroundColor={"#8624E1"}
-                minWidth={undefined}
-              />
+              <Link href={'/richiesta-preventivo'} >
+                <Button
+                  text={t("videoInterpreted_Heading")}
+                  color={"white"}
+                  backgroundColor={"#8624E1"}
+                  minWidth={undefined}
+                />
+              </Link>
             </div>
           </div>
           <div className="self-center">

@@ -143,7 +143,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <div className="sticky top-0 z-10">
+    <div className="sticky top-0 z-50">
       <div className="bg-white">
         <div className="relative gap-20 max-w-[1600px] m-auto px-5">
           <div className="hidden lg:flex items-center justify-between">
@@ -173,7 +173,7 @@ const Navbar: React.FC = () => {
                   </button>
                 </Link>
                 <ul
-                  className={`absolute z-20 -left-20 right-0 w-64 py-2 bg-[#fffdfd] rounded-lg shadow-xl ${dropDown ? "block" : "hidden"
+                  className={`absolute  -left-20 right-0 w-64 py-2 bg-[#fffdfd] rounded-lg shadow-xl ${dropDown ? "block" : "hidden"
                     }`}
                 >
                   {serviceMenuData.map((item, index) => {
@@ -227,7 +227,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       {open && (
-        <div className="fixed top-0 left-0 h-screen w-screen bg-white  z-50">
+        <div className="fixed top-0 left-0 h-screen w-screen bg-white ">
           <div className="flex justify-end px-10">
             <div
               className="text-2xl font-bold py-3 hover:text-secondary transition-all duration-300 cursor-pointer"

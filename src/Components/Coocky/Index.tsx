@@ -9,7 +9,7 @@ const Index = () => {
 
   return (
     <div>
-      <Hero text={t("cookiePolicy_SubTitle")} para={t("cookiePolicy_Title")} fontSize={'80px'} />
+      <Hero text={t("cookiePolicy_Title")} para={t("cookiePolicy_SubTitle")} fontSize={'80px'} />
       <Summary />
       <BgPronto />
     </div>
