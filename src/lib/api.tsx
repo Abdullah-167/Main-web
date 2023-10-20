@@ -1,12 +1,12 @@
-const API_URL = process.env.WP_API_URL as any;
+const API_URL = process.env.WP_API_URL as string;
 
 const dev = process.env.WP_API_URL !== "production";
 
-export const server: any = dev
+export const server: string = dev
   ? "https://manuelm83.sg-host.com/graphql"
   : API_URL;
 
-async function fetchAPI(query: any, { variables }: any = {}) {
+async function fetchAPI(query: string, { variables }: any = {}) {
   const headers = { "Content-Type": "application/json" };
   const res = await fetch(server, {
     method: "POST",
@@ -23,7 +23,7 @@ async function fetchAPI(query: any, { variables }: any = {}) {
   return json.data;
 }
 
-export async function getAllPosts(language: any, after: string = "") {
+export async function getAllPosts(language: string, after: string = "") {
   const data = await fetchAPI(
     `
     query posts($language: LanguageCodeFilterEnum!, $after: String) {
@@ -63,7 +63,6 @@ export async function getAllPosts(language: any, after: string = "") {
   return data?.posts;
 }
 
-
 export async function getAllPostsWithSlug() {
   const data = await fetchAPI(
     `
@@ -82,7 +81,8 @@ export async function getAllPostsWithSlug() {
   );
   return data?.posts;
 }
-export async function getPost(slug: any, language: any) {
+
+export async function getPost(slug: string, language: string) {
   const data = await fetchAPI(
     `
     query PostBySlug($slug: String!, $language: LanguageCodeEnum!) {
