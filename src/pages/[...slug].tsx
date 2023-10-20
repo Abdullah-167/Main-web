@@ -7,7 +7,7 @@ import slugify from "slugify";
 import parse from "html-react-parser";
 
 const ArticleSignlePage = ({ postData }: any) => {
-  
+
   const router = useRouter();
   if (!router.isFallback && !postData?.slug) {
     return <p>something went wrong!</p>;
@@ -55,9 +55,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params, locale }: any) {
+
   const language = locale.toUpperCase();
-  const slug = params.slug.join("/"); // Join the slug segments with "/"
-  const data = await getPost(slug, language); // Pass the slug as a string
+  const slug = params.slug.join("/");
+  const data = await getPost(slug, language);
 
   return {
     props: {
