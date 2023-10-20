@@ -3,15 +3,8 @@ import { getAllPostsWithSlug, getPost } from "@/lib/api";
 import DetailPage from "@/Components/Blog/DetailPage";
 import Layout from "@/Components/Layout/Index";
 import Seo from "@/Components/Seo";
-import { GetStaticProps } from "next/types";
 
-
-type ArticleSinglePageProps = {
-  postData: any;
-};
-
-
-const ArticleSinglePage: React.FC<ArticleSinglePageProps> = ({ postData }) => {
+const ArticleSignlePage = ({ postData }: any) => {
   const router = useRouter();
   if (!router.isFallback && !postData?.slug) {
     return <p>something went wrong!</p>;
@@ -48,7 +41,7 @@ const ArticleSinglePage: React.FC<ArticleSinglePageProps> = ({ postData }) => {
   );
 };
 
-export default ArticleSinglePage;
+export default ArticleSignlePage;
 
 export async function getStaticPaths() {
   const allPosts = await getAllPostsWithSlug();
@@ -59,23 +52,13 @@ export async function getStaticPaths() {
   };
 }
 
-
-export const getStaticProps: GetStaticProps<ArticleSinglePageProps> = async ({ params }) => {
-  if (!params || !params.slug) {
-    // Handle the case where params or params.slug is undefined
-    return {
-      notFound: true, // or any other error handling logic
-    };
-  }
-
-  // Provide a default language or replace it with your own logic
-  const language = "en"; // Replace with the correct default language
-  const data = await getPost(params.slug as string, language);
-  
+export async function getStaticProps({ params }: any) {
+  const language = 'en';
+  const data = await getPost(params.slug, language);
   return {
     props: {
       postData: data.post,
     },
     revalidate: 10,
   };
-};
+}
