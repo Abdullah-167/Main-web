@@ -1,5 +1,9 @@
-import { useEffect } from "react";
+import React, { useEffect, Suspense } from "react";
 import useTranslation from "@/hooks/useTranslation";
+
+const LoadableAppointment = React.lazy(() =>
+  import(/* webpackChunkName: "appointment" */ "./Appointment")
+);
 
 const Appointment = () => {
   const { t } = useTranslation();
@@ -20,10 +24,7 @@ const Appointment = () => {
   return (
     <>
       <div id={t("talk_to_sales")}>
-        <h2
-          
-          className="text-center pt-20 pb-5 text-black text-4xl font-semibold"
-        >
+        <h2 className="text-center pt-20 pb-5 text-black text-4xl font-semibold">
           Talk to sales
         </h2>
         <div className="flex justify-center pb-5">
@@ -41,4 +42,10 @@ const Appointment = () => {
   );
 };
 
-export default Appointment;
+const LazyAppointment = () => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <LoadableAppointment />
+  </Suspense>
+);
+
+export default LazyAppointment;
